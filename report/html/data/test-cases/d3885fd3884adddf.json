@@ -1,0 +1,69 @@
+{
+  "uid" : "d3885fd3884adddf",
+  "name" : "回场模块",
+  "fullName" : "testcase.test_gateinpage.TestGateInPage#test_gatein",
+  "historyId" : "0ba63aea31c69f70d532ed667aa9e0f8",
+  "time" : {
+    "start" : 1698386585183,
+    "stop" : 1698386585314,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_gateinpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_gateinpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGateInPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_gateinpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[1.0, '回场模块/回场位置', '查看车辆回场位置', 'post', '/buswash/gate/in/bus/position', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 10632294\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"lon\": 120.25273895,\\n    \"lat\": 30.30657578,\\n    \"lonAndLat\": \"120.25273895,30.30657578\",\\n    \"updateTime\": \"2023-09-06 22:25:02\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3885fd3884adddf.json",
+  "parameterValues" : [ "[1.0, '回场模块/回场位置', '查看车辆回场位置', 'post', '/buswash/gate/in/bus/position', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 10632294\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"lon\": 120.25273895,\\n    \"lat\": 30.30657578,\\n    \"lonAndLat\": \"120.25273895,30.30657578\",\\n    \"updateTime\": \"2023-09-06 22:25:02\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

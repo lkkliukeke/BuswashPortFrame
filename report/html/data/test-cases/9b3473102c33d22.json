@@ -1,0 +1,69 @@
+{
+  "uid" : "9b3473102c33d22",
+  "name" : "巡更模块",
+  "fullName" : "testcase.test_patrolpage.TestPatrolPage#test_patrol",
+  "historyId" : "277db8c213486656b685a939b41a200f",
+  "time" : {
+    "start" : 1698386600073,
+    "stop" : 1698386601237,
+    "duration" : 1164
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_patrolpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_patrolpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPatrolPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_patrolpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[18.0, '巡更模块/巡更记录', '巡更记录导出', 'post', '/buswash/patrol/record/search/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"time\": [\\n    \"2023-09-18 00:00:00\",\\n    \"2023-09-18 23:59:59\"\\n  ],\\n  \"siteId\": 1\\n}', 200.0, '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b3473102c33d22.json",
+  "parameterValues" : [ "[18.0, '巡更模块/巡更记录', '巡更记录导出', 'post', '/buswash/patrol/record/search/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"time\": [\\n    \"2023-09-18 00:00:00\",\\n    \"2023-09-18 23:59:59\"\\n  ],\\n  \"siteId\": 1\\n}', 200.0, '', '']" ]
+}

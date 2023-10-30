@@ -1,0 +1,69 @@
+{
+  "uid" : "7393c28a6c61158",
+  "name" : "报到模块",
+  "fullName" : "testcase.test_attendpage.TestAttendPage#test_attend",
+  "historyId" : "f05513da0118f6c4070aa3bccc993f60",
+  "time" : {
+    "start" : 1698386561383,
+    "stop" : 1698386561519,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAttendPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_attendpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[9.0, '报道模块/司机考勤', '考勤记录分页查询', 'post', '/buswash/attend/manage/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateList\": [\\n    \"2023-09-12\",\\n    \"2023-09-12\"\\n  ],\\n  \"jobId\": \"55081432\",\\n  \"busNum\": \"\",\\n  \"siteIdList\": [\\n    35\\n  ],\\n  \"orgNumList\": [\\n    \"55151104152042941057\"\\n  ],\\n  \"current\": -1\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"attendManageSearchList\": [\\n      {\\n        \"recordDate\": \"2023-09-12\",\\n        \"empName\": \"余名彪\",\\n        \"jobId\": \"55081432\",\\n        \"routeId\": \"1001000090\",\\n        \"routeName\": \"81路\",\\n        \"busClass\": \"6\",\\n        \"shiftNum\": \"6\",\\n        \"orgNum\": \"55151104152042941057\",\\n        \"orgName\": \"803车队\",\\n        \"siteName\": \"环丁路公交站\",\\n        \"planSiteId\": 35,\\n        \"busNum\": \"8-9668\",\\n        \"planTime\": \"2023-09-12 04:10:00\",\\n        \"attendTime\": null,\\n        \"delayTime\": null,\\n        \"status\": 5,\\n        \"abnormalType\": null,\\n        \"abnormalValue\": null,\\n        \"beforeProcessStatus\": null\\n      }\\n    ],\\n    \"finish\": 0,\\n    \"delay\": 0,\\n    \"abnormal\": 0,\\n    \"shouldArrive\": 1,\\n    \"unfinished\": 0,\\n    \"lastAttend\": 0\\n  },\\n  \"total\": 1,\\n  \"success\": true\\n}', '\"empName\":\"余名彪\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7393c28a6c61158.json",
+  "parameterValues" : [ "[9.0, '报道模块/司机考勤', '考勤记录分页查询', 'post', '/buswash/attend/manage/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateList\": [\\n    \"2023-09-12\",\\n    \"2023-09-12\"\\n  ],\\n  \"jobId\": \"55081432\",\\n  \"busNum\": \"\",\\n  \"siteIdList\": [\\n    35\\n  ],\\n  \"orgNumList\": [\\n    \"55151104152042941057\"\\n  ],\\n  \"current\": -1\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"attendManageSearchList\": [\\n      {\\n        \"recordDate\": \"2023-09-12\",\\n        \"empName\": \"余名彪\",\\n        \"jobId\": \"55081432\",\\n        \"routeId\": \"1001000090\",\\n        \"routeName\": \"81路\",\\n        \"busClass\": \"6\",\\n        \"shiftNum\": \"6\",\\n        \"orgNum\": \"55151104152042941057\",\\n        \"orgName\": \"803车队\",\\n        \"siteName\": \"环丁路公交站\",\\n        \"planSiteId\": 35,\\n        \"busNum\": \"8-9668\",\\n        \"planTime\": \"2023-09-12 04:10:00\",\\n        \"attendTime\": null,\\n        \"delayTime\": null,\\n        \"status\": 5,\\n        \"abnormalType\": null,\\n        \"abnormalValue\": null,\\n        \"beforeProcessStatus\": null\\n      }\\n    ],\\n    \"finish\": 0,\\n    \"delay\": 0,\\n    \"abnormal\": 0,\\n    \"shouldArrive\": 1,\\n    \"unfinished\": 0,\\n    \"lastAttend\": 0\\n  },\\n  \"total\": 1,\\n  \"success\": true\\n}', '\"empName\":\"余名彪\"', '']" ]
+}

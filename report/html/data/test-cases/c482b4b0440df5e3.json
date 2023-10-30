@@ -1,0 +1,93 @@
+{
+  "uid" : "c482b4b0440df5e3",
+  "name" : "出场模块",
+  "fullName" : "testcase.test_gateoutpage.TestGateOutPage#test_gateout",
+  "historyId" : "597e59e0a6b6964e61b1d819da6d51b8",
+  "time" : {
+    "start" : 1698386589885,
+    "stop" : 1698386590007,
+    "duration" : 122
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_gateoutpage.TestGateOutPage object at 0x000001E2C76C8670>\nexcelist = [15.0, '出场配置模块/出场配置', '允许出场配置查询单查', 'post', '/buswash/out/allow/config/search/byId', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_gateoutpage')\n    @allure.title('出场模块')\n    @allure.story('100%')\n    def test_gateout(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,200)\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_gateoutpage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_gateoutpage.TestGateOutPage object at 0x000001E2C76C8670>\nexpect_msg = '\"id\":30'\nactual_msg = '{\"retcode\":\"0\",\"retmsg\":\"操作成功\",\"data\":{\"id\":17,\"siteId\":35,\"unoperateAllowMin\":60,\"unoperateAllowStatus\":1,\"operateAl...rateAllowAfterSecond\":6,\"unoperateAllowBeforeSecond\":600,\"unoperateAllowAfterSecond\":600},\"total\":null,\"success\":true}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_gateoutpage.TestGateOutPage object at 0x000001E2C76C8670>\nexcelist = [15.0, '出场配置模块/出场配置', '允许出场配置查询单查', 'post', '/buswash/out/allow/config/search/byId', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_gateoutpage')\n    @allure.title('出场模块')\n    @allure.story('100%')\n    def test_gateout(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,200)\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_gateoutpage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_gateoutpage.TestGateOutPage object at 0x000001E2C76C8670>\nexpect_msg = '\"id\":30'\nactual_msg = '{\"retcode\":\"0\",\"retmsg\":\"操作成功\",\"data\":{\"id\":17,\"siteId\":35,\"unoperateAllowMin\":60,\"unoperateAllowStatus\":1,\"operateAl...rateAllowAfterSecond\":6,\"unoperateAllowBeforeSecond\":600,\"unoperateAllowAfterSecond\":600},\"total\":null,\"success\":true}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7fd8347bfb8190c6",
+      "name" : "log",
+      "source" : "7fd8347bfb8190c6.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_gateoutpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_gateoutpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGateOutPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_gateoutpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[15.0, '出场配置模块/出场配置', '允许出场配置查询单查', 'post', '/buswash/out/allow/config/search/byId', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"siteId\": 35\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 30,\\n    \"siteId\": 35,\\n    \"unoperateAllowMin\": 60,\\n    \"unoperateAllowStatus\": 0,\\n    \"operateAllowMin\": 60,\\n    \"operateAllowStatus\": 0,\\n    \"operateBeforeAttend\": 0,\\n    \"operateOnBusAttend\": 0,\\n    \"unoperateBeforeAttend\": 1,\\n    \"unoperateOnBusAttend\": 1,\\n    \"operateAllowBeforeSecond\": 300,\\n    \"operateAllowAfterSecond\": 300,\\n    \"unoperateAllowBeforeSecond\": 1200,\\n    \"unoperateAllowAfterSecond\": 1200\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"id\":30', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c482b4b0440df5e3.json",
+  "parameterValues" : [ "[15.0, '出场配置模块/出场配置', '允许出场配置查询单查', 'post', '/buswash/out/allow/config/search/byId', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"siteId\": 35\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 30,\\n    \"siteId\": 35,\\n    \"unoperateAllowMin\": 60,\\n    \"unoperateAllowStatus\": 0,\\n    \"operateAllowMin\": 60,\\n    \"operateAllowStatus\": 0,\\n    \"operateBeforeAttend\": 0,\\n    \"operateOnBusAttend\": 0,\\n    \"unoperateBeforeAttend\": 1,\\n    \"unoperateOnBusAttend\": 1,\\n    \"operateAllowBeforeSecond\": 300,\\n    \"operateAllowAfterSecond\": 300,\\n    \"unoperateAllowBeforeSecond\": 1200,\\n    \"unoperateAllowAfterSecond\": 1200\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"id\":30', '']" ]
+}

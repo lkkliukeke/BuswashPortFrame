@@ -1,0 +1,69 @@
+{
+  "uid" : "950ddca33c6f388d",
+  "name" : "车辆模块",
+  "fullName" : "testcase.test_buspage.TestBusPage#test_bus",
+  "historyId" : "bc82eda204cbb3b31996fcadf7675caf",
+  "time" : {
+    "start" : 1698386572878,
+    "stop" : 1698386573068,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_buspage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_buspage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBusPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_buspage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[16.0, '车辆模块/车辆安检', '车辆进场安检提交', 'post', '/buswash/bus/security/in', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"abnormalType\": \"\",\\n  \"busNumber\": \"8-9003\",\\n  \"busStatus\": \"\",\\n  \"cardNumber\": \"\",\\n  \"empId\": \"\",\\n  \"imgUrl\": \"\",\\n  \"personBusInOne\": 0,\\n  \"plateNum\": \"浙A09591D\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "950ddca33c6f388d.json",
+  "parameterValues" : [ "[16.0, '车辆模块/车辆安检', '车辆进场安检提交', 'post', '/buswash/bus/security/in', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"abnormalType\": \"\",\\n  \"busNumber\": \"8-9003\",\\n  \"busStatus\": \"\",\\n  \"cardNumber\": \"\",\\n  \"empId\": \"\",\\n  \"imgUrl\": \"\",\\n  \"personBusInOne\": 0,\\n  \"plateNum\": \"浙A09591D\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

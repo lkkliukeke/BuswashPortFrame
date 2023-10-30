@@ -1,0 +1,69 @@
+{
+  "uid" : "e6fd01938d19c327",
+  "name" : "用户模块",
+  "fullName" : "testcase.test_userpage.TestUserPage#test_user",
+  "historyId" : "a4fcf6dac20199dca1ddcd899a2f4c21",
+  "time" : {
+    "start" : 1698386624041,
+    "stop" : 1698386624327,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_userpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_userpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_userpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[13.0, '用户模块/用户组织查询', '获取用户组织权限查询树', 'post', '/buswash/user/org/permission/tree', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 3\\n}', 200.0, '内容较多 暂不写入表格', 'retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6fd01938d19c327.json",
+  "parameterValues" : [ "[13.0, '用户模块/用户组织查询', '获取用户组织权限查询树', 'post', '/buswash/user/org/permission/tree', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 3\\n}', 200.0, '内容较多 暂不写入表格', 'retmsg\":\"操作成功\"', '']" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "da2c0acb4ac4dc53",
+  "name" : "首页模块",
+  "fullName" : "testcase.test_homepage.TestHomePage#test_home",
+  "historyId" : "ad6a86cbd0a6806e3980e7a3544bf7e9",
+  "time" : {
+    "start" : 1698386590496,
+    "stop" : 1698386590966,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_homepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[2.0, '首页/数据大屏', '数据大屏岗前签到实时', 'get', '/buswash/home/real-time/attend', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"orgNum\": \"55151104125036374111\",\\n      \"orgName\": \"一公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 3506\\n    },\\n    {\\n      \"orgNum\": \"55151104125058589112\",\\n      \"orgName\": \"二公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 2621\\n    },\\n    {\\n      \"orgNum\": \"55150921170238687000\",\\n      \"orgName\": \"三公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 2256\\n    },\\n    {\\n      \"orgNum\": \"55151104125305401114\",\\n      \"orgName\": \"电车公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 4042\\n    },\\n    {\\n      \"orgNum\": \"55151104125204140112\",\\n      \"orgName\": \"五公司\",\\n      \"attendSuccessCount\": 2,\\n      \"attendDelayCount\": 2,\\n      \"planCount\": 2197\\n    },\\n    {\\n      \"orgNum\": \"55151104125220239113\",\\n      \"orgName\": \"六公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 1236\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da2c0acb4ac4dc53.json",
+  "parameterValues" : [ "[2.0, '首页/数据大屏', '数据大屏岗前签到实时', 'get', '/buswash/home/real-time/attend', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"orgNum\": \"55151104125036374111\",\\n      \"orgName\": \"一公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 3506\\n    },\\n    {\\n      \"orgNum\": \"55151104125058589112\",\\n      \"orgName\": \"二公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 2621\\n    },\\n    {\\n      \"orgNum\": \"55150921170238687000\",\\n      \"orgName\": \"三公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 2256\\n    },\\n    {\\n      \"orgNum\": \"55151104125305401114\",\\n      \"orgName\": \"电车公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 4042\\n    },\\n    {\\n      \"orgNum\": \"55151104125204140112\",\\n      \"orgName\": \"五公司\",\\n      \"attendSuccessCount\": 2,\\n      \"attendDelayCount\": 2,\\n      \"planCount\": 2197\\n    },\\n    {\\n      \"orgNum\": \"55151104125220239113\",\\n      \"orgName\": \"六公司\",\\n      \"attendSuccessCount\": 0,\\n      \"attendDelayCount\": 0,\\n      \"planCount\": 1236\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

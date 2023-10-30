@@ -1,0 +1,93 @@
+{
+  "uid" : "e257c2faf7f5ad3c",
+  "name" : "设备管理模块",
+  "fullName" : "testcase.test_devicepage.TestDevicePage#test_device",
+  "historyId" : "9254eaf9e4b21739d5d0b125ebef7e36",
+  "time" : {
+    "start" : 1698386577980,
+    "stop" : 1698386578129,
+    "duration" : 149
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C4868340>\nexcelist = [24.0, '设备管理模块/设备', '解绑设备', 'post', '/buswash/device/unbind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,200)\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_devicepage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C4868340>\nexpect_msg = '\"retmsg\":\"解绑失败\"'\nactual_msg = '{\"retcode\":\"0\",\"retmsg\":\"操作成功\",\"data\":[],\"total\":null,\"success\":true}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C4868340>\nexcelist = [24.0, '设备管理模块/设备', '解绑设备', 'post', '/buswash/device/unbind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,200)\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_devicepage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C4868340>\nexpect_msg = '\"retmsg\":\"解绑失败\"'\nactual_msg = '{\"retcode\":\"0\",\"retmsg\":\"操作成功\",\"data\":[],\"total\":null,\"success\":true}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4c7bc04d8134465d",
+      "name" : "log",
+      "source" : "4c7bc04d8134465d.txt",
+      "type" : "text/plain",
+      "size" : 100
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDevicePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_devicepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[24.0, '设备管理模块/设备', '解绑设备', 'post', '/buswash/device/unbind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"stationNum\": \"1\"\\n}', 200.0, '{\\n  \"retcode\": \"10075\",\\n  \"retmsg\": \"解绑失败\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"解绑失败\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e257c2faf7f5ad3c.json",
+  "parameterValues" : [ "[24.0, '设备管理模块/设备', '解绑设备', 'post', '/buswash/device/unbind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"stationNum\": \"1\"\\n}', 200.0, '{\\n  \"retcode\": \"10075\",\\n  \"retmsg\": \"解绑失败\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"解绑失败\"', '']" ]
+}

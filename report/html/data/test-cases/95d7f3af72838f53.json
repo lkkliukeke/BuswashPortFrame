@@ -1,0 +1,69 @@
+{
+  "uid" : "95d7f3af72838f53",
+  "name" : "泊位模块",
+  "fullName" : "testcase.test_berthpage.TestBerthPage#test_berth",
+  "historyId" : "c72b1d956f9d1d5d344a0e80ad0d6f05",
+  "time" : {
+    "start" : 1698386567126,
+    "stop" : 1698386567303,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBerthPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_berthpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[21.0, '泊位模块/泊位编号', '泊位编号具体内容', 'post', '/buswash/berth/number/detail', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"areaId\": 30074,\\n  \"siteId\": 35,\\n  \"withLocationBind\": true\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    1,\\n    2,\\n    3,\\n    4,\\n    5,\\n    6,\\n    7,\\n    8,\\n    9,\\n    10\\n  ],\\n  \"total\": 10,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95d7f3af72838f53.json",
+  "parameterValues" : [ "[21.0, '泊位模块/泊位编号', '泊位编号具体内容', 'post', '/buswash/berth/number/detail', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"areaId\": 30074,\\n  \"siteId\": 35,\\n  \"withLocationBind\": true\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    1,\\n    2,\\n    3,\\n    4,\\n    5,\\n    6,\\n    7,\\n    8,\\n    9,\\n    10\\n  ],\\n  \"total\": 10,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "8ff38b921f7608ac",
+  "name" : "岗前学习",
+  "fullName" : "testcase.test_studypage.TestStudyPage#test_study",
+  "historyId" : "958eea7eb6f4e0af005e02b93ad8ef5d",
+  "time" : {
+    "start" : 1698386620324,
+    "stop" : 1698386620495,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_studypage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_studypage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStudyPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_studypage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[10.0, '岗前学习/分公司', '岗前学习分公司查询', 'post', '/buswash/study/org/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 0,\\n  \"orgNumList\": [448415694583],\\n  \"perSize\": 0,\\n  \"state\": 0,\\n  \"status\": 0\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": 0,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ff38b921f7608ac.json",
+  "parameterValues" : [ "[10.0, '岗前学习/分公司', '岗前学习分公司查询', 'post', '/buswash/study/org/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 0,\\n  \"orgNumList\": [448415694583],\\n  \"perSize\": 0,\\n  \"state\": 0,\\n  \"status\": 0\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": 0,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

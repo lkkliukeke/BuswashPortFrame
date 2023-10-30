@@ -1,0 +1,69 @@
+{
+  "uid" : "91565aafdabb7733",
+  "name" : "门禁/访客设备",
+  "fullName" : "testcase.test_accesspage.TestAccessPage#test_access",
+  "historyId" : "711218dd79d3d25f4a47d82934bad6f5",
+  "time" : {
+    "start" : 1698386558301,
+    "stop" : 1698386558425,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_accesspage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_accesspage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccessPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_accesspage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[21.0, '访客设备/访客记录', '访客记录查询', 'post', '/buswash/visitor/device/record/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"statusSelect\": 0,\\n  \"status\": \"\",\\n  \"visitorName\": \"刘珂珂\",\\n  \"visitorDW\": \"\",\\n  \"isvName\": \"\",\\n  \"isvDeptName\": \"\",\\n  \"siteIdList\": [35],\\n  \"current\": 1,\\n  \"perSize\": 10000000\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": 0,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91565aafdabb7733.json",
+  "parameterValues" : [ "[21.0, '访客设备/访客记录', '访客记录查询', 'post', '/buswash/visitor/device/record/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"statusSelect\": 0,\\n  \"status\": \"\",\\n  \"visitorName\": \"刘珂珂\",\\n  \"visitorDW\": \"\",\\n  \"isvName\": \"\",\\n  \"isvDeptName\": \"\",\\n  \"siteIdList\": [35],\\n  \"current\": 1,\\n  \"perSize\": 10000000\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": 0,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

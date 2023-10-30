@@ -1,0 +1,69 @@
+{
+  "uid" : "45e8bcff3419ede1",
+  "name" : "停车场模块",
+  "fullName" : "testcase.test_positionpage.TestPositionPage#test_position",
+  "historyId" : "1eb21528f9012cec50ac5698b271f3e9",
+  "time" : {
+    "start" : 1698386603170,
+    "stop" : 1698386603307,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_positionpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_positionpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPositionPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_positionpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[5.0, '停车场模块/停车场数据大屏', '首页大屏场站信息统计', 'post', '/buswash/position/home/state', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"siteIdList\": [35]\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 35,\\n      \"name\": \"环丁路公交站\",\\n      \"areaType\": \"STATION\",\\n      \"areaTypeSimplify\": \"STATION\",\\n      \"areaTypeName\": \"中心站\",\\n      \"remark\": null,\\n      \"orgName\": null,\\n      \"orgNum\": \"55151104125204140112\",\\n      \"ibusSiteId\": \"3301000100111111\",\\n      \"haogeSiteId\": \"TDZN/116P0035\",\\n      \"latitude\": null,\\n      \"longitude\": null,\\n      \"lonLat\": null,\\n      \"areaPosition\": null,\\n      \"numberOfChargingPiles\": 0,\\n      \"floorArea\": 0,\\n      \"numberOfPlanParkBus\": 33\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45e8bcff3419ede1.json",
+  "parameterValues" : [ "[5.0, '停车场模块/停车场数据大屏', '首页大屏场站信息统计', 'post', '/buswash/position/home/state', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"siteIdList\": [35]\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 35,\\n      \"name\": \"环丁路公交站\",\\n      \"areaType\": \"STATION\",\\n      \"areaTypeSimplify\": \"STATION\",\\n      \"areaTypeName\": \"中心站\",\\n      \"remark\": null,\\n      \"orgName\": null,\\n      \"orgNum\": \"55151104125204140112\",\\n      \"ibusSiteId\": \"3301000100111111\",\\n      \"haogeSiteId\": \"TDZN/116P0035\",\\n      \"latitude\": null,\\n      \"longitude\": null,\\n      \"lonLat\": null,\\n      \"areaPosition\": null,\\n      \"numberOfChargingPiles\": 0,\\n      \"floorArea\": 0,\\n      \"numberOfPlanParkBus\": 33\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

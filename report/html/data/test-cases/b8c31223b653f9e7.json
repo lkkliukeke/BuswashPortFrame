@@ -1,0 +1,69 @@
+{
+  "uid" : "b8c31223b653f9e7",
+  "name" : "人车一致业务",
+  "fullName" : "testcase.test_emppage.TestEmpPage#test_emp",
+  "historyId" : "66e6138d9b11e21bbece4fe5e62b951d",
+  "time" : {
+    "start" : 1698386583193,
+    "stop" : 1698386583461,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_emppage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_emppage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEmpPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_emppage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[1.0, '人车一致业务/查询计划', '多查报到计划', 'post', '/buswash/emp/bus/attend/batch', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"b541d1f4330941f2ae6c6b3f1cc631fd\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"attendId\": 34223892,\\n      \"recordDate\": \"2023-10-12\",\\n      \"shiftNum\": \"1\",\\n      \"busClass\": \"6\",\\n      \"jobId\": \"11100408\",\\n      \"empName\": \"刘智\",\\n      \"routeId\": \"3301000100123308\",\\n      \"routeName\": \"1225M路\",\\n      \"planBusNumber\": \"1-9005\",\\n      \"planPlateNum\": \"浙A07655D\",\\n      \"siteId\": 3,\\n      \"onBusAttendScheduleTime\": \"2023-10-12 05:53:00\",\\n      \"type\": \"OPERATE\",\\n      \"busNumber\": null,\\n      \"plateNum\": null,\\n      \"state\": null,\\n      \"siteName\": \"池华街公交站\",\\n      \"busClassName\": \"高峰班-上\",\\n      \"scheduleTime\": \"2023-10-12 05:53:00\",\\n      \"recommend\": false\\n    },\\n    {\\n      \"attendId\": 34194417,\\n      \"recordDate\": \"2023-10-12\",\\n      \"shiftNum\": \"1\",\\n      \"busClass\": \"7\",\\n      \"jobId\": \"11100408\",\\n      \"empName\": \"刘智\",\\n      \"routeId\": \"3301000100123308\",\\n      \"routeName\": \"1225M路\",\\n      \"planBusNumber\": \"1-9005\",\\n      \"planPlateNum\": \"浙A07655D\",\\n      \"siteId\": 3,\\n      \"onBusAttendScheduleTime\": \"2023-10-12 16:23:00\",\\n      \"type\": \"OPERATE\",\\n      \"busNumber\": null,\\n      \"plateNum\": null,\\n      \"state\": null,\\n      \"siteName\": \"池华街公交站\",\\n      \"busClassName\": \"高峰班-下\",\\n      \"scheduleTime\": \"2023-10-12 16:23:00\",\\n      \"recommend\": true\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8c31223b653f9e7.json",
+  "parameterValues" : [ "[1.0, '人车一致业务/查询计划', '多查报到计划', 'post', '/buswash/emp/bus/attend/batch', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"b541d1f4330941f2ae6c6b3f1cc631fd\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"attendId\": 34223892,\\n      \"recordDate\": \"2023-10-12\",\\n      \"shiftNum\": \"1\",\\n      \"busClass\": \"6\",\\n      \"jobId\": \"11100408\",\\n      \"empName\": \"刘智\",\\n      \"routeId\": \"3301000100123308\",\\n      \"routeName\": \"1225M路\",\\n      \"planBusNumber\": \"1-9005\",\\n      \"planPlateNum\": \"浙A07655D\",\\n      \"siteId\": 3,\\n      \"onBusAttendScheduleTime\": \"2023-10-12 05:53:00\",\\n      \"type\": \"OPERATE\",\\n      \"busNumber\": null,\\n      \"plateNum\": null,\\n      \"state\": null,\\n      \"siteName\": \"池华街公交站\",\\n      \"busClassName\": \"高峰班-上\",\\n      \"scheduleTime\": \"2023-10-12 05:53:00\",\\n      \"recommend\": false\\n    },\\n    {\\n      \"attendId\": 34194417,\\n      \"recordDate\": \"2023-10-12\",\\n      \"shiftNum\": \"1\",\\n      \"busClass\": \"7\",\\n      \"jobId\": \"11100408\",\\n      \"empName\": \"刘智\",\\n      \"routeId\": \"3301000100123308\",\\n      \"routeName\": \"1225M路\",\\n      \"planBusNumber\": \"1-9005\",\\n      \"planPlateNum\": \"浙A07655D\",\\n      \"siteId\": 3,\\n      \"onBusAttendScheduleTime\": \"2023-10-12 16:23:00\",\\n      \"type\": \"OPERATE\",\\n      \"busNumber\": null,\\n      \"plateNum\": null,\\n      \"state\": null,\\n      \"siteName\": \"池华街公交站\",\\n      \"busClassName\": \"高峰班-下\",\\n      \"scheduleTime\": \"2023-10-12 16:23:00\",\\n      \"recommend\": true\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

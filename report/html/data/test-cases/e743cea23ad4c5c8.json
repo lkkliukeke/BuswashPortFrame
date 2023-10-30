@@ -1,0 +1,69 @@
+{
+  "uid" : "e743cea23ad4c5c8",
+  "name" : "用户模块",
+  "fullName" : "testcase.test_userpage.TestUserPage#test_user",
+  "historyId" : "6ec731ab6108daf64b5c5ea3dfe9312c",
+  "time" : {
+    "start" : 1698386625703,
+    "stop" : 1698386625816,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_userpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_userpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_userpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[21.0, '用户模块/查询场站', '根据组织查询拥有场站', 'post', '/buswash/user/site/owned/org', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"orgNum\": \"55151104125036374111\"\\n}', 200.0, '内容较多 暂不写入表格', 'retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e743cea23ad4c5c8.json",
+  "parameterValues" : [ "[21.0, '用户模块/查询场站', '根据组织查询拥有场站', 'post', '/buswash/user/site/owned/org', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"orgNum\": \"55151104125036374111\"\\n}', 200.0, '内容较多 暂不写入表格', 'retmsg\":\"操作成功\"', '']" ]
+}

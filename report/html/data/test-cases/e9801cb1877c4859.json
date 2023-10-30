@@ -1,0 +1,69 @@
+{
+  "uid" : "e9801cb1877c4859",
+  "name" : "岗前学习",
+  "fullName" : "testcase.test_studypage.TestStudyPage#test_study",
+  "historyId" : "0d2aaf1ec559993b151cf95f0d27cdc6",
+  "time" : {
+    "start" : 1698386619117,
+    "stop" : 1698386619395,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_studypage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_studypage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStudyPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_studypage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[5.0, '岗前学习/学习素材', '岗前学习素材库查询', 'post', '/buswash/study/attach/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"orgNum\": \"396976058574\",\\n  \"perSize\": 10,\\n  \"type\": \"NORMAL\",\\n  \"title\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 94,\\n      \"orgNum\": \"396976058574\",\\n      \"status\": 0,\\n      \"orderNum\": 2,\\n      \"title\": \"111\",\\n      \"content\": \"<!DOCTYPE html>\\\\n<html>\\\\n<head>\\\\n</head>\\\\n<body>\\\\n<p>111</p>\\\\n</body>\\\\n</html>\",\\n      \"type\": \"NORMAL\",\\n      \"timeSecond\": 1,\\n      \"updaterName\": \"管理员\",\\n      \"updaterId\": 28,\\n      \"createTime\": \"2022-10-24 10:37:59\",\\n      \"updateTime\": \"2022-10-24 15:48:05\"\\n    }\\n  ],\\n  \"total\": 1,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9801cb1877c4859.json",
+  "parameterValues" : [ "[5.0, '岗前学习/学习素材', '岗前学习素材库查询', 'post', '/buswash/study/attach/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"orgNum\": \"396976058574\",\\n  \"perSize\": 10,\\n  \"type\": \"NORMAL\",\\n  \"title\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 94,\\n      \"orgNum\": \"396976058574\",\\n      \"status\": 0,\\n      \"orderNum\": 2,\\n      \"title\": \"111\",\\n      \"content\": \"<!DOCTYPE html>\\\\n<html>\\\\n<head>\\\\n</head>\\\\n<body>\\\\n<p>111</p>\\\\n</body>\\\\n</html>\",\\n      \"type\": \"NORMAL\",\\n      \"timeSecond\": 1,\\n      \"updaterName\": \"管理员\",\\n      \"updaterId\": 28,\\n      \"createTime\": \"2022-10-24 10:37:59\",\\n      \"updateTime\": \"2022-10-24 15:48:05\"\\n    }\\n  ],\\n  \"total\": 1,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

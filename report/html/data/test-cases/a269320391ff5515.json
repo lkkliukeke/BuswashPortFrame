@@ -1,0 +1,69 @@
+{
+  "uid" : "a269320391ff5515",
+  "name" : "巡更模块",
+  "fullName" : "testcase.test_patrolpage.TestPatrolPage#test_patrol",
+  "historyId" : "3687ec620d3d24ea2b0fdebf344f0b1e",
+  "time" : {
+    "start" : 1698386596954,
+    "stop" : 1698386597093,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_patrolpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_patrolpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPatrolPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_patrolpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[10.0, '巡更模块/巡更点', '巡更点未被绑定下拉数据', 'get', '/buswash/patrol/point/noBound/List/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 196,\\n      \"siteId\": 1,\\n      \"name\": null\\n    },\\n    {\\n      \"id\": 202,\\n      \"siteId\": 1,\\n      \"name\": \"6号巡更点\"\\n    },\\n    {\\n      \"id\": 205,\\n      \"siteId\": 1,\\n      \"name\": null\\n    },\\n    {\\n      \"id\": 245,\\n      \"siteId\": 1,\\n      \"name\": \"101号巡更点\"\\n    },\\n    {\\n      \"id\": 248,\\n      \"siteId\": 1,\\n      \"name\": \"阿斯顿\"\\n    },\\n    {\\n      \"id\": 258,\\n      \"siteId\": 1,\\n      \"name\": \"测试添加\"\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a269320391ff5515.json",
+  "parameterValues" : [ "[10.0, '巡更模块/巡更点', '巡更点未被绑定下拉数据', 'get', '/buswash/patrol/point/noBound/List/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 196,\\n      \"siteId\": 1,\\n      \"name\": null\\n    },\\n    {\\n      \"id\": 202,\\n      \"siteId\": 1,\\n      \"name\": \"6号巡更点\"\\n    },\\n    {\\n      \"id\": 205,\\n      \"siteId\": 1,\\n      \"name\": null\\n    },\\n    {\\n      \"id\": 245,\\n      \"siteId\": 1,\\n      \"name\": \"101号巡更点\"\\n    },\\n    {\\n      \"id\": 248,\\n      \"siteId\": 1,\\n      \"name\": \"阿斯顿\"\\n    },\\n    {\\n      \"id\": 258,\\n      \"siteId\": 1,\\n      \"name\": \"测试添加\"\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

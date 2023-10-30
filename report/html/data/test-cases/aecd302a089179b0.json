@@ -1,0 +1,69 @@
+{
+  "uid" : "aecd302a089179b0",
+  "name" : "组织模块",
+  "fullName" : "testcase.test_sysorgpage.TestSysorgPage#test_sysorg",
+  "historyId" : "89772ada104588d217745e032dd43919",
+  "time" : {
+    "start" : 1698386621402,
+    "stop" : 1698386621575,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_sysorgpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_sysorgpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSysorgPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_sysorgpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[6.0, '组织模块/分公司场站树', '分公司场站树查询（去除无场站公司）', 'post', '/buswash/sysorg/site/tree/filter', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '内容较多，暂不写入表格', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aecd302a089179b0.json",
+  "parameterValues" : [ "[6.0, '组织模块/分公司场站树', '分公司场站树查询（去除无场站公司）', 'post', '/buswash/sysorg/site/tree/filter', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '内容较多，暂不写入表格', '\"retmsg\":\"操作成功\"', '']" ]
+}

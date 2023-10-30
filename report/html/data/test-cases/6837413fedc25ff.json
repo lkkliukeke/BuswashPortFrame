@@ -1,0 +1,69 @@
+{
+  "uid" : "6837413fedc25ff",
+  "name" : "泊位模块",
+  "fullName" : "testcase.test_berthpage.TestBerthPage#test_berth",
+  "historyId" : "9a2363c5eaf151eb075c149bc1150e0f",
+  "time" : {
+    "start" : 1698386567577,
+    "stop" : 1698386567818,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBerthPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_berthpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[24.0, '泊位模块/泊位统计详情', '查询停车场泊位统计详情', 'post', '/buswash/berth/stac/detail', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"includeArea\": true,\\n  \"siteId\": 35\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"totalCount\": 10,\\n    \"recordCount\": 0,\\n    \"freeCount\": 10,\\n    \"inSiteRecordCount\": 0,\\n    \"offSiteRecordCount\": 0,\\n    \"siteId\": 35,\\n    \"siteName\": \"环丁路公交站\",\\n    \"inSiteFreeCount\": 25,\\n    \"offSiteFreeCount\": 1,\\n    \"berthNum\": null,\\n    \"planBerthNum\": 25,\\n    \"areaStacDetailVoList\": [\\n      {\\n        \"totalCount\": 10,\\n        \"recordCount\": 0,\\n        \"freeCount\": 10,\\n        \"inSiteRecordCount\": 0,\\n        \"offSiteRecordCount\": 0,\\n        \"berthAreaId\": 30074,\\n        \"berthAreaName\": \"测试A\"\\n      }\\n    ]\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6837413fedc25ff.json",
+  "parameterValues" : [ "[24.0, '泊位模块/泊位统计详情', '查询停车场泊位统计详情', 'post', '/buswash/berth/stac/detail', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"includeArea\": true,\\n  \"siteId\": 35\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"totalCount\": 10,\\n    \"recordCount\": 0,\\n    \"freeCount\": 10,\\n    \"inSiteRecordCount\": 0,\\n    \"offSiteRecordCount\": 0,\\n    \"siteId\": 35,\\n    \"siteName\": \"环丁路公交站\",\\n    \"inSiteFreeCount\": 25,\\n    \"offSiteFreeCount\": 1,\\n    \"berthNum\": null,\\n    \"planBerthNum\": 25,\\n    \"areaStacDetailVoList\": [\\n      {\\n        \"totalCount\": 10,\\n        \"recordCount\": 0,\\n        \"freeCount\": 10,\\n        \"inSiteRecordCount\": 0,\\n        \"offSiteRecordCount\": 0,\\n        \"berthAreaId\": 30074,\\n        \"berthAreaName\": \"测试A\"\\n      }\\n    ]\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

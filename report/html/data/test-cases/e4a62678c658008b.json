@@ -1,0 +1,69 @@
+{
+  "uid" : "e4a62678c658008b",
+  "name" : "设备管理模块",
+  "fullName" : "testcase.test_devicepage.TestDevicePage#test_device",
+  "historyId" : "16466e1b6d3618437b92fe5fd7a0be4e",
+  "time" : {
+    "start" : 1698386580186,
+    "stop" : 1698386580289,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDevicePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_devicepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[40.0, '设备异常信息模块/设备异常信息', '设备异常信息添加-修改', 'post', '/buswash/device/abnormal/info/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"emp_job_id\": \"1\",\\n  \"emp_name\": \"1\",\\n  \"ic_card\": \"1\",\\n  \"message\": \"测试1\",\\n  \"type\": \"1000000\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 2979,\\n    \"station_num\": \"10000294\",\\n    \"message\": \"测试1\",\\n    \"emp_job_id\": \"1\",\\n    \"emp_name\": \"1\",\\n    \"ic_card\": \"1\",\\n    \"org_num\": null,\\n    \"org_name\": null,\\n    \"state\": null,\\n    \"create_time\": \"2023-10-09 10:40:06\",\\n    \"update_time\": \"2023-10-09 10:40:06\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4a62678c658008b.json",
+  "parameterValues" : [ "[40.0, '设备异常信息模块/设备异常信息', '设备异常信息添加-修改', 'post', '/buswash/device/abnormal/info/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"emp_job_id\": \"1\",\\n  \"emp_name\": \"1\",\\n  \"ic_card\": \"1\",\\n  \"message\": \"测试1\",\\n  \"type\": \"1000000\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 2979,\\n    \"station_num\": \"10000294\",\\n    \"message\": \"测试1\",\\n    \"emp_job_id\": \"1\",\\n    \"emp_name\": \"1\",\\n    \"ic_card\": \"1\",\\n    \"org_num\": null,\\n    \"org_name\": null,\\n    \"state\": null,\\n    \"create_time\": \"2023-10-09 10:40:06\",\\n    \"update_time\": \"2023-10-09 10:40:06\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

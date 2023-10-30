@@ -1,0 +1,69 @@
+{
+  "uid" : "9241d23db41de82c",
+  "name" : "用户模块",
+  "fullName" : "testcase.test_userpage.TestUserPage#test_user",
+  "historyId" : "7bab8f9d35a1d3dd50b3ebd68d84d78d",
+  "time" : {
+    "start" : 1698386624493,
+    "stop" : 1698386624701,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_userpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_userpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_userpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[15.0, '用户模块/pos端权限树', 'pos端权限树获取', 'post', '/buswash/user/permission/tree/pos', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 191,\\n      \"name\": \"PosBerth\",\\n      \"description\": \"泊位（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 194,\\n      \"name\": \"PosSecurityCheck\",\\n      \"description\": \"安检（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 210,\\n      \"name\": \"PosPatrol\",\\n      \"description\": \"巡更（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 239,\\n      \"name\": \"PosWash\",\\n      \"description\": \"洗车（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 1290,\\n      \"name\": \"cardOpenPos\",\\n      \"description\": \"开卡管理（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": [\\n        {\\n          \"id\": 1293,\\n          \"name\": \"driverManager\",\\n          \"description\": \"司机卡管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1305,\\n              \"name\": \"driverManagerFunc\",\\n              \"description\": \"司机卡管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        },\\n        {\\n          \"id\": 1296,\\n          \"name\": \"temporaryCardManager\",\\n          \"description\": \"临时卡管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1308,\\n              \"name\": \"temporaryCardManagerFunc\",\\n              \"description\": \"临时卡管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        },\\n        {\\n          \"id\": 1299,\\n          \"name\": \"securityButtonManager\",\\n          \"description\": \"安保钮管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1311,\\n              \"name\": \"securityButtonManagerFunc\",\\n              \"description\": \"安保钮管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        },\\n        {\\n          \"id\": 1302,\\n          \"name\": \"patrolButtonManager\",\\n          \"description\": \"巡更钮管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1314,\\n              \"name\": \"patrolButtonManagerFunc\",\\n              \"description\": \"巡更钮管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        }\\n      ],\\n      \"owned\": true\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', 'retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9241d23db41de82c.json",
+  "parameterValues" : [ "[15.0, '用户模块/pos端权限树', 'pos端权限树获取', 'post', '/buswash/user/permission/tree/pos', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 191,\\n      \"name\": \"PosBerth\",\\n      \"description\": \"泊位（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 194,\\n      \"name\": \"PosSecurityCheck\",\\n      \"description\": \"安检（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 210,\\n      \"name\": \"PosPatrol\",\\n      \"description\": \"巡更（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 239,\\n      \"name\": \"PosWash\",\\n      \"description\": \"洗车（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": null,\\n      \"owned\": true\\n    },\\n    {\\n      \"id\": 1290,\\n      \"name\": \"cardOpenPos\",\\n      \"description\": \"开卡管理（POS）\",\\n      \"type\": \"MENU\",\\n      \"children\": [\\n        {\\n          \"id\": 1293,\\n          \"name\": \"driverManager\",\\n          \"description\": \"司机卡管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1305,\\n              \"name\": \"driverManagerFunc\",\\n              \"description\": \"司机卡管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        },\\n        {\\n          \"id\": 1296,\\n          \"name\": \"temporaryCardManager\",\\n          \"description\": \"临时卡管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1308,\\n              \"name\": \"temporaryCardManagerFunc\",\\n              \"description\": \"临时卡管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        },\\n        {\\n          \"id\": 1299,\\n          \"name\": \"securityButtonManager\",\\n          \"description\": \"安保钮管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1311,\\n              \"name\": \"securityButtonManagerFunc\",\\n              \"description\": \"安保钮管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        },\\n        {\\n          \"id\": 1302,\\n          \"name\": \"patrolButtonManager\",\\n          \"description\": \"巡更钮管理\",\\n          \"type\": \"MENU\",\\n          \"children\": [\\n            {\\n              \"id\": 1314,\\n              \"name\": \"patrolButtonManagerFunc\",\\n              \"description\": \"巡更钮管理按钮\",\\n              \"type\": \"FUNCTION\",\\n              \"children\": null,\\n              \"owned\": true\\n            }\\n          ],\\n          \"owned\": true\\n        }\\n      ],\\n      \"owned\": true\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', 'retmsg\":\"操作成功\"', '']" ]
+}

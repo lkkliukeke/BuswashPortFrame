@@ -1,0 +1,69 @@
+{
+  "uid" : "1d9f280f8f20b3a9",
+  "name" : "报到模块",
+  "fullName" : "testcase.test_attendpage.TestAttendPage#test_attend",
+  "historyId" : "df0b2bdd7bd81222b7dbb026686c68b9",
+  "time" : {
+    "start" : 1698386559772,
+    "stop" : 1698386559996,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAttendPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_attendpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[5.0, '报道模块/岗前报到', '立柜式员工签到操作', 'post', '/buswash/attend/central/stand', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n    \"emp_card_code\": \"831677\",\\n    \"emp_job_id\": \"93000225\",\\n    \"image1\": [],\\n    \"image2\": [],\\n    \"login_type\": 2,\\n    \"no_match_face_img\": \"\",\\n    \"alcohol\":\"112\",\\n    \"temperature\":\"38\",\\n    \"oper_id\": \"7579f95e91864077a7af48381b29e479\",\\n    \"process_statuses\": [1,2,4],\\n    \"status\":0\\n}', 200.0, '{\\n    \"retcode\": \"0\",\\n    \"retmsg\": \"操作成功\",\\n    \"data\": {\\n        \"id\": 1448712,\\n        \"station_num\": \"10000294\",\\n        \"emp_id\": \"20151130001847001179\",\\n        \"emp_card\": \"831677\",\\n        \"emp_job_id\": \"93000225\",\\n        \"emp_name\": \"顾秀玉\",\\n        \"fleet_org_name\": \"605车队\",\\n        \"org_num\": \"55151104152340922070\",\\n        \"org_name\": \"605车队\",\\n        \"status\": 0,\\n        \"process_status\": \"1|2|4\",\\n        \"oper_id\": \"cabcdcfd0ac44fc5919cd5194055e8d2\"\\n    },\\n    \"total\": null,\\n    \"success\": true\\n}', '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d9f280f8f20b3a9.json",
+  "parameterValues" : [ "[5.0, '报道模块/岗前报到', '立柜式员工签到操作', 'post', '/buswash/attend/central/stand', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n    \"emp_card_code\": \"831677\",\\n    \"emp_job_id\": \"93000225\",\\n    \"image1\": [],\\n    \"image2\": [],\\n    \"login_type\": 2,\\n    \"no_match_face_img\": \"\",\\n    \"alcohol\":\"112\",\\n    \"temperature\":\"38\",\\n    \"oper_id\": \"7579f95e91864077a7af48381b29e479\",\\n    \"process_statuses\": [1,2,4],\\n    \"status\":0\\n}', 200.0, '{\\n    \"retcode\": \"0\",\\n    \"retmsg\": \"操作成功\",\\n    \"data\": {\\n        \"id\": 1448712,\\n        \"station_num\": \"10000294\",\\n        \"emp_id\": \"20151130001847001179\",\\n        \"emp_card\": \"831677\",\\n        \"emp_job_id\": \"93000225\",\\n        \"emp_name\": \"顾秀玉\",\\n        \"fleet_org_name\": \"605车队\",\\n        \"org_num\": \"55151104152340922070\",\\n        \"org_name\": \"605车队\",\\n        \"status\": 0,\\n        \"process_status\": \"1|2|4\",\\n        \"oper_id\": \"cabcdcfd0ac44fc5919cd5194055e8d2\"\\n    },\\n    \"total\": null,\\n    \"success\": true\\n}', '', '']" ]
+}

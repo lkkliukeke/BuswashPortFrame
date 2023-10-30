@@ -1,0 +1,69 @@
+{
+  "uid" : "cbb92c0f47904e86",
+  "name" : "公告模块",
+  "fullName" : "testcase.test_noticepage.TestNoticePage#test_notice",
+  "historyId" : "19edf271b80d9e55eece011a1b88ffbc",
+  "time" : {
+    "start" : 1698386594828,
+    "stop" : 1698386594971,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_noticepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_noticepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNoticePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_noticepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[5.0, '公告模块/公告查询', '公告查询', 'post', '/buswash/system/notice/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"operatorName\": \"\",\\n  \"perSize\": 1,\\n  \"siteIdList\": [],\\n  \"state\": 1,\\n  \"status\": 1,\\n  \"title\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"noticeId\": \"1519585017236234241\",\\n      \"title\": \"关于XXXXX的通知\",\\n      \"operatorName\": \"保安队长\",\\n      \"operatorId\": 1044,\\n      \"pushTime\": \"2022-04-28 15:51:53\",\\n      \"status\": 1,\\n      \"siteName\": null,\\n      \"siteId\": null\\n    }\\n  ],\\n  \"total\": 3,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbb92c0f47904e86.json",
+  "parameterValues" : [ "[5.0, '公告模块/公告查询', '公告查询', 'post', '/buswash/system/notice/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"operatorName\": \"\",\\n  \"perSize\": 1,\\n  \"siteIdList\": [],\\n  \"state\": 1,\\n  \"status\": 1,\\n  \"title\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"noticeId\": \"1519585017236234241\",\\n      \"title\": \"关于XXXXX的通知\",\\n      \"operatorName\": \"保安队长\",\\n      \"operatorId\": 1044,\\n      \"pushTime\": \"2022-04-28 15:51:53\",\\n      \"status\": 1,\\n      \"siteName\": null,\\n      \"siteId\": null\\n    }\\n  ],\\n  \"total\": 3,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

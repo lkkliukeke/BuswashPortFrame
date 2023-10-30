@@ -1,0 +1,93 @@
+{
+  "uid" : "f71403b87fad5211",
+  "name" : "设备管理模块",
+  "fullName" : "testcase.test_devicepage.TestDevicePage#test_device",
+  "historyId" : "ad9ea950042624cfb5e0c049c3e3945d",
+  "time" : {
+    "start" : 1698386580292,
+    "stop" : 1698386580446,
+    "duration" : 154
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C481FBB0>\nexcelist = [41.0, '设备异常信息模块/设备异常信息', '设备异常信息查询', 'post', '/buswash/device/abnormal/info/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n>       Assert.Assertions.assert_code(self, reqs.status_code,200)\n\ntestcase\\test_devicepage.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C481FBB0>\ncode = 500, expected_code = 200\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert int(code) == int(expected_code)\nE           AssertionError\n\ncommon\\Assert.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C481FBB0>\nexcelist = [41.0, '设备异常信息模块/设备异常信息', '设备异常信息查询', 'post', '/buswash/device/abnormal/info/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n>       Assert.Assertions.assert_code(self, reqs.status_code,200)\n\ntestcase\\test_devicepage.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C481FBB0>\ncode = 500, expected_code = 200\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert int(code) == int(expected_code)\nE           AssertionError\n\ncommon\\Assert.py:15: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3297cd4801b229aa",
+      "name" : "log",
+      "source" : "3297cd4801b229aa.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDevicePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_devicepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[41.0, '设备异常信息模块/设备异常信息', '设备异常信息查询', 'post', '/buswash/device/abnormal/info/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"end_time\": \"\",\\n  \"per_size\": 1,\\n  \"start_time\": \"\",\\n  \"station_num\": \"\",\\n  \"type\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 2941,\\n      \"station_num\": \"10000294\",\\n      \"message\": \"测试1\",\\n      \"emp_job_id\": \"1\",\\n      \"emp_name\": \"1\",\\n      \"ic_card\": \"1\",\\n      \"org_num\": null,\\n      \"org_name\": null,\\n      \"state\": 1,\\n      \"create_time\": \"2023-09-27 10:36:22\",\\n      \"update_time\": \"2023-09-27 10:36:22\"\\n    }\\n  ],\\n  \"total\": 978,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f71403b87fad5211.json",
+  "parameterValues" : [ "[41.0, '设备异常信息模块/设备异常信息', '设备异常信息查询', 'post', '/buswash/device/abnormal/info/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"end_time\": \"\",\\n  \"per_size\": 1,\\n  \"start_time\": \"\",\\n  \"station_num\": \"\",\\n  \"type\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 2941,\\n      \"station_num\": \"10000294\",\\n      \"message\": \"测试1\",\\n      \"emp_job_id\": \"1\",\\n      \"emp_name\": \"1\",\\n      \"ic_card\": \"1\",\\n      \"org_num\": null,\\n      \"org_name\": null,\\n      \"state\": 1,\\n      \"create_time\": \"2023-09-27 10:36:22\",\\n      \"update_time\": \"2023-09-27 10:36:22\"\\n    }\\n  ],\\n  \"total\": 978,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

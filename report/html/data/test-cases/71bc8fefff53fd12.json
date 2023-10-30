@@ -1,0 +1,69 @@
+{
+  "uid" : "71bc8fefff53fd12",
+  "name" : "泊位模块",
+  "fullName" : "testcase.test_berthpage.TestBerthPage#test_berth",
+  "historyId" : "33539072b2be2cf5d6938bb75e4fca86",
+  "time" : {
+    "start" : 1698386565038,
+    "stop" : 1698386565210,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBerthPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_berthpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[8.0, '泊位模块/泊位区域', '添加修改泊车区域box', 'post', '/buswash/berth/areaBox/add', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 30017,\\n  \"siteId\": 35,\\n  \"siteName\": \"环丁路公交站\",\\n  \"name\": \"测试F1\",\\n  \"berthCount\": 10,\\n  \"freeCount\": 10,\\n  \"remark\": \"测试\",\\n  \"operateUserName\": \"管理员\",\\n  \"createTime\": \"2023-08-08 14:05:31\",\\n  \"updateTime\": \"2023-08-08 14:05:31\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 30017,\\n    \"siteId\": 35,\\n    \"siteName\": null,\\n    \"name\": \"测试F1\",\\n    \"berthCount\": 10,\\n    \"freeCount\": null,\\n    \"remark\": \"测试\",\\n    \"operateUserName\": \"刘珂珂\",\\n    \"createTime\": \"2023-08-08 14:05:31\",\\n    \"updateTime\": \"2023-09-20 17:37:52\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"siteId\":35', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71bc8fefff53fd12.json",
+  "parameterValues" : [ "[8.0, '泊位模块/泊位区域', '添加修改泊车区域box', 'post', '/buswash/berth/areaBox/add', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 30017,\\n  \"siteId\": 35,\\n  \"siteName\": \"环丁路公交站\",\\n  \"name\": \"测试F1\",\\n  \"berthCount\": 10,\\n  \"freeCount\": 10,\\n  \"remark\": \"测试\",\\n  \"operateUserName\": \"管理员\",\\n  \"createTime\": \"2023-08-08 14:05:31\",\\n  \"updateTime\": \"2023-08-08 14:05:31\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 30017,\\n    \"siteId\": 35,\\n    \"siteName\": null,\\n    \"name\": \"测试F1\",\\n    \"berthCount\": 10,\\n    \"freeCount\": null,\\n    \"remark\": \"测试\",\\n    \"operateUserName\": \"刘珂珂\",\\n    \"createTime\": \"2023-08-08 14:05:31\",\\n    \"updateTime\": \"2023-09-20 17:37:52\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"siteId\":35', '']" ]
+}

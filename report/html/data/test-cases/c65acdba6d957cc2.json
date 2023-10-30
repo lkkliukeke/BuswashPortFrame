@@ -1,0 +1,69 @@
+{
+  "uid" : "c65acdba6d957cc2",
+  "name" : "用户模块",
+  "fullName" : "testcase.test_userpage.TestUserPage#test_user",
+  "historyId" : "9620905a57e1d55071ee1797b78cfa40",
+  "time" : {
+    "start" : 1698386623179,
+    "stop" : 1698386623337,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_userpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_userpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_userpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[9.0, '用户模块/检查员数据', '新增检查员', 'post', '/buswash/user/inspector/add', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"jobNumber\": \"\",\\n  \"name\": \"测试小刘\",\\n  \"phone\": \"15290179090\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"retcode\": \"10009\",\\n    \"retmsg\": \"手机号已注册\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', 'retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c65acdba6d957cc2.json",
+  "parameterValues" : [ "[9.0, '用户模块/检查员数据', '新增检查员', 'post', '/buswash/user/inspector/add', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"jobNumber\": \"\",\\n  \"name\": \"测试小刘\",\\n  \"phone\": \"15290179090\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"retcode\": \"10009\",\\n    \"retmsg\": \"手机号已注册\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', 'retmsg\":\"操作成功\"', '']" ]
+}

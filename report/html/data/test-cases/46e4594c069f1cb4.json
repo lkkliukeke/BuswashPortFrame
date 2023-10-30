@@ -1,0 +1,69 @@
+{
+  "uid" : "46e4594c069f1cb4",
+  "name" : "设备管理模块",
+  "fullName" : "testcase.test_devicepage.TestDevicePage#test_device",
+  "historyId" : "bf94193128ef95dae120e29c06411d3d",
+  "time" : {
+    "start" : 1698386576777,
+    "stop" : 1698386576936,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDevicePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_devicepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[15.0, '设备管理模块/户外大屏', '编辑户外大屏信息', 'post', '/buswash/device/screen/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"corOrgName\": \"五公司\",\\n  \"corOrgNum\": \"55151104125204140112\",\\n  \"deviceType\": 12,\\n  \"name\": \"0001\",\\n  \"siteId\": 14,\\n  \"screens\": [\\n    {\\n      \"content1\": null,\\n      \"content2\": null,\\n      \"status\": 0,\\n      \"birthday\": 0,\\n      \"id\": 64\\n    },\\n    {\\n      \"content1\": null,\\n      \"content2\": null,\\n      \"status\": 0,\\n      \"speed\": 0,\\n      \"id\": 68,\\n      \"title1\": null,\\n      \"title2\": null\\n    }\\n  ],\\n  \"id\": 356,\\n  \"switchTime\": 60\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "46e4594c069f1cb4.json",
+  "parameterValues" : [ "[15.0, '设备管理模块/户外大屏', '编辑户外大屏信息', 'post', '/buswash/device/screen/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"corOrgName\": \"五公司\",\\n  \"corOrgNum\": \"55151104125204140112\",\\n  \"deviceType\": 12,\\n  \"name\": \"0001\",\\n  \"siteId\": 14,\\n  \"screens\": [\\n    {\\n      \"content1\": null,\\n      \"content2\": null,\\n      \"status\": 0,\\n      \"birthday\": 0,\\n      \"id\": 64\\n    },\\n    {\\n      \"content1\": null,\\n      \"content2\": null,\\n      \"status\": 0,\\n      \"speed\": 0,\\n      \"id\": 68,\\n      \"title1\": null,\\n      \"title2\": null\\n    }\\n  ],\\n  \"id\": 356,\\n  \"switchTime\": 60\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "8fd8e68c85629aae",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "fullName" : "testcase.test_washpage.TestWashPage#test_wash",
+  "historyId" : "eff2a1dbc61925c184f9ea2e8e0ece2b",
+  "time" : {
+    "start" : 1698386628873,
+    "stop" : 1698386629000,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_washpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_washpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWashPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_washpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[11.0, '洗车记录模块/洗车记录', '洗车记录分页查询', 'post', '/buswash/record/pagefilter', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"busNumber\": \"1-9625\",\\n  \"companyName\": \"1\",\\n  \"endDate\": \"2023-10-12\",\\n  \"inWashName\": \"1\",\\n  \"outWashName\": \"1\",\\n  \"outWasherType\": \"machine\",\\n  \"page\": 1,\\n  \"startDate\": \"2023-10-12\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\",\\n  \"washStateList\": [1]\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"retcode\": \"0\",\\n    \"retmsg\": \"操作成功\",\\n    \"list\": [],\\n    \"current\": null,\\n    \"pageSize\": null,\\n    \"total\": null\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fd8e68c85629aae.json",
+  "parameterValues" : [ "[11.0, '洗车记录模块/洗车记录', '洗车记录分页查询', 'post', '/buswash/record/pagefilter', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"busNumber\": \"1-9625\",\\n  \"companyName\": \"1\",\\n  \"endDate\": \"2023-10-12\",\\n  \"inWashName\": \"1\",\\n  \"outWashName\": \"1\",\\n  \"outWasherType\": \"machine\",\\n  \"page\": 1,\\n  \"startDate\": \"2023-10-12\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\",\\n  \"washStateList\": [1]\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"retcode\": \"0\",\\n    \"retmsg\": \"操作成功\",\\n    \"list\": [],\\n    \"current\": null,\\n    \"pageSize\": null,\\n    \"total\": null\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

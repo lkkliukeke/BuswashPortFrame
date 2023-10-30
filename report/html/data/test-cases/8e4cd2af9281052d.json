@@ -1,0 +1,93 @@
+{
+  "uid" : "8e4cd2af9281052d",
+  "name" : "设备管理模块",
+  "fullName" : "testcase.test_devicepage.TestDevicePage#test_device",
+  "historyId" : "09215f13a283bdad0c8a777e40449f66",
+  "time" : {
+    "start" : 1698386579025,
+    "stop" : 1698386579140,
+    "duration" : 115
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C48684F0>\nexcelist = [31.0, '设备管理模块拓展/签到机配置', '查询签到机配置所有模板', 'post', '/buswash/device/extra/central/template/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n>       Assert.Assertions.assert_code(self, reqs.status_code,200)\n\ntestcase\\test_devicepage.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C48684F0>\ncode = 500, expected_code = 200\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert int(code) == int(expected_code)\nE           AssertionError\n\ncommon\\Assert.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C48684F0>\nexcelist = [31.0, '设备管理模块拓展/签到机配置', '查询签到机配置所有模板', 'post', '/buswash/device/extra/central/template/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n>       Assert.Assertions.assert_code(self, reqs.status_code,200)\n\ntestcase\\test_devicepage.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001E2C48684F0>\ncode = 500, expected_code = 200\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert int(code) == int(expected_code)\nE           AssertionError\n\ncommon\\Assert.py:15: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8d00e895be67c73",
+      "name" : "log",
+      "source" : "e8d00e895be67c73.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDevicePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_devicepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[31.0, '设备管理模块拓展/签到机配置', '查询签到机配置所有模板', 'post', '/buswash/device/extra/central/template/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '内容较多 暂不写入表格', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8e4cd2af9281052d.json",
+  "parameterValues" : [ "[31.0, '设备管理模块拓展/签到机配置', '查询签到机配置所有模板', 'post', '/buswash/device/extra/central/template/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '内容较多 暂不写入表格', '\"retmsg\":\"操作成功\"', '']" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "8761eeeab046c32d",
+  "name" : "出场模块",
+  "fullName" : "testcase.test_gateoutpage.TestGateOutPage#test_gateout",
+  "historyId" : "36f32a1e632191ee688f23fffb23bbd6",
+  "time" : {
+    "start" : 1698386587021,
+    "stop" : 1698386587233,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_gateoutpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_gateoutpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGateOutPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_gateoutpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[1.0, '出场模块/出场异常', '出场异常数据导出', 'post', '/buswash/abnormal/gate/out/record/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateRange\": [\\n    \"2023-09-12\",\\n    \"2023-09-12\"\\n  ],\\n  \"jobId\": \"\",\\n  \"empName\": \"\",\\n  \"busNumber\": \"\",\\n  \"isBusNumberSame\": null,\\n  \"orgNumList\": [],\\n  \"posSiteIdList\": [\\n    35\\n  ],\\n  \"attendStatus\": null,\\n  \"onBusAttendStatus\": null,\\n  \"distinct\": false,\\n  \"perSize\": 20,\\n  \"current\": 1\\n}', 200.0, '', '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8761eeeab046c32d.json",
+  "parameterValues" : [ "[1.0, '出场模块/出场异常', '出场异常数据导出', 'post', '/buswash/abnormal/gate/out/record/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateRange\": [\\n    \"2023-09-12\",\\n    \"2023-09-12\"\\n  ],\\n  \"jobId\": \"\",\\n  \"empName\": \"\",\\n  \"busNumber\": \"\",\\n  \"isBusNumberSame\": null,\\n  \"orgNumList\": [],\\n  \"posSiteIdList\": [\\n    35\\n  ],\\n  \"attendStatus\": null,\\n  \"onBusAttendStatus\": null,\\n  \"distinct\": false,\\n  \"perSize\": 20,\\n  \"current\": 1\\n}', 200.0, '', '', '']" ]
+}

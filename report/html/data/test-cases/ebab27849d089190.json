@@ -1,0 +1,69 @@
+{
+  "uid" : "ebab27849d089190",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "fullName" : "testcase.test_washpage.TestWashPage#test_wash",
+  "historyId" : "0365ea36b9d4f820028d5d60f9a9b1e0",
+  "time" : {
+    "start" : 1698386628084,
+    "stop" : 1698386628355,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_washpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_washpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWashPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_washpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[7.0, '洗车记录模块/文件', '下载文件', 'post', '/buswash/record/download', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"fileName\": \"1\",\\n  \"path\": \"1\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', 200.0, '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebab27849d089190.json",
+  "parameterValues" : [ "[7.0, '洗车记录模块/文件', '下载文件', 'post', '/buswash/record/download', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"fileName\": \"1\",\\n  \"path\": \"1\",\\n  \"token\": \"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', 200.0, '', '']" ]
+}

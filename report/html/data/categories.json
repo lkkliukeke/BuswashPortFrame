@@ -1,0 +1,183 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "卡模块",
+        "uid" : "14c8151cf63f9aee",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386573574,
+          "stop" : 1698386573703,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1.0, '卡模块/卡添加编辑', '卡添加-修改', 'post', '/buswash/card/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"content\": \"测试\",\\n  \"noticeId\": \"3\",\\n  \"title\": \"刘珂珂测试\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "be766c5abe496fdd",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386574297,
+          "stop" : 1698386574460,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[2.0, '设备管理模块/设备绑定', '设备id绑定（报道机）', 'post', '/buswash/device/central/station/bind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"device_id\": \"10000460\",\\n  \"station_num\": \"1\"\\n}', 200.0, '{\\n  \"retcode\": \"40621\",\\n  \"retmsg\": \"站点不存在!\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"站点不存在!\"', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "e257c2faf7f5ad3c",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386577980,
+          "stop" : 1698386578129,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[24.0, '设备管理模块/设备', '解绑设备', 'post', '/buswash/device/unbind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"stationNum\": \"1\"\\n}', 200.0, '{\\n  \"retcode\": \"10075\",\\n  \"retmsg\": \"解绑失败\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"解绑失败\"', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "1a5d9fde5bae74f2",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386578720,
+          "stop" : 1698386578902,
+          "duration" : 182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[29.0, '设备管理模块拓展/签到机配置', '创建签到机配置模板', 'post', '/buswash/device/extra/central/template/create', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"adminPassword\": \"\",\\n  \"faceOrgNum\": \"\",\\n  \"judgeType\": [],\\n  \"loginType\": [\\n    1\\n  ],\\n  \"searchType\": [],\\n  \"name\": \"测试1\",\\n  \"disinfectNumberOfPeople\": 0,\\n  \"disinfectTime\": 0\\n}', 200.0, '{\\n  \"retcode\": \"40007\",\\n  \"retmsg\": \"模板名称重复\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"success\":false', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "8e4cd2af9281052d",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386579025,
+          "stop" : 1698386579140,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[31.0, '设备管理模块拓展/签到机配置', '查询签到机配置所有模板', 'post', '/buswash/device/extra/central/template/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '内容较多 暂不写入表格', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "20cd1cef21d679cd",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386579581,
+          "stop" : 1698386579687,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[35.0, '设备管理模块拓展/签到机配置', '签到机配置下发', 'get', '/buswash/device/extra/notify/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"40006\",\\n  \"retmsg\": \"设备编号不存在\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"设备编号不存在\"', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "f71403b87fad5211",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386580292,
+          "stop" : 1698386580446,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[41.0, '设备异常信息模块/设备异常信息', '设备异常信息查询', 'post', '/buswash/device/abnormal/info/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"end_time\": \"\",\\n  \"per_size\": 1,\\n  \"start_time\": \"\",\\n  \"station_num\": \"\",\\n  \"type\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 2941,\\n      \"station_num\": \"10000294\",\\n      \"message\": \"测试1\",\\n      \"emp_job_id\": \"1\",\\n      \"emp_name\": \"1\",\\n      \"ic_card\": \"1\",\\n      \"org_num\": null,\\n      \"org_name\": null,\\n      \"state\": 1,\\n      \"create_time\": \"2023-09-27 10:36:22\",\\n      \"update_time\": \"2023-09-27 10:36:22\"\\n    }\\n  ],\\n  \"total\": 978,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "司机管理",
+        "uid" : "ee429cf9acc90a08",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386582592,
+          "stop" : 1698386582656,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[13.0, '司机管理/司机查询', '单司机查询', 'post', '/buswash/employee/safe/find', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"ic_hard_card\": \"3846586563\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 260125,\\n    \"job_id\": \"90179035\",\\n    \"old_job_id\": null,\\n    \"emp_id\": \"1624506313031\",\\n    \"emp_name\": \"刘珂珂1\",\\n    \"sex\": null,\\n    \"id_card\": null,\\n    \"telephone\": \"15290179035\",\\n    \"post_name\": \"574b5fe75ba0444b822f51b70b4b19db\",\\n    \"start_date\": null,\\n    \"org_num\": \"100016\",\\n    \"org_name\": \"测试部车队\",\\n    \"own_route_name\": null,\\n    \"ic_card\": \"98799999999\",\\n    \"today_route_name\": null,\\n    \"extend_resp\": null\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"job_id\":\"90179035\"']" ]
+      }, {
+        "name" : "出场模块",
+        "uid" : "c482b4b0440df5e3",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386589885,
+          "stop" : 1698386590007,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[15.0, '出场配置模块/出场配置', '允许出场配置查询单查', 'post', '/buswash/out/allow/config/search/byId', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"siteId\": 35\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 30,\\n    \"siteId\": 35,\\n    \"unoperateAllowMin\": 60,\\n    \"unoperateAllowStatus\": 0,\\n    \"operateAllowMin\": 60,\\n    \"operateAllowStatus\": 0,\\n    \"operateBeforeAttend\": 0,\\n    \"operateOnBusAttend\": 0,\\n    \"unoperateBeforeAttend\": 1,\\n    \"unoperateOnBusAttend\": 1,\\n    \"operateAllowBeforeSecond\": 300,\\n    \"operateAllowAfterSecond\": 300,\\n    \"unoperateAllowBeforeSecond\": 1200,\\n    \"unoperateAllowAfterSecond\": 1200\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"id\":30', '']" ]
+      }, {
+        "name" : "公告模块",
+        "uid" : "aabca792f4e0e31f",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698386594245,
+          "stop" : 1698386594392,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1.0, '公告模块/创建与编辑', '公告创建和编辑', 'post', '/buswash/system/notice/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"content\": \"测试\",\\n  \"noticeId\": \"3\",\\n  \"title\": \"刘珂珂测试\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

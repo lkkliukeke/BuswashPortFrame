@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "buswash-develop" ],
+  "name" : "environment"
+}, {
+  "values" : [ "https://buswash.jintdev.com" ],
+  "name" : "host"
+}, {
+  "values" : [ "v2.0" ],
+  "name" : "version"
+}, {
+  "values" : [ "liukeke" ],
+  "name" : "tester"
+} ]

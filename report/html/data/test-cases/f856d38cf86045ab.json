@@ -1,0 +1,69 @@
+{
+  "uid" : "f856d38cf86045ab",
+  "name" : "报到模块",
+  "fullName" : "testcase.test_attendpage.TestAttendPage#test_attend",
+  "historyId" : "e7728f6695c30fe40421e495240dc6ce",
+  "time" : {
+    "start" : 1698386563322,
+    "stop" : 1698386563384,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAttendPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_attendpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[13.0, '报道模块/签到机', '签到机签到顺序流程', 'post', '/buswash/attend/sequential/flow/config', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"empId\": \"169329\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    \"MORNING_MEETING\",\\n    \"SENSITIVITY_TEST\",\\n    \"ALCOHOL_TEST\",\\n    \"TEMPERATURE_TEST\"\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f856d38cf86045ab.json",
+  "parameterValues" : [ "[13.0, '报道模块/签到机', '签到机签到顺序流程', 'post', '/buswash/attend/sequential/flow/config', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"empId\": \"169329\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    \"MORNING_MEETING\",\\n    \"SENSITIVITY_TEST\",\\n    \"ALCOHOL_TEST\",\\n    \"TEMPERATURE_TEST\"\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

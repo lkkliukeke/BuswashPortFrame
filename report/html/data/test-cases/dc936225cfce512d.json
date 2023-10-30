@@ -1,0 +1,69 @@
+{
+  "uid" : "dc936225cfce512d",
+  "name" : "调度模块",
+  "fullName" : "testcase.test_schedulepage.TestSchedulePage#test_schedule",
+  "historyId" : "0eebe3e9b632d2dc6318486f29ba0d7e",
+  "time" : {
+    "start" : 1698386617874,
+    "stop" : 1698386618018,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_schedulepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_schedulepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSchedulePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_schedulepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[8.0, '调度模块/班次查询', '班次统计查询', 'post', '/buswash/schedule/shift/stat', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"busClass\": \"\",\\n  \"busNum\": \"\",\\n  \"current\": 0,\\n  \"driverName1\": \"\",\\n  \"driverName2\": \"\",\\n  \"endDate\": \"2023-10-10\",\\n  \"jobId1\": \"90179035\",\\n  \"jobId2\": \"\",\\n  \"operateState\": 0,\\n  \"operateStateList\": [],\\n  \"operateUserName\": \"\",\\n  \"orderStr\": \"\",\\n  \"orgNumList\": [],\\n  \"perSize\": 0,\\n  \"planId\": \"\",\\n  \"plateNum\": \"\",\\n  \"routeId\": \"\",\\n  \"shiftNum\": \"\",\\n  \"siteId\": 0,\\n  \"siteId2List\": [],\\n  \"siteIdList\": [],\\n  \"startDate\": \"2023-10-10\",\\n  \"state\": 0,\\n  \"stateList\": [],\\n  \"typeList\": []\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"busNum\": 0,\\n    \"employeeNum\": 0,\\n    \"busClassNumMap\": {}\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc936225cfce512d.json",
+  "parameterValues" : [ "[8.0, '调度模块/班次查询', '班次统计查询', 'post', '/buswash/schedule/shift/stat', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"busClass\": \"\",\\n  \"busNum\": \"\",\\n  \"current\": 0,\\n  \"driverName1\": \"\",\\n  \"driverName2\": \"\",\\n  \"endDate\": \"2023-10-10\",\\n  \"jobId1\": \"90179035\",\\n  \"jobId2\": \"\",\\n  \"operateState\": 0,\\n  \"operateStateList\": [],\\n  \"operateUserName\": \"\",\\n  \"orderStr\": \"\",\\n  \"orgNumList\": [],\\n  \"perSize\": 0,\\n  \"planId\": \"\",\\n  \"plateNum\": \"\",\\n  \"routeId\": \"\",\\n  \"shiftNum\": \"\",\\n  \"siteId\": 0,\\n  \"siteId2List\": [],\\n  \"siteIdList\": [],\\n  \"startDate\": \"2023-10-10\",\\n  \"state\": 0,\\n  \"stateList\": [],\\n  \"typeList\": []\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"busNum\": 0,\\n    \"employeeNum\": 0,\\n    \"busClassNumMap\": {}\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

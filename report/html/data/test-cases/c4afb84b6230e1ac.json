@@ -1,0 +1,69 @@
+{
+  "uid" : "c4afb84b6230e1ac",
+  "name" : "司机管理",
+  "fullName" : "testcase.test_employeepage.TestEmployeePage#test_employee",
+  "historyId" : "ca1fc28e75440f48d50e8e2bc80d329b",
+  "time" : {
+    "start" : 1698386580765,
+    "stop" : 1698386580934,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_employeepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_employeepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEmployeePage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_employeepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[3.0, '司机管理/司机添加-修改', '司机添加-修改', 'post', '/buswash/employee/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 372653,\\n  \"jobId\": \"90359035\",\\n  \"oldJobId\": null,\\n  \"empName\": \"刘珂珂2\",\\n  \"idCard\": \"412829199903050503\",\\n  \"icCard\": \"90359035\",\\n  \"icHardCard\": null,\\n  \"telephone\": \"15290359035\",\\n  \"orgNum\": \"100016\",\\n  \"orgName\": \"测试部车队\",\\n  \"ownRouteName\": null,\\n  \"ownRouteId\": null,\\n  \"role\": \"DRIVER\",\\n  \"sex\": null,\\n  \"licenseStartDate\": null,\\n  \"drivingExperience\": null,\\n  \"remark\": null,\\n  \"lastNucleicSampleTime\": null,\\n  \"sampleCumulativeTime\": null,\\n  \"sampleOverFlag\": false,\\n  \"lastNucleicReportTime\": null,\\n  \"reportCumulativeTime\": null,\\n  \"reportOverFlag\": false,\\n  \"nucleicResult\": null,\\n  \"nucleicResultName\": null,\\n  \"healthCode\": null,\\n  \"healthRefreshTime\": null,\\n  \"isFaceLib\": false,\\n  \"show\": false\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 372653,\\n    \"jobId\": \"90359035\",\\n    \"oldJobId\": null,\\n    \"empName\": \"刘珂珂2\",\\n    \"idCard\": \"412829199903050503\",\\n    \"icCard\": \"90359035\",\\n    \"icHardCard\": null,\\n    \"telephone\": \"15290359035\",\\n    \"orgNum\": \"100016\",\\n    \"orgName\": \"测试部车队\",\\n    \"ownRouteName\": null,\\n    \"ownRouteId\": null,\\n    \"role\": \"DRIVER\",\\n    \"sex\": null,\\n    \"licenseStartDate\": null,\\n    \"drivingExperience\": null,\\n    \"remark\": null,\\n    \"lastNucleicSampleTime\": null,\\n    \"sampleCumulativeTime\": null,\\n    \"sampleOverFlag\": false,\\n    \"lastNucleicReportTime\": null,\\n    \"reportCumulativeTime\": null,\\n    \"reportOverFlag\": false,\\n    \"nucleicResult\": null,\\n    \"nucleicResultName\": null,\\n    \"healthCode\": null,\\n    \"healthRefreshTime\": null,\\n    \"isFaceLib\": false\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"jobId\":\"90359035\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4afb84b6230e1ac.json",
+  "parameterValues" : [ "[3.0, '司机管理/司机添加-修改', '司机添加-修改', 'post', '/buswash/employee/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 372653,\\n  \"jobId\": \"90359035\",\\n  \"oldJobId\": null,\\n  \"empName\": \"刘珂珂2\",\\n  \"idCard\": \"412829199903050503\",\\n  \"icCard\": \"90359035\",\\n  \"icHardCard\": null,\\n  \"telephone\": \"15290359035\",\\n  \"orgNum\": \"100016\",\\n  \"orgName\": \"测试部车队\",\\n  \"ownRouteName\": null,\\n  \"ownRouteId\": null,\\n  \"role\": \"DRIVER\",\\n  \"sex\": null,\\n  \"licenseStartDate\": null,\\n  \"drivingExperience\": null,\\n  \"remark\": null,\\n  \"lastNucleicSampleTime\": null,\\n  \"sampleCumulativeTime\": null,\\n  \"sampleOverFlag\": false,\\n  \"lastNucleicReportTime\": null,\\n  \"reportCumulativeTime\": null,\\n  \"reportOverFlag\": false,\\n  \"nucleicResult\": null,\\n  \"nucleicResultName\": null,\\n  \"healthCode\": null,\\n  \"healthRefreshTime\": null,\\n  \"isFaceLib\": false,\\n  \"show\": false\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 372653,\\n    \"jobId\": \"90359035\",\\n    \"oldJobId\": null,\\n    \"empName\": \"刘珂珂2\",\\n    \"idCard\": \"412829199903050503\",\\n    \"icCard\": \"90359035\",\\n    \"icHardCard\": null,\\n    \"telephone\": \"15290359035\",\\n    \"orgNum\": \"100016\",\\n    \"orgName\": \"测试部车队\",\\n    \"ownRouteName\": null,\\n    \"ownRouteId\": null,\\n    \"role\": \"DRIVER\",\\n    \"sex\": null,\\n    \"licenseStartDate\": null,\\n    \"drivingExperience\": null,\\n    \"remark\": null,\\n    \"lastNucleicSampleTime\": null,\\n    \"sampleCumulativeTime\": null,\\n    \"sampleOverFlag\": false,\\n    \"lastNucleicReportTime\": null,\\n    \"reportCumulativeTime\": null,\\n    \"reportOverFlag\": false,\\n    \"nucleicResult\": null,\\n    \"nucleicResultName\": null,\\n    \"healthCode\": null,\\n    \"healthRefreshTime\": null,\\n    \"isFaceLib\": false\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"jobId\":\"90359035\"']" ]
+}

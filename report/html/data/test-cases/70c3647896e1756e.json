@@ -1,0 +1,69 @@
+{
+  "uid" : "70c3647896e1756e",
+  "name" : "报到模块",
+  "fullName" : "testcase.test_attendpage.TestAttendPage#test_attend",
+  "historyId" : "654daa4d475267c70ba19035f45980e5",
+  "time" : {
+    "start" : 1698386559155,
+    "stop" : 1698386559296,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAttendPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GF0BVQLR"
+  }, {
+    "name" : "thread",
+    "value" : "8580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_attendpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[2.0, '报道模块/岗前签到', '岗前签到历史查询', 'get', '/buswash/attend/before/history/search/33633030', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 12046818,\\n      \"recordDate\": 1694102400000,\\n      \"busNumber\": \"6-6201\",\\n      \"plateNum\": \"浙A05203D\",\\n      \"empName\": \"顾秀玉\",\\n      \"empJobId\": \"93000225\",\\n      \"icCard\": \"831677\",\\n      \"orgName\": \"605车队\",\\n      \"siteName\": \"环丁路公交站\",\\n      \"shiftNum\": \"11\",\\n      \"routeId\": \"3301000100130348\",\\n      \"routeName\": \"319路\",\\n      \"busClass\": \"8\",\\n      \"beforeAttendScheduleTime\": 1694148000000,\\n      \"beforeAttendTime\": 1694154234000,\\n      \"beforeAttendTimeMakeUp\": null,\\n      \"beforeAttendStatus\": -4,\\n      \"beforeProcessStatus\": \"1|-2|4\",\\n      \"alcohol\": \"112\",\\n      \"temperature\": \"38\",\\n      \"mzt\": \"DISABLE\",\\n      \"onBusAttendScheduleTime\": 1694148600000,\\n      \"onBusAttendTime\": null,\\n      \"onBusAttendStatus\": null,\\n      \"onBusAttendTimeMakeUp\": null,\\n      \"busNotMatch\": null,\\n      \"type\": \"OPERATE\",\\n      \"onBusAttendChannel\": null,\\n      \"systolicBloodPressure\": null,\\n      \"diastolicBloodPressure\": null,\\n      \"heartBeat\": null,\\n      \"updateTime\": null,\\n      \"delayTime\": \"迟104\",\\n      \"shiftId\": null,\\n      \"planShiftId\": null,\\n      \"headShift\": 0,\\n      \"source\": null\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70c3647896e1756e.json",
+  "parameterValues" : [ "[2.0, '报道模块/岗前签到', '岗前签到历史查询', 'get', '/buswash/attend/before/history/search/33633030', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 12046818,\\n      \"recordDate\": 1694102400000,\\n      \"busNumber\": \"6-6201\",\\n      \"plateNum\": \"浙A05203D\",\\n      \"empName\": \"顾秀玉\",\\n      \"empJobId\": \"93000225\",\\n      \"icCard\": \"831677\",\\n      \"orgName\": \"605车队\",\\n      \"siteName\": \"环丁路公交站\",\\n      \"shiftNum\": \"11\",\\n      \"routeId\": \"3301000100130348\",\\n      \"routeName\": \"319路\",\\n      \"busClass\": \"8\",\\n      \"beforeAttendScheduleTime\": 1694148000000,\\n      \"beforeAttendTime\": 1694154234000,\\n      \"beforeAttendTimeMakeUp\": null,\\n      \"beforeAttendStatus\": -4,\\n      \"beforeProcessStatus\": \"1|-2|4\",\\n      \"alcohol\": \"112\",\\n      \"temperature\": \"38\",\\n      \"mzt\": \"DISABLE\",\\n      \"onBusAttendScheduleTime\": 1694148600000,\\n      \"onBusAttendTime\": null,\\n      \"onBusAttendStatus\": null,\\n      \"onBusAttendTimeMakeUp\": null,\\n      \"busNotMatch\": null,\\n      \"type\": \"OPERATE\",\\n      \"onBusAttendChannel\": null,\\n      \"systolicBloodPressure\": null,\\n      \"diastolicBloodPressure\": null,\\n      \"heartBeat\": null,\\n      \"updateTime\": null,\\n      \"delayTime\": \"迟104\",\\n      \"shiftId\": null,\\n      \"planShiftId\": null,\\n      \"headShift\": 0,\\n      \"source\": null\\n    }\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}
