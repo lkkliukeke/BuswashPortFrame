@@ -1,3170 +1,3880 @@
 [ {
-  "uid" : "6f8b5b461f305f3d",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386616532,
-    "stop" : 1698386617867,
-    "duration" : 1335
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1f82f3d9033647b",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386597741,
-    "stop" : 1698386599870,
-    "duration" : 2129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "835bea45c3d073f9",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386628505,
-    "stop" : 1698386628715,
-    "duration" : 210
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8cd65f07cdb1632a",
-  "name" : "素材下发/素材中心模块",
-  "time" : {
-    "start" : 1698386558700,
-    "stop" : 1698386558854,
-    "duration" : 154
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f84ff257251d3fd",
-  "name" : "人脸审核模块",
-  "time" : {
-    "start" : 1698386584746,
-    "stop" : 1698386584890,
-    "duration" : 144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba2f5e4f52f3ce8b",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386601723,
-    "stop" : 1698386601881,
-    "duration" : 158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13d4b343a6cf291e",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386582812,
-    "stop" : 1698386583078,
-    "duration" : 266
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a38466fc14e494bf",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386556298,
-    "stop" : 1698386556432,
-    "duration" : 134
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d811da166326bc9",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386552861,
-    "stop" : 1698386552998,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a33b5cd55b0ff6f",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386589605,
-    "stop" : 1698386589749,
-    "duration" : 144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9ccbfe56fd4d4b01",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386568302,
-    "stop" : 1698386568426,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "889699808eab916d",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386595833,
-    "stop" : 1698386596091,
-    "duration" : 258
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "655f39dfa5e718ca",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386614431,
-    "stop" : 1698386614674,
-    "duration" : 243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "71bc8fefff53fd12",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565038,
-    "stop" : 1698386565210,
-    "duration" : 172
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6f975e7cf2d9c66e",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386624330,
-    "stop" : 1698386624489,
-    "duration" : 159
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "10e837c812765d15",
-  "name" : "登录/登录日志模块",
-  "time" : {
-    "start" : 1698386593822,
-    "stop" : 1698386593925,
-    "duration" : 103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4d7fc0b519f6468",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579467,
-    "stop" : 1698386579573,
-    "duration" : 106
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fdef4ea2114bb12d",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386557217,
-    "stop" : 1698386557357,
-    "duration" : 140
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2aa1d8de01b7b0e7",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386576668,
-    "stop" : 1698386576775,
-    "duration" : 107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "866a16d13f5e8d46",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386581801,
-    "stop" : 1698386581945,
-    "duration" : 144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4afb84b6230e1ac",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386580765,
-    "stop" : 1698386580934,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ebe0cd41fe58d3e6",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386578910,
-    "stop" : 1698386579022,
-    "duration" : 112
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "496cac3dc84ac208",
+  "uid" : "8ddf8ed3cd06250",
   "name" : "岗前学习",
   "time" : {
-    "start" : 1698386619402,
-    "stop" : 1698386619744,
-    "duration" : 342
+    "start" : 1730182882829,
+    "stop" : 1730182885876,
+    "duration" : 3047
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8d9add0eedfa4a90",
-  "name" : "首页模块",
+  "uid" : "f61bcace5fede421",
+  "name" : "车上报到/车道模块",
   "time" : {
-    "start" : 1698386591771,
-    "stop" : 1698386592179,
-    "duration" : 408
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ec5148b7d1fd5f96",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386564335,
-    "stop" : 1698386564568,
-    "duration" : 233
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1069251a203e16d9",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386570993,
-    "stop" : 1698386572307,
-    "duration" : 1314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c865f3b446a1b9a",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386572313,
-    "stop" : 1698386572453,
-    "duration" : 140
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb70bc1591989991",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386581067,
-    "stop" : 1698386581344,
-    "duration" : 277
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2329ef2f082b680",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577293,
-    "stop" : 1698386577430,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5a354ee0ac0088f",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386618591,
-    "stop" : 1698386618721,
-    "duration" : 130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3e34e2a133f2fc9",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386562068,
-    "stop" : 1698386562696,
-    "duration" : 628
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46e4594c069f1cb4",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386576777,
-    "stop" : 1698386576936,
-    "duration" : 159
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ae83e2995ef8a3e",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386618727,
-    "stop" : 1698386618917,
-    "duration" : 190
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f7f267ff11865922",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386597492,
-    "stop" : 1698386597629,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "661d4947c16c0b4b",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386622770,
-    "stop" : 1698386622908,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b41fb4f1207c52d",
-  "name" : "组织模块",
-  "time" : {
-    "start" : 1698386620908,
-    "stop" : 1698386621041,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d19cb494dd9b7bfc",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386596429,
-    "stop" : 1698386596632,
-    "duration" : 203
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20cd1cef21d679cd",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579581,
-    "stop" : 1698386579687,
-    "duration" : 106
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bcad97b9b938180b",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386625454,
-    "stop" : 1698386625564,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a4f4d0640316715",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386580088,
-    "stop" : 1698386580182,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dd89cb66b053ea7f",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386566319,
-    "stop" : 1698386566515,
-    "duration" : 196
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1891aa6e80d67627",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386585581,
-    "stop" : 1698386585684,
-    "duration" : 103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e93a10f7159e3156",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386560951,
-    "stop" : 1698386561088,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "14793f002c982b9d",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386592182,
-    "stop" : 1698386592479,
-    "duration" : 297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fbd07db41979b08",
-  "name" : "登录/登录日志模块",
-  "time" : {
-    "start" : 1698386593223,
-    "stop" : 1698386593357,
-    "duration" : 134
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1384555f4f1c117",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386595701,
-    "stop" : 1698386595830,
-    "duration" : 129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de38d210efc424ed",
-  "name" : "人车一致业务",
-  "time" : {
-    "start" : 1698386583613,
-    "stop" : 1698386583739,
-    "duration" : 126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40b346964fc41740",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386581504,
-    "stop" : 1698386581665,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fc0b1f53002507d",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386578604,
-    "stop" : 1698386578715,
-    "duration" : 111
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98716e5cb17f95c9",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386601400,
-    "stop" : 1698386601718,
-    "duration" : 318
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da2c0acb4ac4dc53",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386590496,
-    "stop" : 1698386590966,
-    "duration" : 470
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f6543d3ed7540f56",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386580452,
-    "stop" : 1698386580590,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "df572d4a6151f9fb",
-  "name" : "人脸审核模块",
-  "time" : {
-    "start" : 1698386584056,
-    "stop" : 1698386584170,
-    "duration" : 114
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0e8a231fb2c3943",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386614084,
-    "stop" : 1698386614426,
-    "duration" : 342
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5742ef9a9278a38e",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587857,
-    "stop" : 1698386587978,
-    "duration" : 121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3fd3de5aea0ad36a",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386567306,
-    "stop" : 1698386567437,
-    "duration" : 131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee429cf9acc90a08",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386582592,
-    "stop" : 1698386582656,
-    "duration" : 64
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e4cd2af9281052d",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579025,
-    "stop" : 1698386579140,
-    "duration" : 115
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "66f676695f2ece82",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577674,
-    "stop" : 1698386577794,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "70e9aabe1112a230",
-  "name" : "人车一致业务",
-  "time" : {
-    "start" : 1698386583464,
-    "stop" : 1698386583610,
-    "duration" : 146
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aecd302a089179b0",
-  "name" : "组织模块",
-  "time" : {
-    "start" : 1698386621402,
-    "stop" : 1698386621575,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "56fef1cbda30e038",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386624704,
-    "stop" : 1698386624881,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9eb4df82fc149f51",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386556684,
-    "stop" : 1698386556829,
-    "duration" : 145
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d90a7e1106865e84",
-  "name" : "线路模块",
-  "time" : {
-    "start" : 1698386612878,
-    "stop" : 1698386612998,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d12c5f278c5aff3c",
-  "name" : "组织模块",
-  "time" : {
-    "start" : 1698386621221,
-    "stop" : 1698386621399,
-    "duration" : 178
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f856d38cf86045ab",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386563322,
-    "stop" : 1698386563384,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c482b4b0440df5e3",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386589885,
-    "stop" : 1698386590007,
-    "duration" : 122
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e5deaacc390d2b2",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565367,
-    "stop" : 1698386565490,
-    "duration" : 123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ba06d3956e99ec1",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386590128,
-    "stop" : 1698386590252,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b31bdfa931b597a7",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386575942,
-    "stop" : 1698386576081,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0507bdf60b25cb3",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386573195,
-    "stop" : 1698386573317,
-    "duration" : 122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd85d13f4992a01",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386569703,
-    "stop" : 1698386570989,
-    "duration" : 1286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2dd6a0cd2cb7f6d",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386626615,
-    "stop" : 1698386626775,
-    "duration" : 160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e257c2faf7f5ad3c",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577980,
-    "stop" : 1698386578129,
-    "duration" : 149
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e6a663ea4ed0228b",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577433,
-    "stop" : 1698386577549,
-    "duration" : 116
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e588324d8818fb8d",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386557074,
-    "stop" : 1698386557212,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26eb6b1d1b926742",
-  "name" : "角色模块",
-  "time" : {
-    "start" : 1698386612033,
-    "stop" : 1698386612446,
-    "duration" : 413
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e7ce62d7a0f1cbb",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386602927,
-    "stop" : 1698386603051,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "74d1425f8f1b79b2",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386576086,
-    "stop" : 1698386576218,
-    "duration" : 132
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "14c8151cf63f9aee",
-  "name" : "卡模块",
-  "time" : {
-    "start" : 1698386573574,
-    "stop" : 1698386573703,
-    "duration" : 129
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c65acdba6d957cc2",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386623179,
-    "stop" : 1698386623337,
-    "duration" : 158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75e37df03ea1665",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386567820,
-    "stop" : 1698386568040,
-    "duration" : 220
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77e677733beed389",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386551971,
-    "stop" : 1698386552123,
-    "duration" : 152
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aca06b62a70a83f6",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386572459,
-    "stop" : 1698386572683,
-    "duration" : 224
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd4f4390b9ae74d4",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587388,
-    "stop" : 1698386587538,
-    "duration" : 150
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "665437bfee8e70f0",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386588356,
-    "stop" : 1698386588475,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b091b1e91b601dd8",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386569080,
-    "stop" : 1698386569308,
-    "duration" : 228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4a62678c658008b",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386580186,
-    "stop" : 1698386580289,
-    "duration" : 103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5f1c64716d7b4a5",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386569544,
-    "stop" : 1698386569698,
-    "duration" : 154
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5748b3a245faa25",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386563672,
-    "stop" : 1698386563984,
-    "duration" : 312
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ff38b921f7608ac",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386620324,
-    "stop" : 1698386620495,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "edaa785784bd38fb",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386595451,
-    "stop" : 1698386595696,
-    "duration" : 245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31a2ba4b23250357",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587981,
-    "stop" : 1698386588078,
-    "duration" : 97
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f4090c73e93d241",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386552654,
-    "stop" : 1698386552858,
-    "duration" : 204
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e3e4872c31be954",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386620144,
-    "stop" : 1698386620314,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a6fd764e15dcfb06",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386564162,
-    "stop" : 1698386564332,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7458b34af0da19e",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386597632,
-    "stop" : 1698386597736,
-    "duration" : 104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bec0c5105bbb101",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386613908,
-    "stop" : 1698386614081,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "537178f7ab910e8b",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579145,
-    "stop" : 1698386579359,
-    "duration" : 214
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "288652ff6d56a6e3",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386602126,
-    "stop" : 1698386602260,
-    "duration" : 134
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59c58c3b3d0041c2",
-  "name" : "保洁公司/公司模块",
-  "time" : {
-    "start" : 1698386573932,
-    "stop" : 1698386574070,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a1de5cb39d5a71e2",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386602425,
-    "stop" : 1698386602535,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a1b3af17a22a184",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386627513,
-    "stop" : 1698386627651,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "802891ec6f9888db",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386601884,
-    "stop" : 1698386601993,
-    "duration" : 109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aa50decf2aa5c01f",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386578307,
-    "stop" : 1698386578448,
-    "duration" : 141
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40300722e8646038",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386583081,
-    "stop" : 1698386583189,
+    "start" : 1730182782102,
+    "stop" : 1730182782210,
     "duration" : 108
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "95d7f3af72838f53",
-  "name" : "泊位模块",
+  "uid" : "d60fc0e3d6b028d0",
+  "name" : "岗前叮嘱模块",
   "time" : {
-    "start" : 1698386567126,
-    "stop" : 1698386567303,
-    "duration" : 177
+    "start" : 1730182796294,
+    "stop" : 1730182796356,
+    "duration" : 62
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6c5703686e9d9bef",
-  "name" : "泊位模块",
+  "uid" : "40a0ef4a6f61fa27",
+  "name" : "异常记录模块",
   "time" : {
-    "start" : 1698386566822,
-    "stop" : 1698386566956,
-    "duration" : 134
+    "start" : 1730182732673,
+    "stop" : 1730182732800,
+    "duration" : 127
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ab4bc3a6f510aaa4",
-  "name" : "门禁/访客设备",
+  "uid" : "f0c35133520a79d7",
+  "name" : "岗前学习",
   "time" : {
-    "start" : 1698386557522,
-    "stop" : 1698386557774,
-    "duration" : 252
+    "start" : 1730182888762,
+    "stop" : 1730182888890,
+    "duration" : 128
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9fb455e4b296b848",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587540,
-    "stop" : 1698386587717,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "986decbe32e6b07",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386624887,
-    "stop" : 1698386625197,
-    "duration" : 310
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b3ac9a47c061e66",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386552494,
-    "stop" : 1698386552651,
-    "duration" : 157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d837a9be4fbf1e80",
-  "name" : "公告模块",
-  "time" : {
-    "start" : 1698386594547,
-    "stop" : 1698386594709,
-    "duration" : 162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7c3c6cb25d1e886",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386561092,
-    "stop" : 1698386561381,
-    "duration" : 289
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2f5dec0d026bcba",
+  "uid" : "be241ba45ef6a3ce",
   "name" : "设备管理模块",
   "time" : {
-    "start" : 1698386574763,
-    "stop" : 1698386575059,
-    "duration" : 296
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d99bb9d3d0c8f040",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386602539,
-    "stop" : 1698386602712,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c919065aa5516a2",
-  "name" : "公告模块",
-  "time" : {
-    "start" : 1698386594711,
-    "stop" : 1698386594824,
-    "duration" : 113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "139b244b1240cb52",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386566118,
-    "stop" : 1698386566315,
-    "duration" : 197
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d6bf44f477627f6",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386573071,
-    "stop" : 1698386573190,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d406cb268c9c2265",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386568043,
-    "stop" : 1698386568299,
-    "duration" : 256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d8cecb106de3ce0",
-  "name" : "登录/登录日志模块",
-  "time" : {
-    "start" : 1698386593362,
-    "stop" : 1698386593535,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a3efa447935c4444",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386597096,
-    "stop" : 1698386597222,
-    "duration" : 126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13696e120bfd4c2e",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587236,
-    "stop" : 1698386587384,
+    "start" : 1730182790176,
+    "stop" : 1730182790324,
     "duration" : 148
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8fd8e68c85629aae",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386628873,
-    "stop" : 1698386629000,
-    "duration" : 127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e36c35f9aea9f2d",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386589754,
-    "stop" : 1698386589880,
-    "duration" : 126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d54aaef27177d6c",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386557776,
-    "stop" : 1698386557895,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c2765993ea3e1d7",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386611721,
-    "stop" : 1698386611883,
-    "duration" : 162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e14c6755234aefa",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386626783,
-    "stop" : 1698386626922,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da3bff86eeb8f38e",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386592617,
-    "stop" : 1698386592873,
-    "duration" : 256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c48768670dcc5944",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386586273,
-    "stop" : 1698386586537,
-    "duration" : 264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e493855088a43b7",
+  "uid" : "bd56c6106609a926",
   "name" : "巡更模块",
   "time" : {
-    "start" : 1698386596093,
-    "stop" : 1698386596234,
-    "duration" : 141
+    "start" : 1730182806990,
+    "stop" : 1730182807162,
+    "duration" : 172
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bf50a82a7e0e4639",
-  "name" : "洗车报表/洗车记录/洗车模块",
+  "uid" : "5a879e8668771a98",
+  "name" : "岗前叮嘱模块",
   "time" : {
-    "start" : 1698386626928,
-    "stop" : 1698386627042,
-    "duration" : 114
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6fe77aeb63bea34",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386602716,
-    "stop" : 1698386602923,
-    "duration" : 207
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90ae3def0054cc91",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386616373,
-    "stop" : 1698386616526,
-    "duration" : 153
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "afa1e1b28a569b07",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386595276,
-    "stop" : 1698386595446,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0d3f5e8c31f6990",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386557362,
-    "stop" : 1698386557520,
-    "duration" : 158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f68f5cfb02803c1",
-  "name" : "素材下发/素材中心模块",
-  "time" : {
-    "start" : 1698386558546,
-    "stop" : 1698386558697,
-    "duration" : 151
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5d046158d7034a8",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386564720,
-    "stop" : 1698386564890,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6837413fedc25ff",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386567577,
-    "stop" : 1698386567818,
-    "duration" : 241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35b5a3359764d5df",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386575061,
-    "stop" : 1698386575192,
-    "duration" : 131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c682537f7d99f6fa",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386585687,
-    "stop" : 1698386586051,
-    "duration" : 364
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20ae1620678cd5f9",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386599872,
-    "stop" : 1698386600069,
-    "duration" : 197
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d340fd1ba5666b89",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386556583,
-    "stop" : 1698386556681,
-    "duration" : 98
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61568d48b2706d7",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386628362,
-    "stop" : 1698386628500,
-    "duration" : 138
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5aa3b897c2de3d17",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386601998,
-    "stop" : 1698386602121,
-    "duration" : 123
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e6698c9dc5eb1a1",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386568432,
-    "stop" : 1698386568587,
-    "duration" : 155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc936225cfce512d",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386617874,
-    "stop" : 1698386618018,
-    "duration" : 144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e3a5b2e402d89a9",
-  "name" : "人脸审核模块",
-  "time" : {
-    "start" : 1698386584605,
-    "stop" : 1698386584741,
-    "duration" : 136
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a2ea38adf092199",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386614882,
-    "stop" : 1698386616371,
-    "duration" : 1489
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8761eeeab046c32d",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587021,
-    "stop" : 1698386587233,
-    "duration" : 212
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a06a54adcf5cf594",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386590970,
-    "stop" : 1698386591198,
-    "duration" : 228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34f7dc5cd1918aa",
-  "name" : "保洁公司/公司模块",
-  "time" : {
-    "start" : 1698386573796,
-    "stop" : 1698386573927,
-    "duration" : 131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "25849cf401b446f4",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386574611,
-    "stop" : 1698386574758,
-    "duration" : 147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20fc3e86215c8105",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386618923,
-    "stop" : 1698386619111,
-    "duration" : 188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e648f063c931213",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386621579,
-    "stop" : 1698386621658,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cb5a68a35fac2b67",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579944,
-    "stop" : 1698386580085,
-    "duration" : 141
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4f3d6a732113bb4",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386568712,
-    "stop" : 1698386568914,
-    "duration" : 202
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe5e70368e30e44",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386590255,
-    "stop" : 1698386590491,
-    "duration" : 236
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5145d6b6e6e70b",
-  "name" : "线路模块",
-  "time" : {
-    "start" : 1698386612724,
-    "stop" : 1698386612871,
-    "duration" : 147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c24cee9a8839b5e",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386574473,
-    "stop" : 1698386574606,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9d8942443854352b",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386581948,
-    "stop" : 1698386582090,
-    "duration" : 142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abfdabfd78f90e33",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386563389,
-    "stop" : 1698386563550,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78ce6702f90a9d79",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386586862,
-    "stop" : 1698386587016,
-    "duration" : 154
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1af1a37bb2bd6219",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386586053,
-    "stop" : 1698386586271,
-    "duration" : 218
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbb92c0f47904e86",
-  "name" : "公告模块",
-  "time" : {
-    "start" : 1698386594828,
-    "stop" : 1698386594971,
-    "duration" : 143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "210464762e75a077",
-  "name" : "公告模块",
-  "time" : {
-    "start" : 1698386594976,
-    "stop" : 1698386595112,
-    "duration" : 136
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4fbdd7d3d1828eb",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386561523,
-    "stop" : 1698386562065,
-    "duration" : 542
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40deb2b5f813cf34",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565494,
-    "stop" : 1698386565643,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "588a0dc12444e08e",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386563989,
-    "stop" : 1698386564160,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3cea79c1a97874a9",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386556945,
-    "stop" : 1698386557069,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e7a3a9926980f79",
-  "name" : "登录/登录日志模块",
-  "time" : {
-    "start" : 1698386593538,
-    "stop" : 1698386593680,
-    "duration" : 142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85694b30b1a14122",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386559007,
-    "stop" : 1698386559152,
-    "duration" : 145
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d229a39db4754ab4",
-  "name" : "线路模块",
-  "time" : {
-    "start" : 1698386613001,
-    "stop" : 1698386613191,
-    "duration" : 190
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "49e6a1596717dedf",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386597227,
-    "stop" : 1698386597364,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b283a43639ef731",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386627048,
-    "stop" : 1698386627158,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9f376642a4b97bb",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386621816,
-    "stop" : 1698386622024,
-    "duration" : 208
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a97da3d0d1a0cc2",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386621661,
-    "stop" : 1698386621813,
-    "duration" : 152
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "17a1e2a69ee9ff0d",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386581668,
-    "stop" : 1698386581798,
-    "duration" : 130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "65ad19a4f498b148",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386588081,
-    "stop" : 1698386588231,
-    "duration" : 150
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a2ec187b40c4dfc",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565645,
-    "stop" : 1698386565814,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "719aeebdfac7bcc2",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386559593,
-    "stop" : 1698386559766,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fd1a6efd18860af",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386576349,
-    "stop" : 1698386576520,
-    "duration" : 171
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aabca792f4e0e31f",
-  "name" : "公告模块",
-  "time" : {
-    "start" : 1698386594245,
-    "stop" : 1698386594392,
-    "duration" : 147
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9801cb1877c4859",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386619117,
-    "stop" : 1698386619395,
-    "duration" : 278
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da2d071adb06f999",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386625823,
-    "stop" : 1698386626039,
-    "duration" : 216
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e5bddaba77451f6",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386552128,
-    "stop" : 1698386552268,
-    "duration" : 140
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20588b72b4b15a8a",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386587719,
-    "stop" : 1698386587854,
-    "duration" : 135
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9150cc57b34e5be",
-  "name" : "线路模块",
-  "time" : {
-    "start" : 1698386613193,
-    "stop" : 1698386613905,
-    "duration" : 712
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59d5099974df145e",
-  "name" : "登录/登录日志模块",
-  "time" : {
-    "start" : 1698386594062,
-    "stop" : 1698386594240,
-    "duration" : 178
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a269320391ff5515",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386596954,
-    "stop" : 1698386597093,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3885fd3884adddf",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386585183,
-    "stop" : 1698386585314,
-    "duration" : 131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8328f1a920267b8",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386568918,
-    "stop" : 1698386569075,
-    "duration" : 157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c4ae78cfca71383",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386607689,
-    "stop" : 1698386611716,
-    "duration" : 4027
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "57444078e4e8852",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386588233,
-    "stop" : 1698386588353,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd28c743610289fa",
-  "name" : "组织模块",
-  "time" : {
-    "start" : 1698386620500,
-    "stop" : 1698386620705,
-    "duration" : 205
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "42474d33d73152d3",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386629312,
-    "stop" : 1698386629458,
-    "duration" : 146
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b07432ffda78e215",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386622232,
-    "stop" : 1698386622575,
-    "duration" : 343
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1230b33537228e42",
-  "name" : "素材下发/素材中心模块",
-  "time" : {
-    "start" : 1698386558858,
-    "stop" : 1698386559004,
-    "duration" : 146
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e743cea23ad4c5c8",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386625703,
-    "stop" : 1698386625816,
-    "duration" : 113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de44e756f260f049",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577045,
-    "stop" : 1698386577169,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29eb052fa9749ce7",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386576938,
-    "stop" : 1698386577042,
-    "duration" : 104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e6fd01938d19c327",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386624041,
-    "stop" : 1698386624327,
-    "duration" : 286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b285e4613a675bb4",
-  "name" : "人脸审核模块",
-  "time" : {
-    "start" : 1698386584175,
-    "stop" : 1698386584308,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5e8a4fee990fe0c",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386627168,
-    "stop" : 1698386627505,
-    "duration" : 337
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6cdf3cbe2ed115c0",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386568592,
-    "stop" : 1698386568707,
-    "duration" : 115
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f39dfa0f90251c7b",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386553003,
-    "stop" : 1698386556062,
-    "duration" : 3059
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "229c494b397ecf7f",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386557899,
-    "stop" : 1698386558298,
-    "duration" : 399
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11b90094c43d8b40",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386578451,
-    "stop" : 1698386578602,
-    "duration" : 151
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20bd38ff2f1d26f9",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386603053,
-    "stop" : 1698386603167,
-    "duration" : 114
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e7f5897dcf0167c2",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386569314,
-    "stop" : 1698386569542,
-    "duration" : 228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5920db181ec481f4",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386622026,
-    "stop" : 1698386622226,
-    "duration" : 200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59096d2494b87a20",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386566959,
-    "stop" : 1698386567121,
-    "duration" : 162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fcb2b73eeb301828",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579835,
-    "stop" : 1698386579942,
-    "duration" : 107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21225aadc1abb55a",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386559298,
-    "stop" : 1698386559588,
-    "duration" : 290
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "352a6d454391eb0f",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386556435,
-    "stop" : 1698386556580,
-    "duration" : 145
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "950ddca33c6f388d",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386572878,
-    "stop" : 1698386573068,
-    "duration" : 190
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91565aafdabb7733",
-  "name" : "门禁/访客设备",
-  "time" : {
-    "start" : 1698386558301,
-    "stop" : 1698386558425,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eee5e9ecc0f1fff2",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386566667,
-    "stop" : 1698386566818,
-    "duration" : 151
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1d5c3be926956070",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386574208,
-    "stop" : 1698386574294,
-    "duration" : 86
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b08ab055696dfe8",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386582093,
-    "stop" : 1698386582220,
-    "duration" : 127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b8c31223b653f9e7",
-  "name" : "人车一致业务",
-  "time" : {
-    "start" : 1698386583193,
-    "stop" : 1698386583461,
-    "duration" : 268
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7aeb20ce3067555f",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386576223,
-    "stop" : 1698386576345,
-    "duration" : 122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1d6b06122b696d7d",
-  "name" : "公告模块",
-  "time" : {
-    "start" : 1698386594403,
-    "stop" : 1698386594545,
-    "duration" : 142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d413763a0080748",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386562699,
-    "stop" : 1698386563320,
-    "duration" : 621
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "694f31b840bb824c",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386573446,
-    "stop" : 1698386573571,
-    "duration" : 125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eebf3a37b42d6120",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386626044,
-    "stop" : 1698386626265,
-    "duration" : 221
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b3473102c33d22",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386600073,
-    "stop" : 1698386601237,
-    "duration" : 1164
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29929cc3fa4028ca",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386597369,
-    "stop" : 1698386597490,
+    "start" : 1730182795625,
+    "stop" : 1730182795746,
     "duration" : 121
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b270f31d50399ef6",
-  "name" : "组织模块",
-  "time" : {
-    "start" : 1698386621046,
-    "stop" : 1698386621216,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "764a88cb76240c9",
-  "name" : "登录/登录日志模块",
-  "time" : {
-    "start" : 1698386593928,
-    "stop" : 1698386594057,
-    "duration" : 129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "14e1239b1604ad58",
-  "name" : "角色模块",
-  "time" : {
-    "start" : 1698386612573,
-    "stop" : 1698386612722,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a810cfdf71ff9aec",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386589091,
-    "stop" : 1698386589602,
-    "duration" : 511
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a4343ce098c06f13",
-  "name" : "出场模块",
-  "time" : {
-    "start" : 1698386590018,
-    "stop" : 1698386590125,
-    "duration" : 107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf26daa25b8e514",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386619746,
-    "stop" : 1698386619923,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d10afad7e515362",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386622911,
-    "stop" : 1698386623175,
-    "duration" : 264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9a14abc4ac4c642",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386582663,
-    "stop" : 1698386582805,
-    "duration" : 142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1dcbb85319c3eb9e",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386585316,
-    "stop" : 1698386585448,
-    "duration" : 132
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "462f112f55da22a5",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386575197,
-    "stop" : 1698386575321,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f71403b87fad5211",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386580292,
-    "stop" : 1698386580446,
-    "duration" : 154
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9e7d7d042e4587c",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386572688,
-    "stop" : 1698386572871,
-    "duration" : 183
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f6a06cbd7b3e629f",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386582224,
-    "stop" : 1698386582590,
-    "duration" : 366
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a2e6e0014820b05",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386623525,
-    "stop" : 1698386623686,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59de2579706a8028",
-  "name" : "人车一致业务",
-  "time" : {
-    "start" : 1698386583841,
-    "stop" : 1698386583908,
-    "duration" : 67
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a944782c03f5243d",
+  "uid" : "796826e3b696fb7f",
   "name" : "巡更模块",
   "time" : {
-    "start" : 1698386601240,
-    "stop" : 1698386601396,
-    "duration" : 156
+    "start" : 1730182806648,
+    "stop" : 1730182806791,
+    "duration" : 143
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7393c28a6c61158",
-  "name" : "报到模块",
+  "uid" : "5a77249e31d2c81c",
+  "name" : "岗前叮嘱模块",
   "time" : {
-    "start" : 1698386561383,
-    "stop" : 1698386561519,
-    "duration" : 136
+    "start" : 1730182795859,
+    "stop" : 1730182796038,
+    "duration" : 179
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d16312d9dfa3624e",
-  "name" : "素材下发/素材中心模块",
+  "uid" : "236a24c4ac09824d",
+  "name" : "设备管理模块",
   "time" : {
-    "start" : 1698386558429,
-    "stop" : 1698386558543,
-    "duration" : 114
+    "start" : 1730182790795,
+    "stop" : 1730182790910,
+    "duration" : 115
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6c41db321c4f9aa3",
+  "uid" : "20c93edbf9515c3",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182764416,
+    "stop" : 1730182764557,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2f199c716a2f3c6",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182911846,
+    "stop" : 1730182912052,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da088016ca2a94ad",
+  "name" : "保洁公司/公司模块",
+  "time" : {
+    "start" : 1730182782491,
+    "stop" : 1730182782592,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48ac8eabd18413a7",
   "name" : "门禁/访客设备",
   "time" : {
-    "start" : 1698386552272,
-    "stop" : 1698386552489,
-    "duration" : 217
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cd6a8294cfc8b6b",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386629003,
-    "stop" : 1698386629187,
-    "duration" : 184
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "816ada2d7c63ae3a",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386580594,
-    "stop" : 1698386580762,
-    "duration" : 168
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f1101682661b0e75",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386591201,
-    "stop" : 1698386591302,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d596bfc79e14ee80",
-  "name" : "人车一致业务",
-  "time" : {
-    "start" : 1698386583742,
-    "stop" : 1698386583837,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb393a4dadc3e8e2",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386579363,
-    "stop" : 1698386579464,
-    "duration" : 101
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f21cfaf971dd5a8f",
-  "name" : "调度模块",
-  "time" : {
-    "start" : 1698386614680,
-    "stop" : 1698386614876,
-    "duration" : 196
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d224064ee874e76",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386592484,
-    "stop" : 1698386592614,
-    "duration" : 130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d27a619a9e119db0",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386626272,
-    "stop" : 1698386626429,
-    "duration" : 157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "740445ebb365e3ea",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386596782,
-    "stop" : 1698386596949,
-    "duration" : 167
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fbace54503e2c40",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386626435,
-    "stop" : 1698386626613,
+    "start" : 1730182733093,
+    "stop" : 1730182733271,
     "duration" : 178
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "527ae1518f7faeb0",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386628726,
-    "stop" : 1698386628867,
-    "duration" : 141
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "581060da008d7e4d",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386586540,
-    "stop" : 1698386586727,
-    "duration" : 187
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "acc13944d9741b66",
-  "name" : "巡更模块",
-  "time" : {
-    "start" : 1698386596238,
-    "stop" : 1698386596424,
-    "duration" : 186
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26df546e2f0348b2",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386567439,
-    "stop" : 1698386567571,
-    "duration" : 132
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "32df8276e76ffa4a",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1698386591306,
-    "stop" : 1698386591768,
-    "duration" : 462
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4b9166752d4b4b",
+  "uid" : "3245e744d6f14ded",
   "name" : "门禁/访客设备",
   "time" : {
-    "start" : 1698386556066,
-    "stop" : 1698386556296,
-    "duration" : 230
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2289b3bc056e394e",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565817,
-    "stop" : 1698386565994,
-    "duration" : 177
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1269eeedbf1c435",
-  "name" : "人脸审核模块",
-  "time" : {
-    "start" : 1698386584490,
-    "stop" : 1698386584600,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "248297b61dc35450",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386585451,
-    "stop" : 1698386585578,
-    "duration" : 127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "45e8bcff3419ede1",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386603170,
-    "stop" : 1698386603307,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3858e22956ccd270",
-  "name" : "车辆模块",
-  "time" : {
-    "start" : 1698386573321,
-    "stop" : 1698386573441,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e1a8d883cd5ef89e",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386623340,
-    "stop" : 1698386623520,
-    "duration" : 180
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15e91ac8bc9a0a9b",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577551,
-    "stop" : 1698386577670,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36de50998d0efcf2",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386618024,
-    "stop" : 1698386618585,
-    "duration" : 561
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce17d1152664fae3",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386625567,
-    "stop" : 1698386625699,
+    "start" : 1730182733577,
+    "stop" : 1730182733709,
     "duration" : 132
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d3d9c34995f18068",
-  "name" : "登录/登录日志模块",
+  "uid" : "87daf5ff17d469a5",
+  "name" : "泊位模块",
   "time" : {
-    "start" : 1698386592877,
-    "stop" : 1698386593084,
-    "duration" : 207
+    "start" : 1730182764120,
+    "stop" : 1730182764226,
+    "duration" : 106
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "579c361b48a56bba",
-  "name" : "洗车报表/洗车记录/洗车模块",
+  "uid" : "b3be07c9b2e4bedc",
+  "name" : "保洁公司/公司模块",
   "time" : {
-    "start" : 1698386629190,
-    "stop" : 1698386629309,
-    "duration" : 119
+    "start" : 1730182782362,
+    "stop" : 1730182782487,
+    "duration" : 125
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b68a1869a5351384",
-  "name" : "设备管理模块",
+  "uid" : "417eb6a71c69de65",
+  "name" : "巡更模块",
   "time" : {
-    "start" : 1698386578135,
-    "stop" : 1698386578304,
+    "start" : 1730182807778,
+    "stop" : 1730182807947,
     "duration" : 169
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6531f8c046de7beb",
-  "name" : "人脸审核模块",
+  "uid" : "aa24bac6e57a5fc8",
+  "name" : "岗前叮嘱模块",
   "time" : {
-    "start" : 1698386584312,
-    "stop" : 1698386584486,
-    "duration" : 174
+    "start" : 1730182796192,
+    "stop" : 1730182796290,
+    "duration" : 98
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1fa72528fcb1ac12",
-  "name" : "停车场模块",
+  "uid" : "53588841eb7046fd",
+  "name" : "司机管理",
   "time" : {
-    "start" : 1698386611885,
-    "stop" : 1698386612027,
-    "duration" : 142
+    "start" : 1730182793581,
+    "stop" : 1730182793760,
+    "duration" : 179
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1494e77847d08bf7",
-  "name" : "人脸审核模块",
+  "uid" : "8ad53c1aa2883f68",
+  "name" : "岗前叮嘱模块",
   "time" : {
-    "start" : 1698386584892,
-    "stop" : 1698386585178,
-    "duration" : 286
+    "start" : 1730182796359,
+    "stop" : 1730182796484,
+    "duration" : 125
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "70c3647896e1756e",
-  "name" : "报到模块",
+  "uid" : "107ddd1533741deb",
+  "name" : "司机管理",
   "time" : {
-    "start" : 1698386559155,
-    "stop" : 1698386559296,
-    "duration" : 141
+    "start" : 1730182794345,
+    "stop" : 1730182794399,
+    "duration" : 54
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ee5aebd6d0a403ca",
-  "name" : "登录/登录日志模块",
+  "uid" : "77e3d54742bbfdc0",
+  "name" : "回场模块",
   "time" : {
-    "start" : 1698386593088,
-    "stop" : 1698386593218,
-    "duration" : 130
+    "start" : 1730182797852,
+    "stop" : 1730182797988,
+    "duration" : 136
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4bc217a434eaf1d6",
-  "name" : "设备管理模块",
+  "uid" : "1e3475b10856f805",
+  "name" : "车辆模块",
   "time" : {
-    "start" : 1698386576523,
-    "stop" : 1698386576665,
-    "duration" : 142
+    "start" : 1730182768023,
+    "stop" : 1730182768143,
+    "duration" : 120
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7a5e7fe61802c34e",
-  "name" : "组织模块",
+  "uid" : "2ee1de78ba2e2717",
+  "name" : "调度模块",
   "time" : {
-    "start" : 1698386620709,
-    "stop" : 1698386620906,
+    "start" : 1730182823019,
+    "stop" : 1730182823117,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa7b05cda44d663c",
+  "name" : "岗前叮嘱模块",
+  "time" : {
+    "start" : 1730182796489,
+    "stop" : 1730182796554,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a551fdae954fce1c",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182955494,
+    "stop" : 1730182957862,
+    "duration" : 2368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a9f9c35ed3f3b51",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182762579,
+    "stop" : 1730182762776,
     "duration" : 197
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ebab27849d089190",
-  "name" : "洗车报表/洗车记录/洗车模块",
+  "uid" : "5c92227a08e312fb",
+  "name" : "人脸审核模块",
   "time" : {
-    "start" : 1698386628084,
-    "stop" : 1698386628355,
-    "duration" : 271
+    "start" : 1730182797478,
+    "stop" : 1730182797722,
+    "duration" : 244
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6f1a9895a49dd44e",
-  "name" : "司机管理",
+  "uid" : "eb1d7c5b241a678b",
+  "name" : "车辆模块",
   "time" : {
-    "start" : 1698386580937,
-    "stop" : 1698386581063,
-    "duration" : 126
+    "start" : 1730182768147,
+    "stop" : 1730182768313,
+    "duration" : 166
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7ee47003c6405297",
-  "name" : "门禁/访客设备",
+  "uid" : "6e21a578ed3ce90b",
+  "name" : "人脸审核模块",
   "time" : {
-    "start" : 1698386556831,
-    "stop" : 1698386556942,
-    "duration" : 111
+    "start" : 1730182796778,
+    "stop" : 1730182796869,
+    "duration" : 91
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7bbe8adddd825aa7",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565215,
-    "stop" : 1698386565364,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c71134e47d5e0a15",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386564893,
-    "stop" : 1698386565036,
-    "duration" : 143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a45f03e90dafef07",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386564574,
-    "stop" : 1698386564717,
-    "duration" : 143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be766c5abe496fdd",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386574297,
-    "stop" : 1698386574460,
-    "duration" : 163
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1d9f280f8f20b3a9",
-  "name" : "报到模块",
-  "time" : {
-    "start" : 1698386559772,
-    "stop" : 1698386559996,
-    "duration" : 224
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce0ce5550a67c1f",
-  "name" : "停车场模块",
-  "time" : {
-    "start" : 1698386603310,
-    "stop" : 1698386607686,
-    "duration" : 4376
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "96d6bf78edc92493",
-  "name" : "洗车报表/洗车记录/洗车模块",
-  "time" : {
-    "start" : 1698386627657,
-    "stop" : 1698386627809,
-    "duration" : 152
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a39e9b80099630b1",
+  "uid" : "ad51e4130fbeee3d",
   "name" : "用户模块",
   "time" : {
-    "start" : 1698386625201,
-    "stop" : 1698386625450,
-    "duration" : 249
+    "start" : 1730182937189,
+    "stop" : 1730182939764,
+    "duration" : 2575
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1a5d9fde5bae74f2",
+  "uid" : "159ede3894fe99e",
   "name" : "设备管理模块",
   "time" : {
-    "start" : 1698386578720,
-    "stop" : 1698386578902,
-    "duration" : 182
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f06a0cac4e738fd4",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386575323,
-    "stop" : 1698386575939,
-    "duration" : 616
+    "start" : 1730182791400,
+    "stop" : 1730182791502,
+    "duration" : 102
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3f5890564361b86a",
+  "uid" : "73ff857f43f0e40f",
   "name" : "巡更模块",
   "time" : {
-    "start" : 1698386602264,
-    "stop" : 1698386602421,
-    "duration" : 157
+    "start" : 1730182815253,
+    "stop" : 1730182815419,
+    "duration" : 166
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b73a56d17d8b8ada",
-  "name" : "登录/登录日志模块",
+  "uid" : "63dbeb90b777316",
+  "name" : "异常记录模块",
   "time" : {
-    "start" : 1698386593685,
-    "stop" : 1698386593818,
+    "start" : 1730182732361,
+    "stop" : 1730182732519,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc09cf06756cd279",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182871179,
+    "stop" : 1730182879616,
+    "duration" : 8437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f7e390439258b0d",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182771462,
+    "stop" : 1730182771602,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba2569f71181981f",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182808210,
+    "stop" : 1730182811708,
+    "duration" : 3498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3abcd4dec4f5993",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182784325,
+    "stop" : 1730182784767,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8ee087c0f9e2c71",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182733397,
+    "stop" : 1730182733573,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfd9c11570c73d0a",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182885880,
+    "stop" : 1730182888758,
+    "duration" : 2878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9df9634fbb69635",
+  "name" : "公告模块",
+  "time" : {
+    "start" : 1730182805918,
+    "stop" : 1730182806035,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4d04541fc32f3a2",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182786877,
+    "stop" : 1730182786983,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33e3f3253723097",
+  "name" : "公告模块",
+  "time" : {
+    "start" : 1730182805115,
+    "stop" : 1730182805209,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f49e608cdc0e6da0",
+  "name" : "异常记录模块",
+  "time" : {
+    "start" : 1730182732233,
+    "stop" : 1730182732357,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19255cc58238371b",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182798243,
+    "stop" : 1730182798667,
+    "duration" : 424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5ecdb5a40617874",
+  "name" : "答题模块",
+  "time" : {
+    "start" : 1730182821868,
+    "stop" : 1730182822029,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f6e0ea3d40e1470",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182737922,
+    "stop" : 1730182738055,
     "duration" : 133
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f1e0d1a66a12db96",
-  "name" : "出场模块",
+  "uid" : "ae91469086aec727",
+  "name" : "异常记录模块",
   "time" : {
-    "start" : 1698386588480,
-    "stop" : 1698386589089,
-    "duration" : 609
+    "start" : 1730182731593,
+    "stop" : 1730182732226,
+    "duration" : 633
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3ddee06f376a0b3f",
-  "name" : "报到模块",
+  "uid" : "4b729ddd545f1517",
+  "name" : "收银/晨会/权限模块",
   "time" : {
-    "start" : 1698386560002,
-    "stop" : 1698386560947,
-    "duration" : 945
+    "start" : 1730182780449,
+    "stop" : 1730182780543,
+    "duration" : 94
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4983d9471f921c94",
-  "name" : "人脸审核模块",
+  "uid" : "3e4177d3c0946a65",
+  "name" : "收银/晨会/权限模块",
   "time" : {
-    "start" : 1698386583913,
-    "stop" : 1698386584050,
-    "duration" : 137
+    "start" : 1730182778794,
+    "stop" : 1730182778936,
+    "duration" : 142
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e795a8204a22aa66",
-  "name" : "报到模块",
+  "uid" : "45ff6454863c97db",
+  "name" : "首页模块",
   "time" : {
-    "start" : 1698386563555,
-    "stop" : 1698386563669,
-    "duration" : 114
+    "start" : 1730182802745,
+    "stop" : 1730182802832,
+    "duration" : 87
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e4827c012604e17b",
-  "name" : "设备管理模块",
+  "uid" : "1fac01bf6928f5c0",
+  "name" : "收银/晨会/权限模块",
   "time" : {
-    "start" : 1698386577174,
-    "stop" : 1698386577290,
-    "duration" : 116
+    "start" : 1730182780040,
+    "stop" : 1730182780163,
+    "duration" : 123
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "58829c35b7b145da",
-  "name" : "保洁公司/公司模块",
-  "time" : {
-    "start" : 1698386574074,
-    "stop" : 1698386574203,
-    "duration" : 129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf54a844ef01aaf7",
+  "uid" : "d755c213d97f3496",
   "name" : "洗车报表/洗车记录/洗车模块",
   "time" : {
-    "start" : 1698386627818,
-    "stop" : 1698386628077,
-    "duration" : 259
+    "start" : 1730182945735,
+    "stop" : 1730182948989,
+    "duration" : 3254
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ca9e086aeee3bd9a",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386623692,
-    "stop" : 1698386624035,
-    "duration" : 343
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f6f2b3475890c266",
-  "name" : "回场模块",
-  "time" : {
-    "start" : 1698386586730,
-    "stop" : 1698386586859,
-    "duration" : 129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6d21966a0ed8b9d",
-  "name" : "岗前学习",
-  "time" : {
-    "start" : 1698386619929,
-    "stop" : 1698386620140,
-    "duration" : 211
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4522e7a4ab50ab02",
-  "name" : "泊位模块",
-  "time" : {
-    "start" : 1698386565999,
-    "stop" : 1698386566114,
-    "duration" : 115
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9562b5942aa9e124",
+  "uid" : "26e28858a2211c2f",
   "name" : "设备管理模块",
   "time" : {
-    "start" : 1698386579698,
-    "stop" : 1698386579832,
-    "duration" : 134
+    "start" : 1730182786477,
+    "stop" : 1730182786596,
+    "duration" : 119
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9241d23db41de82c",
-  "name" : "用户模块",
-  "time" : {
-    "start" : 1698386624493,
-    "stop" : 1698386624701,
-    "duration" : 208
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a4d97da02bf4c18",
-  "name" : "设备管理模块",
-  "time" : {
-    "start" : 1698386577796,
-    "stop" : 1698386577976,
-    "duration" : 180
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9ae0d600bd8d467b",
-  "name" : "司机管理",
-  "time" : {
-    "start" : 1698386581349,
-    "stop" : 1698386581499,
-    "duration" : 150
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2053ce7a79f5eab",
-  "name" : "角色模块",
-  "time" : {
-    "start" : 1698386612452,
-    "stop" : 1698386612567,
-    "duration" : 115
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0d8e161edc187c2",
+  "uid" : "324ad91621af6a0",
   "name" : "巡更模块",
   "time" : {
-    "start" : 1698386596636,
-    "stop" : 1698386596780,
+    "start" : 1730182807289,
+    "stop" : 1730182807414,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ba6c7cd21d6e046",
+  "name" : "角色模块",
+  "time" : {
+    "start" : 1730182822032,
+    "stop" : 1730182822252,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5faada2b64991f9",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800828,
+    "stop" : 1730182801271,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57f3633bcde05c47",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182763130,
+    "stop" : 1730182763326,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39b4b1750ae97222",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182802062,
+    "stop" : 1730182802152,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25ad6bc16052529f",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182784770,
+    "stop" : 1730182786045,
+    "duration" : 1275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69af53c13ce85561",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182895252,
+    "stop" : 1730182895405,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3ef3ef3a3c6a8ec",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182768317,
+    "stop" : 1730182768482,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8983ae39f610252",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791010,
+    "stop" : 1730182791101,
+    "duration" : 91
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5295e23354165ca5",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182806795,
+    "stop" : 1730182806987,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ea715960860f38e",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182770955,
+    "stop" : 1730182771136,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb9ecef4b1ddaa5",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182783489,
+    "stop" : 1730182783925,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0437b9d5ad0f65e",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182792857,
+    "stop" : 1730182792957,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0f47008b5deaaed",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182793764,
+    "stop" : 1730182793832,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "512b8c8601392ed1",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182806386,
+    "stop" : 1730182806488,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6ab9f5f122db59e",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182948995,
+    "stop" : 1730182949167,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68de48cc9cda9070",
+  "name" : "组织模块",
+  "time" : {
+    "start" : 1730182895541,
+    "stop" : 1730182898495,
+    "duration" : 2954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af878993db8c4b46",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182814902,
+    "stop" : 1730182814990,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c5be1b036d63c07",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734724,
+    "stop" : 1730182734827,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f91d57019c481ab1",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182891721,
+    "stop" : 1730182895248,
+    "duration" : 3527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15d36e8ef4b7fa1b",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182806039,
+    "stop" : 1730182806179,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27aa92fd96226309",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182798672,
+    "stop" : 1730182798927,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e47888a2bdf77223",
+  "name" : "公告模块",
+  "time" : {
+    "start" : 1730182805501,
+    "stop" : 1730182805640,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e782c9be5478d7e1",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182879621,
+    "stop" : 1730182882824,
+    "duration" : 3203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "702deb9f097eb96",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182780168,
+    "stop" : 1730182780312,
     "duration" : 144
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c3f7e6719ca07c03",
+  "uid" : "e0eacda208f87d2b",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182787108,
+    "stop" : 1730182788103,
+    "duration" : 995
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "851e1713b4831342",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182780704,
+    "stop" : 1730182780837,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5cf78167ff4e836",
   "name" : "泊位模块",
   "time" : {
-    "start" : 1698386566522,
-    "stop" : 1698386566665,
+    "start" : 1730182762779,
+    "stop" : 1730182762914,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9963a15287c5ea4",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182761233,
+    "stop" : 1730182761774,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a21e32fb24cee822",
+  "name" : "线路模块",
+  "time" : {
+    "start" : 1730182822504,
+    "stop" : 1730182822603,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6a2011844ad8693",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182763735,
+    "stop" : 1730182763887,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eebcfd0ef7be5e63",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182803937,
+    "stop" : 1730182804113,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7939aae85d72a9d7",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182952422,
+    "stop" : 1730182952527,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33e8ce13e4febb3e",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781246,
+    "stop" : 1730182781355,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f707c80bfc0b65d",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766621,
+    "stop" : 1730182766693,
+    "duration" : 72
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f61ae938f69548bb",
+  "name" : "组织模块",
+  "time" : {
+    "start" : 1730182898902,
+    "stop" : 1730182901831,
+    "duration" : 2929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbd1ca7f1478a6e3",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182762214,
+    "stop" : 1730182762385,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1351b2e8b967971a",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182814806,
+    "stop" : 1730182814899,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e11e59310dcd956",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182801811,
+    "stop" : 1730182801914,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7170e4afd17358",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182816103,
+    "stop" : 1730182818777,
+    "duration" : 2674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1c58b813e63f3c5",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791506,
+    "stop" : 1730182791601,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3dd921a081a33b2",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182738833,
+    "stop" : 1730182761229,
+    "duration" : 22396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dfa6b361148c50",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182792686,
+    "stop" : 1730182792852,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad14320d1d610726",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182807531,
+    "stop" : 1730182807647,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c28355191af4fbc",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182912057,
+    "stop" : 1730182917824,
+    "duration" : 5767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b2046b44a465272",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182786706,
+    "stop" : 1730182786872,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b1741012f6b5082",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182799498,
+    "stop" : 1730182799640,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca47a426ee3db0e",
+  "name" : "答题模块",
+  "time" : {
+    "start" : 1730182821396,
+    "stop" : 1730182821512,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "736544979386aba0",
+  "name" : "场站报表模块",
+  "time" : {
+    "start" : 1730182827046,
+    "stop" : 1730182827366,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d5f931c0a49f0ed",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804496,
+    "stop" : 1730182804616,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a1fb76f69cd5fc",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791970,
+    "stop" : 1730182792048,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "122486af8447c602",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182937030,
+    "stop" : 1730182937185,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db0d21cc05fbc03",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182807652,
+    "stop" : 1730182807775,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ff7f8f691134074",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734381,
+    "stop" : 1730182734473,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fc4adeedc27886",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182770822,
+    "stop" : 1730182770949,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98e9c05bea5df560",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789642,
+    "stop" : 1730182789786,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53b18fe78f0c44a0",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182736671,
+    "stop" : 1730182736875,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c159a887e82c9d24",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182811713,
+    "stop" : 1730182811887,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4227ae843c418ba8",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182786260,
+    "stop" : 1730182786323,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "294d404904a888fe",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182794893,
+    "stop" : 1730182794993,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bb5543a66b9b7bb",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182792228,
+    "stop" : 1730182792350,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3643af4450509ede",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182825345,
+    "stop" : 1730182825562,
+    "duration" : 217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52c7ee344a57ffc2",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182764007,
+    "stop" : 1730182764116,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "529453b54b4585aa",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182780318,
+    "stop" : 1730182780445,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfd9a8e7f846145d",
+  "name" : "人脸审核模块",
+  "time" : {
+    "start" : 1730182797125,
+    "stop" : 1730182797220,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ad6edc6bff351d",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182767549,
+    "stop" : 1730182767653,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd4e9fb11177f2c1",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182814994,
+    "stop" : 1730182815100,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92da0948fc128589",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182738349,
+    "stop" : 1730182738445,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b593d4130c4b0b77",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182768772,
+    "stop" : 1730182769704,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d710c10cba5238c9",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182799141,
+    "stop" : 1730182799281,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79bab0fe7b59640",
+  "name" : "场站报表模块",
+  "time" : {
+    "start" : 1730182829217,
+    "stop" : 1730182830204,
+    "duration" : 987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68a12c548c8f3015",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182826813,
+    "stop" : 1730182827043,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e0a7d94bd7a922a",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182788459,
+    "stop" : 1730182788759,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "600d7c64ba5417c2",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182908803,
+    "stop" : 1730182911724,
+    "duration" : 2921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e984942d27459345",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800172,
+    "stop" : 1730182800326,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fc78ac73364a2e8",
+  "name" : "人脸审核模块",
+  "time" : {
+    "start" : 1730182797328,
+    "stop" : 1730182797474,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b020576fa12a6766",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182792963,
+    "stop" : 1730182793381,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dda77620866165c5",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182952531,
+    "stop" : 1730182952642,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e436d8adc4a23ba",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800060,
+    "stop" : 1730182800164,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3c43e54b4ade328",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182764898,
+    "stop" : 1730182765029,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f76a70f046bfe133",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182780548,
+    "stop" : 1730182780699,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd65b8b7894f565a",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182823467,
+    "stop" : 1730182823704,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9fbfc0f314f8ac9",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182786600,
+    "stop" : 1730182786701,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec1a6283d0f23f28",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182815733,
+    "stop" : 1730182815855,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "733ec501f7a5bb42",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734955,
+    "stop" : 1730182735066,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9ecb6610c153846",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182908545,
+    "stop" : 1730182908671,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36475a41524671a5",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182811893,
+    "stop" : 1730182814216,
+    "duration" : 2323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a0641ac41eacf3",
+  "name" : "异常记录模块",
+  "time" : {
+    "start" : 1730182727754,
+    "stop" : 1730182731588,
+    "duration" : 3834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a3ecca6d82961a8",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182939771,
+    "stop" : 1730182939990,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edee65d13ccf6a67",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182815105,
+    "stop" : 1730182815248,
     "duration" : 143
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "631ba25e13964830",
-  "name" : "用户模块",
+  "uid" : "1cdf4090f987e882",
+  "name" : "洗车报表/洗车记录/洗车模块",
   "time" : {
-    "start" : 1698386622583,
-    "stop" : 1698386622766,
-    "duration" : 183
+    "start" : 1730182945494,
+    "stop" : 1730182945604,
+    "duration" : 110
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "22d9cb5bcb87ef53",
+  "uid" : "cff5f75784fedf2",
+  "name" : "答题模块",
+  "time" : {
+    "start" : 1730182821787,
+    "stop" : 1730182821866,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc90c7feb449e3ed",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800330,
+    "stop" : 1730182800425,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "883d7129aa3035e4",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182799285,
+    "stop" : 1730182799386,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a60284ff6e4e598",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182925082,
+    "stop" : 1730182927409,
+    "duration" : 2327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdfe66466699f92e",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789549,
+    "stop" : 1730182789639,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5000c6d7506f96bb",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182783329,
+    "stop" : 1730182783483,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6dadf8896a00d76",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182771727,
+    "stop" : 1730182771863,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d83e87f7133c4a85",
+  "name" : "场站报表模块",
+  "time" : {
+    "start" : 1730182827370,
+    "stop" : 1730182827505,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36321d3e1c0c73dd",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182786328,
+    "stop" : 1730182786473,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c186199b9531d191",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182888893,
+    "stop" : 1730182891562,
+    "duration" : 2669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3021fdbe849d8818",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182771320,
+    "stop" : 1730182771458,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c15478c38af1c6e4",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182737279,
+    "stop" : 1730182737917,
+    "duration" : 638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f5c27517c9b957c",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182799783,
+    "stop" : 1730182799888,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a740cd63ddef071",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182762919,
+    "stop" : 1730182763127,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e677a4c5fd66efba",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182945384,
+    "stop" : 1730182945489,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "910c18fb78eb9b41",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182799645,
+    "stop" : 1730182799779,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e98f41c07acd3f7c",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734009,
+    "stop" : 1730182734100,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d6f4e097c003743",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182793385,
+    "stop" : 1730182793576,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb25a660302b6b4f",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182803108,
+    "stop" : 1730182803246,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "275a5bb4181a8784",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182793837,
+    "stop" : 1730182793910,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c9684bd8bd41b85",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182770140,
+    "stop" : 1730182770303,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c3a4e04f6ea774b",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182766058,
+    "stop" : 1730182766307,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c49e70d854a53ba2",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182801674,
+    "stop" : 1730182801805,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2acc3d003b772dd0",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182807953,
+    "stop" : 1730182808110,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7b328a1aa371226",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800704,
+    "stop" : 1730182800825,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8807f9a710ad69e7",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182802155,
+    "stop" : 1730182802248,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "181bbb695616ff30",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766396,
+    "stop" : 1730182766510,
+    "duration" : 114
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cafe613742528f8",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791301,
+    "stop" : 1730182791396,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "274e9daeafce14f",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182788877,
+    "stop" : 1730182789008,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51c5b12ce99a2baf",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182901970,
+    "stop" : 1730182902051,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45dfe7faf90de008",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182902056,
+    "stop" : 1730182902190,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d628e60000f5fe16",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766312,
+    "stop" : 1730182766386,
+    "duration" : 74
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "37688867b12f97f4",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804371,
+    "stop" : 1730182804490,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9e77a394102b28c",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182815967,
+    "stop" : 1730182816100,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1786d06a3b3f457d",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182735791,
+    "stop" : 1730182735894,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aac6d6941900ede8",
+  "name" : "场站报表模块",
+  "time" : {
+    "start" : 1730182827512,
+    "stop" : 1730182829213,
+    "duration" : 1701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b142368ce6547c2f",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182738059,
+    "stop" : 1730182738344,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b79934d0fdddf1f",
+  "name" : "人车一致业务",
+  "time" : {
+    "start" : 1730182795093,
+    "stop" : 1730182795239,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ccc45c2a9fd0eb3",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182803737,
+    "stop" : 1730182803934,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "207972d7dca978a0",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182736395,
+    "stop" : 1730182736521,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a45e086f5c32574",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182790467,
+    "stop" : 1730182790600,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65b4f7a7f6f0fc6d",
+  "name" : "答题模块",
+  "time" : {
+    "start" : 1730182821680,
+    "stop" : 1730182821782,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4d54468b8caf492",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791726,
+    "stop" : 1730182791855,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "291a8ee870fdf499",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182802255,
+    "stop" : 1730182802445,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac31f95bb06e8cb0",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182891568,
+    "stop" : 1730182891716,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ab06e1ea1c0559",
+  "name" : "素材下发/素材中心模块",
+  "time" : {
+    "start" : 1730182736282,
+    "stop" : 1730182736392,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de7f1e861df9d59f",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791605,
+    "stop" : 1730182791723,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3e4381a4e504994",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182798931,
+    "stop" : 1730182799135,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f2b499e6c8503e3",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182790603,
+    "stop" : 1730182790789,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93f6e7a45a5bd26d",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182770724,
+    "stop" : 1730182770819,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4f4087008ff91a2",
+  "name" : "人脸审核模块",
+  "time" : {
+    "start" : 1730182797226,
+    "stop" : 1730182797322,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1a80034a7d2e2bb",
+  "name" : "角色模块",
+  "time" : {
+    "start" : 1730182822361,
+    "stop" : 1730182822500,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "948066479ac22f10",
+  "name" : "组织模块",
+  "time" : {
+    "start" : 1730182901838,
+    "stop" : 1730182901966,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c538b453411ad4a",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182797728,
+    "stop" : 1730182797846,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14698855488a8d48",
+  "name" : "岗前学习",
+  "time" : {
+    "start" : 1730182860386,
+    "stop" : 1730182871172,
+    "duration" : 10786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71105cd96c3569ee",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182949304,
+    "stop" : 1730182952419,
+    "duration" : 3115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30703121efd8736f",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182790028,
+    "stop" : 1730182790171,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c75c330130d47dd",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804750,
+    "stop" : 1730182804841,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b952561e2ab23dc",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182761779,
+    "stop" : 1730182762098,
+    "duration" : 319
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8250894bcdf4659",
+  "name" : "答题模块",
+  "time" : {
+    "start" : 1730182821516,
+    "stop" : 1730182821675,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e30562c7f37ddae",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765186,
+    "stop" : 1730182765351,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77de1f009da2c9bb",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789909,
+    "stop" : 1730182790023,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2db64aa0b1071f2",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781734,
+    "stop" : 1730182781893,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5aadbfd8a98b40",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182763331,
+    "stop" : 1730182763460,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "520eac0f458d81fc",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182820899,
+    "stop" : 1730182821048,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d16db6ae2fcbf5de",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804622,
+    "stop" : 1730182804742,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b3d3a7d65ce8d31",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182736880,
+    "stop" : 1730182737068,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee3a42caeadf3415",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182767244,
+    "stop" : 1730182767404,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c6db6fdfc6946b3",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182905281,
+    "stop" : 1730182908536,
+    "duration" : 3255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f72a6843f8bdd007",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734480,
+    "stop" : 1730182734624,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8ec98fbb0b0cf9a",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804241,
+    "stop" : 1730182804366,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca74a493cf6b355a",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182779925,
+    "stop" : 1730182780035,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4124262f4af5e6c5",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765500,
+    "stop" : 1730182765687,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6db94d1349bbd6ad",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182823709,
+    "stop" : 1730182825342,
+    "duration" : 1633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "754754789ec7f26e",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182818782,
+    "stop" : 1730182820894,
+    "duration" : 2112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2729513f8857de5",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182733714,
+    "stop" : 1730182733879,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29a1a118a745bfda",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765356,
+    "stop" : 1730182765496,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75e53ac06b0f6d28",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791110,
+    "stop" : 1730182791198,
+    "duration" : 88
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a32cde79759a9e6",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182955378,
+    "stop" : 1730182955490,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "734f8d600ecda6c8",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791205,
+    "stop" : 1730182791295,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "427fb6085625494f",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182771608,
+    "stop" : 1730182771722,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfe6a49b6fd17f9c",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182780840,
+    "stop" : 1730182780956,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63b30c23dc27fc72",
+  "name" : "岗前叮嘱模块",
+  "time" : {
+    "start" : 1730182795508,
+    "stop" : 1730182795622,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70b50b3a468fe575",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781084,
+    "stop" : 1730182781242,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62e47ba97ddbf240",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182733882,
+    "stop" : 1730182734003,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fa6d2795200980b",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182802836,
+    "stop" : 1730182802980,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57c9ad5a9fa6249",
+  "name" : "线路模块",
+  "time" : {
+    "start" : 1730182822609,
+    "stop" : 1730182822748,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd608a943b54b826",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804845,
+    "stop" : 1730182804993,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99c32d8d18a10e39",
+  "name" : "组织模块",
+  "time" : {
+    "start" : 1730182898497,
+    "stop" : 1730182898723,
+    "duration" : 226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d81c4c20d811284",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182927412,
+    "stop" : 1730182927553,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad8e308e5b010097",
+  "name" : "异常记录模块",
+  "time" : {
+    "start" : 1730182732527,
+    "stop" : 1730182732670,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c897843ae438f97d",
+  "name" : "人脸审核模块",
+  "time" : {
+    "start" : 1730182796874,
+    "stop" : 1730182796967,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10d29875b0830814",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182764232,
+    "stop" : 1730182764412,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f0a662acc56b054",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182780960,
+    "stop" : 1730182781079,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bbee97f067c2376",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182763586,
+    "stop" : 1730182763730,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42e5b0778c409b3c",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182929917,
+    "stop" : 1730182934517,
+    "duration" : 4600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a504dcf040a7107e",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182788226,
+    "stop" : 1730182788316,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23da64731e8f615",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182798118,
+    "stop" : 1730182798240,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4069c2deb1f0cd2f",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765035,
+    "stop" : 1730182765183,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d38daa21d429334e",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182942627,
+    "stop" : 1730182942749,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bde0db1a09c1e1d",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182732804,
+    "stop" : 1730182732975,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa86f73214d63f89",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182778940,
+    "stop" : 1730182779793,
+    "duration" : 853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e96668e0f07dbcc",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789319,
+    "stop" : 1730182789437,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c42e41bf2c51668d",
+  "name" : "人车一致业务",
+  "time" : {
+    "start" : 1730182795242,
+    "stop" : 1730182795339,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d9e2f93edf847e7",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182767756,
+    "stop" : 1730182767889,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "186c608c719d2e57",
+  "name" : "角色模块",
+  "time" : {
+    "start" : 1730182822255,
+    "stop" : 1730182822357,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77181f6b38ec1711",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182767035,
+    "stop" : 1730182767141,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c68764d67bc4f85d",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182736526,
+    "stop" : 1730182736668,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c93beadb6566e22",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182772001,
+    "stop" : 1730182778791,
+    "duration" : 6790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "510dba7e3d09800d",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182769973,
+    "stop" : 1730182770135,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65dc88292d00bb52",
+  "name" : "岗前叮嘱模块",
+  "time" : {
+    "start" : 1730182796044,
+    "stop" : 1730182796189,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "291efeb4210ddb6e",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182814670,
+    "stop" : 1730182814800,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3283ef242420970",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182767894,
+    "stop" : 1730182768016,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68883544135fe30c",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789012,
+    "stop" : 1730182789150,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ab7b502eb2f928a",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781494,
+    "stop" : 1730182781605,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab6b436bd84776fe",
   "name" : "公告模块",
   "time" : {
-    "start" : 1698386595117,
-    "stop" : 1698386595273,
-    "duration" : 156
+    "start" : 1730182805644,
+    "stop" : 1730182805910,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "815fc4747bf18cc1",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182738450,
+    "stop" : 1730182738829,
+    "duration" : 379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "272e923bedcfb9e",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182786051,
+    "stop" : 1730182786255,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e79afdbd7aa0091",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182815607,
+    "stop" : 1730182815728,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4bbac15a4630651",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182949171,
+    "stop" : 1730182949299,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff01004d7ab48b6e",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182770599,
+    "stop" : 1730182770720,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7899005b74f76d2c",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182769708,
+    "stop" : 1730182769859,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3ad106ac65c540c",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182904929,
+    "stop" : 1730182905068,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3c28b42523c7554",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182769864,
+    "stop" : 1730182769970,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fbf9cdc437e7ddb",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182794509,
+    "stop" : 1730182794883,
+    "duration" : 374
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec3a30280d101570",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182735368,
+    "stop" : 1730182735787,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "137c592b9d7b8608",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182803250,
+    "stop" : 1730182803480,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8fc7f0c7af9a621",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182770470,
+    "stop" : 1730182770594,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff88b5d5331223b8",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766862,
+    "stop" : 1730182766975,
+    "duration" : 113
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cea92a34b679191b",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182945609,
+    "stop" : 1730182945730,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4d633259a98c27",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182764671,
+    "stop" : 1730182764894,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f072259a64aa1b69",
+  "name" : "素材下发/素材中心模块",
+  "time" : {
+    "start" : 1730182736025,
+    "stop" : 1730182736158,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff383e7721ae4aa",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182917828,
+    "stop" : 1730182924933,
+    "duration" : 7105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da3a2a56206e20bc",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789789,
+    "stop" : 1730182789902,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a39f45c7a5934dc",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182790914,
+    "stop" : 1730182790997,
+    "duration" : 83
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6883d343097c971",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734104,
+    "stop" : 1730182734231,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a70c1aab0ca37ddd",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182911727,
+    "stop" : 1730182911840,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7dbd745c3783e5e",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182737072,
+    "stop" : 1730182737275,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13e55fda88768e2d",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182803485,
+    "stop" : 1730182803732,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4da79fbd5577271",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789157,
+    "stop" : 1730182789316,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "334a1ec7ab980e88",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182767406,
+    "stop" : 1730182767543,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c75050dc1dbc480",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182814218,
+    "stop" : 1730182814369,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d58ff538372c768",
+  "name" : "素材下发/素材中心模块",
+  "time" : {
+    "start" : 1730182735897,
+    "stop" : 1730182736018,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e422ebd5104defe",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182823121,
+    "stop" : 1730182823293,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1faa52ba108c34f1",
+  "name" : "人脸审核模块",
+  "time" : {
+    "start" : 1730182796972,
+    "stop" : 1730182797122,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfc9e40474b3f00",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765826,
+    "stop" : 1730182765922,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbd917c7e1f17322",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182793986,
+    "stop" : 1730182794075,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a85d69f6be46b2de",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766705,
+    "stop" : 1730182766752,
+    "duration" : 47
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f31fa49b097e90e7",
+  "name" : "素材下发/素材中心模块",
+  "time" : {
+    "start" : 1730182736163,
+    "stop" : 1730182736278,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feaf8424dcf83a47",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182939994,
+    "stop" : 1730182942620,
+    "duration" : 2626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f9b0e86fba1541",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182771140,
+    "stop" : 1730182771314,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c0add48fa7b9ce4",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734240,
+    "stop" : 1730182734378,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aad1fc1987a549b8",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182735230,
+    "stop" : 1730182735364,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59185871717845ed",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182814374,
+    "stop" : 1730182814667,
+    "duration" : 293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a01f14b054543532",
+  "name" : "线路模块",
+  "time" : {
+    "start" : 1730182822753,
+    "stop" : 1730182822907,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b178a6dac20d977d",
+  "name" : "公告模块",
+  "time" : {
+    "start" : 1730182805000,
+    "stop" : 1730182805102,
+    "duration" : 102
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86828f2c2811bd18",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182802595,
+    "stop" : 1730182802738,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41066a881086a6cd",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182815862,
+    "stop" : 1730182815963,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9e371acb28458a2",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182823299,
+    "stop" : 1730182823462,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "570362b042f73df4",
+  "name" : "人车一致业务",
+  "time" : {
+    "start" : 1730182794997,
+    "stop" : 1730182795088,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9861ae8c6035e91",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182955277,
+    "stop" : 1730182955374,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa01504936c1db61",
+  "name" : "人车一致业务",
+  "time" : {
+    "start" : 1730182795440,
+    "stop" : 1730182795504,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53e57d1febf9947a",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766517,
+    "stop" : 1730182766611,
+    "duration" : 94
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d208debd2f44457c",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182794079,
+    "stop" : 1730182794341,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4976d0ca39b7293",
+  "name" : "人脸审核模块",
+  "time" : {
+    "start" : 1730182796558,
+    "stop" : 1730182796773,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1fb97b738cccd29",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182908677,
+    "stop" : 1730182908798,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd91ba00de5a680b",
+  "name" : "公告模块",
+  "time" : {
+    "start" : 1730182805213,
+    "stop" : 1730182805378,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42676d87f850c69d",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182764560,
+    "stop" : 1730182764664,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39a9893037227ddb",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182794404,
+    "stop" : 1730182794499,
+    "duration" : 95
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9a5ef5d6302af53",
+  "name" : "公告模块",
+  "time" : {
+    "start" : 1730182805383,
+    "stop" : 1730182805496,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b4999f60a377033",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182802450,
+    "stop" : 1730182802591,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "758049847666e0d",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182790329,
+    "stop" : 1730182790461,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ee63d3bd1ac7823",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182934520,
+    "stop" : 1730182937024,
+    "duration" : 2504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88f97264619ad298",
+  "name" : "人车一致业务",
+  "time" : {
+    "start" : 1730182795347,
+    "stop" : 1730182795437,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36a3d5982015169b",
+  "name" : "卡模块",
+  "time" : {
+    "start" : 1730182771870,
+    "stop" : 1730182771996,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bf495e5c32a69c9",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182806493,
+    "stop" : 1730182806646,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22eb5cff8c2c145c",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734628,
+    "stop" : 1730182734718,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e862ddb21ce33e11",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182815424,
+    "stop" : 1730182815599,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbe4802a2f0348a4",
+  "name" : "答题模块",
+  "time" : {
+    "start" : 1730182821233,
+    "stop" : 1730182821391,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58bf99599732e78",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182924939,
+    "stop" : 1730182925075,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fba27720830e296",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781609,
+    "stop" : 1730182781728,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7dff7dca887389e",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182807419,
+    "stop" : 1730182807527,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8973cc433238a8e9",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182788321,
+    "stop" : 1730182788453,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de4d39caa4ebdcb",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182792051,
+    "stop" : 1730182792117,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5684d3285fa34c4",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182807166,
+    "stop" : 1730182807284,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65195a1c8130dc1c",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182791860,
+    "stop" : 1730182791968,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fd05024a20c2d06",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182763893,
+    "stop" : 1730182764001,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46cc69598e3bb862",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781901,
+    "stop" : 1730182782005,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70428278b473c871",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182942939,
+    "stop" : 1730182945381,
+    "duration" : 2442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a98e8c32693f9e85",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182767144,
+    "stop" : 1730182767240,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "900147ee0c56855a",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182735069,
+    "stop" : 1730182735224,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6646543120e2dbec",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182792355,
+    "stop" : 1730182792679,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a8387c7c907d0ff",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766985,
+    "stop" : 1730182767027,
+    "duration" : 42
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "98ae70962f5c06d2",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182763463,
+    "stop" : 1730182763581,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d14aa00a6f861b2b",
+  "name" : "收银/晨会/权限模块",
+  "time" : {
+    "start" : 1730182779799,
+    "stop" : 1730182779921,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "687f4ea79ff1bfe8",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182797991,
+    "stop" : 1730182798112,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5352ce53613cdd6c",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800572,
+    "stop" : 1730182800697,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47e0e4a9b32898a2",
+  "name" : "报到模块",
+  "time" : {
+    "start" : 1730182762388,
+    "stop" : 1730182762576,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79e01fb41e3e4379",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182789443,
+    "stop" : 1730182789545,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "362eb695edcc1708",
+  "name" : "岗前叮嘱模块",
+  "time" : {
+    "start" : 1730182795751,
+    "stop" : 1730182795856,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1ea7449c0f25e91",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182799892,
+    "stop" : 1730182800055,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b48446cf3c06d69",
+  "name" : "保洁公司/公司模块",
+  "time" : {
+    "start" : 1730182782216,
+    "stop" : 1730182782358,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "343ff64bd433afaa",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182786987,
+    "stop" : 1730182787102,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cd9840800315e09",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182782598,
+    "stop" : 1730182783324,
+    "duration" : 726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89d55d54a9464ac5",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182732980,
+    "stop" : 1730182733088,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b551d97f505b28a9",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182955166,
+    "stop" : 1730182955273,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6044e8facd2a2d70",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182782010,
+    "stop" : 1730182782098,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f10a7974dc41acb6",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182927556,
+    "stop" : 1730182929910,
+    "duration" : 2354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f29acec8e30b1d8",
+  "name" : "大华通道/大华门禁模块",
+  "time" : {
+    "start" : 1730182783928,
+    "stop" : 1730182784319,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65407022008627a9",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182788762,
+    "stop" : 1730182788873,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb43b154ff361051",
+  "name" : "场站报表模块",
+  "time" : {
+    "start" : 1730182830210,
+    "stop" : 1730182860270,
+    "duration" : 30060
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fb31567ad91372c4",
+  "name" : "调度模块",
+  "time" : {
+    "start" : 1730182825566,
+    "stop" : 1730182826810,
+    "duration" : 1244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "142bbca47043ce33",
+  "name" : "登录/登录日志模块",
+  "time" : {
+    "start" : 1730182804116,
+    "stop" : 1730182804238,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a331121d404ac16b",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182792121,
+    "stop" : 1730182792224,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86314d38ba5aacc",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182808115,
+    "stop" : 1730182808204,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27b0dabf3b750731",
+  "name" : "巡更模块",
+  "time" : {
+    "start" : 1730182806183,
+    "stop" : 1730182806383,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a96bdd89dd7139c5",
+  "name" : "线路模块",
+  "time" : {
+    "start" : 1730182822910,
+    "stop" : 1730182823011,
+    "duration" : 101
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57dd9692f5af1ad7",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765691,
+    "stop" : 1730182765821,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc22a9f7540a8fa",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182801918,
+    "stop" : 1730182802059,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e6ea52afed41058",
+  "name" : "泊位模块",
+  "time" : {
+    "start" : 1730182765927,
+    "stop" : 1730182766053,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dec2ebee80136e5",
+  "name" : "设备管理模块",
+  "time" : {
+    "start" : 1730182788107,
+    "stop" : 1730182788223,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be0ee18843c77b27",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182733277,
+    "stop" : 1730182733391,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b5384582c994150",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182957868,
+    "stop" : 1730182958013,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "475cfb098fbc7648",
+  "name" : "回场模块",
+  "time" : {
+    "start" : 1730182799394,
+    "stop" : 1730182799495,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b987ed6e033cf968",
+  "name" : "血压/血氧模块",
+  "time" : {
+    "start" : 1730182766761,
+    "stop" : 1730182766852,
+    "duration" : 91
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fad8b27b06f6ee8f",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182942753,
+    "stop" : 1730182942934,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df374bfaa43aed7b",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182902194,
+    "stop" : 1730182904922,
+    "duration" : 2728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee1132645d700201",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182768486,
+    "stop" : 1730182768767,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe350922313dd23d",
+  "name" : "停车场模块",
+  "time" : {
+    "start" : 1730182821052,
+    "stop" : 1730182821227,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4780a09476e9635d",
+  "name" : "车上报到/车道模块",
+  "time" : {
+    "start" : 1730182781362,
+    "stop" : 1730182781491,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55d333566bc84007",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182801276,
+    "stop" : 1730182801670,
+    "duration" : 394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e367c1aeab0e2542",
+  "name" : "司机管理",
+  "time" : {
+    "start" : 1730182793913,
+    "stop" : 1730182793982,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bbe12dec9d6b720",
+  "name" : "门禁/访客设备",
+  "time" : {
+    "start" : 1730182734831,
+    "stop" : 1730182734950,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "862b0488b9f83aac",
+  "name" : "洗车报表/洗车记录/洗车模块",
+  "time" : {
+    "start" : 1730182952645,
+    "stop" : 1730182955161,
+    "duration" : 2516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3738c891004f584f",
+  "name" : "组织模块",
+  "time" : {
+    "start" : 1730182895411,
+    "stop" : 1730182895537,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18a9712ab3631367",
+  "name" : "出场模块",
+  "time" : {
+    "start" : 1730182800431,
+    "stop" : 1730182800568,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93a14885f477abd4",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1730182802984,
+    "stop" : 1730182803102,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa1b59f9ad8a6a51",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182767656,
+    "stop" : 1730182767751,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "488e8fd0b272e601",
+  "name" : "用户模块",
+  "time" : {
+    "start" : 1730182905072,
+    "stop" : 1730182905271,
+    "duration" : 199
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4facfd28467d8eaf",
+  "name" : "车辆模块",
+  "time" : {
+    "start" : 1730182770307,
+    "stop" : 1730182770466,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ac2975732b78fff",
+  "name" : "组织模块",
+  "time" : {
+    "start" : 1730182898729,
+    "stop" : 1730182898897,
+    "duration" : 168
   },
   "status" : "passed",
   "severity" : "normal"

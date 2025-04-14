@@ -6,14 +6,14 @@
     "children" : [ {
       "name" : "AssertionError",
       "children" : [ {
-        "name" : "卡模块",
-        "uid" : "14c8151cf63f9aee",
+        "name" : "报到模块",
+        "uid" : "2b952561e2ab23dc",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386573574,
-          "stop" : 1698386573703,
-          "duration" : 129
+          "start" : 1730182761779,
+          "stop" : 1730182762098,
+          "duration" : 319
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,16 +21,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "[1.0, '卡模块/卡添加编辑', '卡添加-修改', 'post', '/buswash/card/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"content\": \"测试\",\\n  \"noticeId\": \"3\",\\n  \"title\": \"刘珂珂测试\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+        "parameters" : [ "[13.0, '报道模块/签到机', '签到机签到顺序流程', 'post', '/buswash/attend/sequential/flow/config', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"empId\": \"169329\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    \"MORNING_MEETING\",\\n    \"SENSITIVITY_TEST\",\\n    \"ALCOHOL_TEST\",\\n    \"TEMPERATURE_TEST\"\\n  ],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
       }, {
-        "name" : "设备管理模块",
-        "uid" : "be766c5abe496fdd",
+        "name" : "血压/血氧模块",
+        "uid" : "d628e60000f5fe16",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386574297,
-          "stop" : 1698386574460,
-          "duration" : 163
+          "start" : 1730182766312,
+          "stop" : 1730182766386,
+          "duration" : 74
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,16 +38,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "[2.0, '设备管理模块/设备绑定', '设备id绑定（报道机）', 'post', '/buswash/device/central/station/bind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"device_id\": \"10000460\",\\n  \"station_num\": \"1\"\\n}', 200.0, '{\\n  \"retcode\": \"40621\",\\n  \"retmsg\": \"站点不存在!\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"站点不存在!\"', '']" ]
+        "parameters" : [ "[1.0, '血压模块/血压内容', '记录血压内容', 'post', '/buswash/blood/pressure/add', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"checkTime\": \"2023-12-21 16:21:22\",\\n  \"diastolicBloodPressure\": \"90\",\\n  \"heartBeat\": \"\",\\n  \"jobId\": \"90179035\",\\n  \"systolicBloodPressure\": \"69\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
       }, {
-        "name" : "设备管理模块",
-        "uid" : "e257c2faf7f5ad3c",
+        "name" : "血压/血氧模块",
+        "uid" : "181bbb695616ff30",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386577980,
-          "stop" : 1698386578129,
-          "duration" : 149
+          "start" : 1730182766396,
+          "stop" : 1730182766510,
+          "duration" : 114
         },
         "flaky" : false,
         "newFailed" : false,
@@ -55,16 +55,118 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "[24.0, '设备管理模块/设备', '解绑设备', 'post', '/buswash/device/unbind', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"stationNum\": \"1\"\\n}', 200.0, '{\\n  \"retcode\": \"10075\",\\n  \"retmsg\": \"解绑失败\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"解绑失败\"', '']" ]
+        "parameters" : [ "[2.0, '血压模块/血压配置', '修改血压配置', 'post', '/buswash/blood/pressure/config/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"bloodPressureRange\": \"\",\\n  \"highBloodPressureContent\": \"测试文案1\",\\n  \"lowBloodPressureContent\": \"测试文案2\",\\n  \"stationIdList\": [1]\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
       }, {
-        "name" : "设备管理模块",
-        "uid" : "1a5d9fde5bae74f2",
+        "name" : "血压/血氧模块",
+        "uid" : "53e57d1febf9947a",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386578720,
-          "stop" : 1698386578902,
-          "duration" : 182
+          "start" : 1730182766517,
+          "stop" : 1730182766611,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[3.0, '血压模块/血压配置', '获取血压配置', 'get', '/buswash/blood/pressure/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 90003,\\n    \"stationId\": 1,\\n    \"bloodPressureRange\": \"\",\\n    \"highBloodPressureContent\": \"测试文案1\",\\n    \"lowBloodPressureContent\": \"测试文案2\",\\n    \"createTime\": \"2023-12-21 17:10:48\",\\n    \"updateTime\": \"2023-12-21 17:11:58\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "血压/血氧模块",
+        "uid" : "4f707c80bfc0b65d",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182766621,
+          "stop" : 1730182766693,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[4.0, '血压模块/血压数据', '获取血压数据', 'get', '/buswash/blood/pressure/info/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"10000294_123456\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"暂无血压信息数据\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"暂无血压信息数据\"', '']" ]
+      }, {
+        "name" : "血压/血氧模块",
+        "uid" : "a85d69f6be46b2de",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182766705,
+          "stop" : 1730182766752,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[5.0, '血压模块/血压检测次数', '获得血压计划检测次数', 'get', '/buswash/blood/pressure/planTimes/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"10000294_123456\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 618175,\\n    \"recordDate\": \"2023-12-18\",\\n    \"jobId\": \"1\",\\n    \"jobName\": \"测试\",\\n    \"orgNum\": \"1\",\\n    \"orgName\": \"测试\",\\n    \"checkTime\": 0,\\n    \"planTime\": 1,\\n    \"status\": 0,\\n    \"createTime\": \"2023-12-18 00:12:59\",\\n    \"updateTime\": \"2023-12-18 00:12:59\",\\n    \"lastCheckDate\": null\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "血压/血氧模块",
+        "uid" : "b987ed6e033cf968",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182766761,
+          "stop" : 1730182766852,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[6.0, '血压模块/血压流水', '查询血压数据流水', 'post', '/buswash/blood/pressure/search/records', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"jobId\": \"1\",\\n  \"range\": {\\n    \"dateEnd\": \"2023-12-21\",\\n    \"dateStart\": \"2023-12-21\"\\n  }\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "血压/血氧模块",
+        "uid" : "ff88b5d5331223b8",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182766862,
+          "stop" : 1730182766975,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[7.0, '血压模块/统计结果', '查询血压统计结果', 'post', '/buswash/blood/pressure/search/result', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"code\": 0,\\n  \"current\": 0,\\n  \"date\": \"2023-12-22\",\\n  \"jobId\": \"\",\\n  \"orgNumList\": [],\\n  \"perSize\": 0\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"totalPlan\": 0,\\n    \"finishNum\": 0,\\n    \"unfinishedNum\": 0,\\n    \"recordList\": null\\n  },\\n  \"total\": 0,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "血压/血氧模块",
+        "uid" : "5a8387c7c907d0ff",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182766985,
+          "stop" : 1730182767027,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[8.0, '血压模块/添加血压内容', '签到机添加血压内容', 'post', '/buswash/blood/pressure/station/add', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"checkTime\": \"2023-12-26 10:10:10\",\\n  \"diastolicBloodPressure\": \"96\",\\n  \"heartBeat\": \"60\",\\n  \"jobId\": \"90179035\",\\n  \"systolicBloodPressure\": \"69\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "8a39f45c7a5934dc",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182790914,
+          "stop" : 1730182790997,
+          "duration" : 83
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +177,30 @@
         "parameters" : [ "[29.0, '设备管理模块拓展/签到机配置', '创建签到机配置模板', 'post', '/buswash/device/extra/central/template/create', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"adminPassword\": \"\",\\n  \"faceOrgNum\": \"\",\\n  \"judgeType\": [],\\n  \"loginType\": [\\n    1\\n  ],\\n  \"searchType\": [],\\n  \"name\": \"测试1\",\\n  \"disinfectNumberOfPeople\": 0,\\n  \"disinfectTime\": 0\\n}', 200.0, '{\\n  \"retcode\": \"40007\",\\n  \"retmsg\": \"模板名称重复\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"success\":false', '']" ]
       }, {
         "name" : "设备管理模块",
-        "uid" : "8e4cd2af9281052d",
+        "uid" : "d8983ae39f610252",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386579025,
-          "stop" : 1698386579140,
-          "duration" : 115
+          "start" : 1730182791010,
+          "stop" : 1730182791101,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[30.0, '设备管理模块拓展/签到机配置', '删除签到机配置模板', 'post', '/buswash/device/extra/central/template/delete', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 46\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+      }, {
+        "name" : "设备管理模块",
+        "uid" : "75e53ac06b0f6d28",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182791110,
+          "stop" : 1730182791198,
+          "duration" : 88
         },
         "flaky" : false,
         "newFailed" : false,
@@ -91,14 +210,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "[31.0, '设备管理模块拓展/签到机配置', '查询签到机配置所有模板', 'post', '/buswash/device/extra/central/template/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '内容较多 暂不写入表格', '\"retmsg\":\"操作成功\"', '']" ]
       }, {
-        "name" : "设备管理模块",
-        "uid" : "20cd1cef21d679cd",
+        "name" : "司机管理",
+        "uid" : "39a9893037227ddb",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386579581,
-          "stop" : 1698386579687,
-          "duration" : 106
+          "start" : 1730182794404,
+          "stop" : 1730182794499,
+          "duration" : 95
         },
         "flaky" : false,
         "newFailed" : false,
@@ -106,33 +225,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "[35.0, '设备管理模块拓展/签到机配置', '签到机配置下发', 'get', '/buswash/device/extra/notify/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"40006\",\\n  \"retmsg\": \"设备编号不存在\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"设备编号不存在\"', '']" ]
-      }, {
-        "name" : "设备管理模块",
-        "uid" : "f71403b87fad5211",
-        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
-        "status" : "failed",
-        "time" : {
-          "start" : 1698386580292,
-          "stop" : 1698386580446,
-          "duration" : 154
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "[41.0, '设备异常信息模块/设备异常信息', '设备异常信息查询', 'post', '/buswash/device/abnormal/info/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"end_time\": \"\",\\n  \"per_size\": 1,\\n  \"start_time\": \"\",\\n  \"station_num\": \"\",\\n  \"type\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 2941,\\n      \"station_num\": \"10000294\",\\n      \"message\": \"测试1\",\\n      \"emp_job_id\": \"1\",\\n      \"emp_name\": \"1\",\\n      \"ic_card\": \"1\",\\n      \"org_num\": null,\\n      \"org_name\": null,\\n      \"state\": 1,\\n      \"create_time\": \"2023-09-27 10:36:22\",\\n      \"update_time\": \"2023-09-27 10:36:22\"\\n    }\\n  ],\\n  \"total\": 978,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+        "parameters" : [ "[14.0, '司机管理/司机查询', '司机查询', 'post', '/buswash/employee/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"perSize\": 20,\\n  \"empNameOrJobId\": \"刘珂珂\",\\n  \"orgNumList\": [\\n    \"100016\"\\n  ],\\n  \"routeName\": \"\",\\n  \"healthCode\": \"\",\\n  \"nucleicResult\": null,\\n  \"orderBy\": \"\",\\n  \"icCard\": \"90179035\",\\n  \"phoneNum\": \"\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 252580,\\n      \"jobId\": \"90179035\",\\n      \"oldJobId\": null,\\n      \"empName\": \"刘珂珂1\",\\n      \"idCard\": \"412829199807070099\",\\n      \"icCard\": \"90179035\",\\n      \"icHardCard\": \"3846586563\",\\n      \"telephone\": \"15290179035\",\\n      \"orgNum\": \"100016\",\\n      \"orgName\": \"测试部车队\",\\n      \"ownRouteName\": null,\\n      \"ownRouteId\": null,\\n      \"role\": \"EMPLOYEE\",\\n      \"sex\": null,\\n      \"licenseStartDate\": null,\\n      \"drivingExperience\": null,\\n      \"remark\": null,\\n      \"lastNucleicSampleTime\": null,\\n      \"sampleCumulativeTime\": null,\\n      \"sampleOverFlag\": false,\\n      \"lastNucleicReportTime\": null,\\n      \"reportCumulativeTime\": null,\\n      \"reportOverFlag\": false,\\n      \"nucleicResult\": null,\\n      \"nucleicResultName\": null,\\n      \"healthCode\": \"绿码\",\\n      \"healthRefreshTime\": \"2022-10-27 01:16:23\",\\n      \"isFaceLib\": true\\n    }\\n  ],\\n  \"total\": 1,\\n  \"success\": true\\n}', '\"empName\":\"刘珂珂1\"']" ]
       }, {
         "name" : "司机管理",
-        "uid" : "ee429cf9acc90a08",
+        "uid" : "6fbf9cdc437e7ddb",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386582592,
-          "stop" : 1698386582656,
-          "duration" : 64
+          "start" : 1730182794509,
+          "stop" : 1730182794883,
+          "duration" : 374
         },
         "flaky" : false,
         "newFailed" : false,
@@ -140,33 +242,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "[13.0, '司机管理/司机查询', '单司机查询', 'post', '/buswash/employee/safe/find', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"10000294_123456\"\\n}', '{\\n  \"ic_hard_card\": \"3846586563\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 260125,\\n    \"job_id\": \"90179035\",\\n    \"old_job_id\": null,\\n    \"emp_id\": \"1624506313031\",\\n    \"emp_name\": \"刘珂珂1\",\\n    \"sex\": null,\\n    \"id_card\": null,\\n    \"telephone\": \"15290179035\",\\n    \"post_name\": \"574b5fe75ba0444b822f51b70b4b19db\",\\n    \"start_date\": null,\\n    \"org_num\": \"100016\",\\n    \"org_name\": \"测试部车队\",\\n    \"own_route_name\": null,\\n    \"ic_card\": \"98799999999\",\\n    \"today_route_name\": null,\\n    \"extend_resp\": null\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"job_id\":\"90179035\"']" ]
-      }, {
-        "name" : "出场模块",
-        "uid" : "c482b4b0440df5e3",
-        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
-        "status" : "failed",
-        "time" : {
-          "start" : 1698386589885,
-          "stop" : 1698386590007,
-          "duration" : 122
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "[15.0, '出场配置模块/出场配置', '允许出场配置查询单查', 'post', '/buswash/out/allow/config/search/byId', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"siteId\": 35\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 30,\\n    \"siteId\": 35,\\n    \"unoperateAllowMin\": 60,\\n    \"unoperateAllowStatus\": 0,\\n    \"operateAllowMin\": 60,\\n    \"operateAllowStatus\": 0,\\n    \"operateBeforeAttend\": 0,\\n    \"operateOnBusAttend\": 0,\\n    \"unoperateBeforeAttend\": 1,\\n    \"unoperateOnBusAttend\": 1,\\n    \"operateAllowBeforeSecond\": 300,\\n    \"operateAllowAfterSecond\": 300,\\n    \"unoperateAllowBeforeSecond\": 1200,\\n    \"unoperateAllowAfterSecond\": 1200\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"id\":30', '']" ]
+        "parameters" : [ "[15.0, '司机管理/司机查询', '司机信息模糊查询', 'post', '/buswash/employee/search/fuzzy', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"perSize\": 1,\\n  \"query\": \"刘珂珂\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"empId\": \"1624506313031\",\\n      \"jobId\": \"90179035\",\\n      \"empName\": \"刘珂珂1\",\\n      \"orgNum\": \"100016\",\\n      \"orgName\": \"测试部车队\"\\n    }\\n  ],\\n  \"total\": 3,\\n  \"success\": true\\n}', '\"empName\":\"刘珂珂1\"']" ]
       }, {
         "name" : "公告模块",
-        "uid" : "aabca792f4e0e31f",
+        "uid" : "b178a6dac20d977d",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
-          "start" : 1698386594245,
-          "stop" : 1698386594392,
-          "duration" : 147
+          "start" : 1730182805000,
+          "stop" : 1730182805102,
+          "duration" : 102
         },
         "flaky" : false,
         "newFailed" : false,
@@ -174,10 +259,69 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "[1.0, '公告模块/创建与编辑', '公告创建和编辑', 'post', '/buswash/system/notice/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"content\": \"测试\",\\n  \"noticeId\": \"3\",\\n  \"title\": \"刘珂珂测试\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+        "parameters" : [ "[1.0, '公告模块/创建与编辑', '公告创建和编辑', 'post', '/buswash/system/notice/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"content\": \"测试\",\\n  \"noticeId\": \"2\",\\n  \"title\": \"刘珂珂测试\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+      }, {
+        "name" : "线路模块",
+        "uid" : "a96bdd89dd7139c5",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182822910,
+          "stop" : 1730182823011,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[4.0, '线路模块/线路修改', '线路配置修改', 'post', '/buswash/route/usable/config/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 30355,\\n  \"routeName\": \"187路\",\\n  \"operateStatus\": 1,\\n  \"operateTime\": \"03:50:01\",\\n  \"unoperateStatus\": 1,\\n  \"unoperateTime\": \"03:50:01\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+      }, {
+        "name" : "用户模块",
+        "uid" : "488e8fd0b272e601",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1730182905072,
+          "stop" : 1730182905271,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[5.0, '用户模块/用户添加', '用户添加-更新', 'post', '/buswash/user/cu', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 121074,\\n  \"phone\": \"18028636978\",\\n  \"account\": \"ceshilkk\",\\n  \"jobNumber\": \"90909090\",\\n  \"card\": null,\\n  \"department\": null,\\n  \"smsStatus\": \"DISABLE\",\\n  \"smsTypeList\": \"\",\\n  \"siteId\": 14,\\n  \"status\": 1,\\n  \"siteName\": \"九和路停车场\",\\n  \"orgNum\": \"55151104125204140112\",\\n  \"orgName\": \"五公司\",\\n  \"name\": \"测试lkk\",\\n  \"roleList\": [\\n    {\\n      \"id\": 270,\\n      \"name\": \"刘珂珂\",\\n      \"siteId\": 1,\\n      \"description\": \"刘珂珂\",\\n      \"level\": 30,\\n      \"remark\": \"测试\",\\n      \"permissionList\": null,\\n      \"createTime\": \"2021-03-18 10:19:29\",\\n      \"updateTime\": \"2023-05-30 10:12:38\"\\n    }\\n  ],\\n  \"userSmsTypeMapList\": [],\\n  \"level\": 30,\\n  \"createTime\": \"2023-09-25\",\\n  \"updateTime\": \"2023-09-25\",\\n  \"roleIdList\": [\\n    270\\n  ],\\n  \"sendContentList\": [],\\n  \"orgId\": [\\n    \"070402000917000\",\\n    \"55151104125204140112\",\\n    14\\n  ]\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 121074,\\n    \"phone\": \"18028636978\",\\n    \"account\": \"ceshilkk\",\\n    \"jobNumber\": \"90909090\",\\n    \"card\": null,\\n    \"department\": null,\\n    \"smsStatus\": \"DISABLE\",\\n    \"smsTypeList\": null,\\n    \"siteId\": 14,\\n    \"status\": 1,\\n    \"siteName\": \"九和路停车场\",\\n    \"orgNum\": \"55151104125204140112\",\\n    \"orgName\": \"五公司\",\\n    \"name\": \"测试lkk\",\\n    \"roleList\": [\\n      {\\n        \"id\": 270,\\n        \"name\": \"刘珂珂\",\\n        \"siteId\": 1,\\n        \"description\": \"刘珂珂\",\\n        \"level\": 30,\\n        \"remark\": \"测试\",\\n        \"permissionList\": null,\\n        \"createTime\": \"2021-03-18 10:19:29\",\\n        \"updateTime\": \"2023-05-30 10:12:38\"\\n      }\\n    ],\\n    \"userSmsTypeMapList\": [],\\n    \"level\": 30,\\n    \"createTime\": \"2023-09-25\",\\n    \"updateTime\": \"2023-09-25\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', 'retmsg\":\"操作成功\"', '']" ]
       } ],
       "uid" : "a0017ad855102fea08b8682d27fec4ca"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='buswash.jintdev.com', port=443): Read timed out. (read timeout=30.0)",
+      "children" : [ {
+        "name" : "场站报表模块",
+        "uid" : "bb43b154ff361051",
+        "parentUid" : "4307a77b23239a54a59a77f4eeb7ef9c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730182830210,
+          "stop" : 1730182860270,
+          "duration" : 30060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[5.0, '场站报表模块/pdf导出', '晨会个人台账pdf导出', 'post', '/buswash/sitereport/morningMeeting/personal/ledger', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"date\": \"2023-11-07\",\\n  \"orgNum\": \"0\"\\n}', 200.0, '', '']" ]
+      } ],
+      "uid" : "4307a77b23239a54a59a77f4eeb7ef9c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

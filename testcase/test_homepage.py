@@ -8,7 +8,7 @@ from common import public
 from common import Assert
 
 
-localexcel = public.get_xls('HomeAttendGatExcel.xlsx', 'home')
+localexcel = public.get_xls('HomeExcel.xlsx', 'home')
 
 from common import publicrequest
 
@@ -41,7 +41,7 @@ class TestHomePage:
 
         #断言
         # assert getreq.status_code == 200
-        Assert.Assertions.assert_code(self, reqs.status_code,200)
+        Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])
 
         #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text
         Assert.Assertions.assert_expect(self, excelist[9], reqs.text)

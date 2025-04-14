@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 登录/登录日志模块
+# 车上报到/车道模块
 import json
 
 import allure
@@ -8,19 +8,19 @@ from common import public
 from common import Assert
 
 
-localexcel = public.get_xls('LoginExcel.xlsx', 'login')
+localexcel = public.get_xls('AbnormalExcel.xlsx', 'central')
 
 from common import publicrequest
 
 setrq = publicrequest.Config()
 
 
-class TestLoginPage:
+class TestCentralPage:
     @pytest.mark.parametrize('excelist', localexcel)
-    @allure.feature('test_loginpage')
-    @allure.title('登录/登录日志模块')
+    @allure.feature('test_centralpage')
+    @allure.title('车上报到/车道模块')
     @allure.story('100%')
-    def test_login(self, excelist):
+    def test_central(self, excelist):
         #设置url
         setrq.set_url(excelist[4])
         # 请求头 header

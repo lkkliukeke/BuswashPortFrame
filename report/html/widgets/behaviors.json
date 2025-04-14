@@ -1,8 +1,19 @@
 {
-  "total" : 25,
+  "total" : 33,
   "items" : [ {
-    "uid" : "73b919b18347b55f00673b5779001898",
-    "name" : "test_cardpage",
+    "uid" : "d445ef462c0009c8dff47016bd0fcd7b",
+    "name" : "test_attendpage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fa62465075e7e269edb82c435ec8538d",
+    "name" : "test_bloodpage",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -34,17 +45,6 @@
       "total" : 1
     }
   }, {
-    "uid" : "919b1d21d1fc37b09d48b866b05bcef4",
-    "name" : "test_gateoutpage",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "45d8bf300658e0ebbb57aebac65b1ca6",
     "name" : "test_noticepage",
     "statistic" : {
@@ -56,52 +56,52 @@
       "total" : 1
     }
   }, {
+    "uid" : "e7a6af944e7918a965440bebbe99004e",
+    "name" : "test_routepage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0658822cc9abf9949708e4f15502ad06",
+    "name" : "test_userpage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7ed875d128d629182838c67584cc0175",
+    "name" : "test_sitereportpage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f45738385f2387bea50595b3cd3ef24b",
+    "name" : "test_abnormalpage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "45b0f0b4504013edc0ce6962c9621fb7",
     "name" : "test_accesspage",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "737bad3fc0f606cbf0df3c01137315d2",
-    "name" : "test_attachpage",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "d445ef462c0009c8dff47016bd0fcd7b",
-    "name" : "test_attendpage",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e05e899821027dd7b6abc1d4892b33a5",
-    "name" : "test_berthpage",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "8f69983e18a5f3baba75f8cf46eb6784",
-    "name" : "test_buspage",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

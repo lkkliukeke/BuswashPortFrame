@@ -42,6 +42,10 @@ class Config():
         self.html_report_path = Config.path_dir + '\\report\\html'
 
 
+        #定义测试用例路径
+        self.testcase_path = Config.path_dir + '\\testcase'
+
+
     #设置参数值
     def set_url(self, url):
         self.url = agreement + '://' + baseurl + url
@@ -88,7 +92,7 @@ class Config():
         except TimeoutError:
             return '出错了'
 
-    # 定义post方法
+    # 定义put方法
     def putreq(self):
         try:
 

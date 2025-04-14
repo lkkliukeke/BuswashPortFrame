@@ -16,6 +16,7 @@ if __name__ == '__main__':
     shell = Shell.Shell()
     xml_report_path = redcon.xml_report_path
     html_report_path = redcon.html_report_path
+    testcase_path = redcon.testcase_path
     print(xml_report_path)
     print(html_report_path)
 
@@ -33,6 +34,8 @@ if __name__ == '__main__':
 
     # 定义测试集
     arg = ['-s', '-q', '--alluredir', xml_report_path]
+    #此执行语句可用于：指定测试用例执行文件， 如下为---指定执行测试用例为testcase文件夹下的所有.py用例
+    # arg = [testcase_path, '-s', '-q', '--alluredir', xml_report_path]
     pytest.main(arg)
 
     # 未生成html文件时 首次运行使用
