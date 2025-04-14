@@ -1,0 +1,69 @@
+{
+  "uid" : "c6883d343097c971",
+  "name" : "门禁/访客设备",
+  "fullName" : "testcase.test_accesspage.TestAccessPage#test_access",
+  "historyId" : "6d4e9f4a10219bd64fdd9f1a160b0d01",
+  "time" : {
+    "start" : 1730182734104,
+    "stop" : 1730182734231,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_accesspage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_accesspage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccessPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_accesspage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[10.0, '门禁设备/设备下发人脸', '门禁设备下发人员人脸', 'post', '/buswash/access/device/push/employee/face', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 252580\\n}', 200.0, '{\\n  \"retcode\": \"40001\",\\n  \"retmsg\": \"该人员组织无绑定设备\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"该人员组织无绑定设备\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6883d343097c971.json",
+  "parameterValues" : [ "[10.0, '门禁设备/设备下发人脸', '门禁设备下发人员人脸', 'post', '/buswash/access/device/push/employee/face', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 252580\\n}', 200.0, '{\\n  \"retcode\": \"40001\",\\n  \"retmsg\": \"该人员组织无绑定设备\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"retmsg\":\"该人员组织无绑定设备\"']" ]
+}

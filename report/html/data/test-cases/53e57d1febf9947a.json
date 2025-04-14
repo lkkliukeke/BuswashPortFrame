@@ -1,0 +1,93 @@
+{
+  "uid" : "53e57d1febf9947a",
+  "name" : "血压/血氧模块",
+  "fullName" : "testcase.test_bloodpage.TestBloodPage#test_blood",
+  "historyId" : "7233d85e11b09c1a83776f6a386ddf1f",
+  "time" : {
+    "start" : 1730182766517,
+    "stop" : 1730182766611,
+    "duration" : 94
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_bloodpage.TestBloodPage object at 0x000001F71804D630>\nexcelist = [3.0, '血压模块/血压配置', '获取血压配置', 'get', '/buswash/blood/pressure/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_bloodpage')\n    @allure.title('血压/血氧模块')\n    @allure.story('100%')\n    def test_blood(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n>       Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])\n\ntestcase\\test_bloodpage.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_bloodpage.TestBloodPage object at 0x000001F71804D630>\ncode = 404, expected_code = 200.0\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert int(code) == int(expected_code)\nE           AssertionError\n\ncommon\\Assert.py:15: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_bloodpage.TestBloodPage object at 0x000001F71804D630>\nexcelist = [3.0, '血压模块/血压配置', '获取血压配置', 'get', '/buswash/blood/pressure/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_bloodpage')\n    @allure.title('血压/血氧模块')\n    @allure.story('100%')\n    def test_blood(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n>       Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])\n\ntestcase\\test_bloodpage.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_bloodpage.TestBloodPage object at 0x000001F71804D630>\ncode = 404, expected_code = 200.0\n\n    def assert_code(self, code, expected_code):\n        try:\n>           assert int(code) == int(expected_code)\nE           AssertionError\n\ncommon\\Assert.py:15: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c224f9287fc0bd51",
+      "name" : "log",
+      "source" : "c224f9287fc0bd51.txt",
+      "type" : "text/plain",
+      "size" : 88
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_bloodpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_bloodpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBloodPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_bloodpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[3.0, '血压模块/血压配置', '获取血压配置', 'get', '/buswash/blood/pressure/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 90003,\\n    \"stationId\": 1,\\n    \"bloodPressureRange\": \"\",\\n    \"highBloodPressureContent\": \"测试文案1\",\\n    \"lowBloodPressureContent\": \"测试文案2\",\\n    \"createTime\": \"2023-12-21 17:10:48\",\\n    \"updateTime\": \"2023-12-21 17:11:58\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "53e57d1febf9947a.json",
+  "parameterValues" : [ "[3.0, '血压模块/血压配置', '获取血压配置', 'get', '/buswash/blood/pressure/config/1', '{\\n   \"Content-Type\":\"application/x-www-form-urlencoded\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"id\": 90003,\\n    \"stationId\": 1,\\n    \"bloodPressureRange\": \"\",\\n    \"highBloodPressureContent\": \"测试文案1\",\\n    \"lowBloodPressureContent\": \"测试文案2\",\\n    \"createTime\": \"2023-12-21 17:10:48\",\\n    \"updateTime\": \"2023-12-21 17:11:58\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

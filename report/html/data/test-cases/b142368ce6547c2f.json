@@ -1,0 +1,69 @@
+{
+  "uid" : "b142368ce6547c2f",
+  "name" : "报到模块",
+  "fullName" : "testcase.test_attendpage.TestAttendPage#test_attend",
+  "historyId" : "adfe4ac34531f23c02d01d58b5cf5597",
+  "time" : {
+    "start" : 1730182738059,
+    "stop" : 1730182738344,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "feature",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_attendpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAttendPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_attendpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[8.0, '报道模块/司机考勤', '考勤记录导出', 'post', '/buswash/attend/manage/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateList\": [\\n    \"2023-09-12\",\\n    \"2023-09-12\"\\n  ],\\n  \"jobId\": \"\",\\n  \"busNum\": \"\",\\n  \"siteIdList\": [\\n    35\\n  ],\\n  \"orgNumList\": [\\n    \"55151104152042941057\"\\n  ],\\n  \"current\": -1\\n}', 200.0, '', '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b142368ce6547c2f.json",
+  "parameterValues" : [ "[8.0, '报道模块/司机考勤', '考勤记录导出', 'post', '/buswash/attend/manage/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateList\": [\\n    \"2023-09-12\",\\n    \"2023-09-12\"\\n  ],\\n  \"jobId\": \"\",\\n  \"busNum\": \"\",\\n  \"siteIdList\": [\\n    35\\n  ],\\n  \"orgNumList\": [\\n    \"55151104152042941057\"\\n  ],\\n  \"current\": -1\\n}', 200.0, '', '', '']" ]
+}

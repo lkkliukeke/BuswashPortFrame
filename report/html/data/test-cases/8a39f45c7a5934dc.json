@@ -1,0 +1,93 @@
+{
+  "uid" : "8a39f45c7a5934dc",
+  "name" : "设备管理模块",
+  "fullName" : "testcase.test_devicepage.TestDevicePage#test_device",
+  "historyId" : "3d67f00df424f1178945e90c23976723",
+  "time" : {
+    "start" : 1730182790914,
+    "stop" : 1730182790997,
+    "duration" : 83
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001F7180C9510>\nexcelist = [29.0, '设备管理模块拓展/签到机配置', '创建签到机配置模板', 'post', '/buswash/device/extra/central/template/create', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_devicepage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001F7180C9510>\nexpect_msg = '\"success\":false'\nactual_msg = '{\"retcode\":\"0\",\"retmsg\":\"模版功能已停用\",\"data\":null,\"total\":null,\"success\":true}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_devicepage.TestDevicePage object at 0x000001F7180C9510>\nexcelist = [29.0, '设备管理模块拓展/签到机配置', '创建签到机配置模板', 'post', '/buswash/device/extra/central/template/create', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_devicepage')\n    @allure.title('设备管理模块')\n    @allure.story('100%')\n    def test_device(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_devicepage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_devicepage.TestDevicePage object at 0x000001F7180C9510>\nexpect_msg = '\"success\":false'\nactual_msg = '{\"retcode\":\"0\",\"retmsg\":\"模版功能已停用\",\"data\":null,\"total\":null,\"success\":true}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d43d4e3bf1cc458a",
+      "name" : "log",
+      "source" : "d43d4e3bf1cc458a.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "feature",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_devicepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDevicePage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_devicepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[29.0, '设备管理模块拓展/签到机配置', '创建签到机配置模板', 'post', '/buswash/device/extra/central/template/create', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"adminPassword\": \"\",\\n  \"faceOrgNum\": \"\",\\n  \"judgeType\": [],\\n  \"loginType\": [\\n    1\\n  ],\\n  \"searchType\": [],\\n  \"name\": \"测试1\",\\n  \"disinfectNumberOfPeople\": 0,\\n  \"disinfectTime\": 0\\n}', 200.0, '{\\n  \"retcode\": \"40007\",\\n  \"retmsg\": \"模板名称重复\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"success\":false', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a39f45c7a5934dc.json",
+  "parameterValues" : [ "[29.0, '设备管理模块拓展/签到机配置', '创建签到机配置模板', 'post', '/buswash/device/extra/central/template/create', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"adminPassword\": \"\",\\n  \"faceOrgNum\": \"\",\\n  \"judgeType\": [],\\n  \"loginType\": [\\n    1\\n  ],\\n  \"searchType\": [],\\n  \"name\": \"测试1\",\\n  \"disinfectNumberOfPeople\": 0,\\n  \"disinfectTime\": 0\\n}', 200.0, '{\\n  \"retcode\": \"40007\",\\n  \"retmsg\": \"模板名称重复\",\\n  \"data\": null,\\n  \"total\": null,\\n  \"success\": false\\n}', '\"success\":false', '']" ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "8ad53c1aa2883f68",
+  "name" : "岗前叮嘱模块",
+  "fullName" : "testcase.test_exhortationpage.TestExhortationPage#test_exhortation",
+  "historyId" : "59bae6b6154593d9e73774a6924db662",
+  "time" : {
+    "start" : 1730182796359,
+    "stop" : 1730182796484,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "feature",
+    "value" : "test_exhortationpage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_exhortationpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExhortationPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_exhortationpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[8.0, '岗前叮嘱模块/岗前叮嘱', '岗前叮嘱、屏保查询', 'post', '/buswash/exhortation/config/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"perSize\": 1,\\n  \"siteIdList\": [],\\n  \"typeList\": []\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 1,\\n      \"siteId\": 0,\\n      \"orgNum\": \"35\",\\n      \"orgName\": null,\\n      \"title\": \"测试测试\",\\n      \"operName\": \"刘珂珂\",\\n      \"stayTime\": 0,\\n      \"type\": 0,\\n      \"reviewed\": 1,\\n      \"published\": 0,\\n      \"attachName\": \"\",\\n      \"attachPath\": \"\",\\n      \"attachType\": 0,\\n      \"richTextContent\": \"测试文本内容\",\\n      \"createTime\": \"2023-10-08 14:49:58\",\\n      \"updateTime\": \"2023-12-12 16:45:04\",\\n      \"reviewedTime\": null\\n    }\\n  ],\\n  \"total\": 26,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ad53c1aa2883f68.json",
+  "parameterValues" : [ "[8.0, '岗前叮嘱模块/岗前叮嘱', '岗前叮嘱、屏保查询', 'post', '/buswash/exhortation/config/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"perSize\": 1,\\n  \"siteIdList\": [],\\n  \"typeList\": []\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 1,\\n      \"siteId\": 0,\\n      \"orgNum\": \"35\",\\n      \"orgName\": null,\\n      \"title\": \"测试测试\",\\n      \"operName\": \"刘珂珂\",\\n      \"stayTime\": 0,\\n      \"type\": 0,\\n      \"reviewed\": 1,\\n      \"published\": 0,\\n      \"attachName\": \"\",\\n      \"attachPath\": \"\",\\n      \"attachType\": 0,\\n      \"richTextContent\": \"测试文本内容\",\\n      \"createTime\": \"2023-10-08 14:49:58\",\\n      \"updateTime\": \"2023-12-12 16:45:04\",\\n      \"reviewedTime\": null\\n    }\\n  ],\\n  \"total\": 26,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

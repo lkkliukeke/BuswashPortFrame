@@ -1,0 +1,69 @@
+{
+  "uid" : "529453b54b4585aa",
+  "name" : "收银/晨会/权限模块",
+  "fullName" : "testcase.test_cashpage.TestCashPage#test_cash",
+  "historyId" : "25a2da4461df511b498d52c5da653ccb",
+  "time" : {
+    "start" : 1730182780318,
+    "stop" : 1730182780445,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "feature",
+    "value" : "test_cashpage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cashpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCashPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_cashpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[8.0, '晨会模块/内容查询', '晨会内容查询', 'post', '/buswash/morning/meeting/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"orgNumList\": [],\\n  \"perSize\": 1\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 1,\\n      \"orgNum\": \"asdadsas\",\\n      \"orgName\": null,\\n      \"content\": \"asdadsasasdadsas\",\\n      \"createTime\": \"2023-08-16 17:30:24\"\\n    }\\n  ],\\n  \"total\": 17,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "529453b54b4585aa.json",
+  "parameterValues" : [ "[8.0, '晨会模块/内容查询', '晨会内容查询', 'post', '/buswash/morning/meeting/search', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"current\": 1,\\n  \"orgNumList\": [],\\n  \"perSize\": 1\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [\\n    {\\n      \"id\": 1,\\n      \"orgNum\": \"asdadsas\",\\n      \"orgName\": null,\\n      \"content\": \"asdadsasasdadsas\",\\n      \"createTime\": \"2023-08-16 17:30:24\"\\n    }\\n  ],\\n  \"total\": 17,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

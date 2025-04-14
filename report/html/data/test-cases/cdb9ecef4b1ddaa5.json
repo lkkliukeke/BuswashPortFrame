@@ -1,0 +1,69 @@
+{
+  "uid" : "cdb9ecef4b1ddaa5",
+  "name" : "大华通道/大华门禁模块",
+  "fullName" : "testcase.test_dahuapage.TestDahuaPage#test_dahua",
+  "historyId" : "cfc01d21e831a99a962efebdedcad3e7",
+  "time" : {
+    "start" : 1730182783489,
+    "stop" : 1730182783925,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_dahuapage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dahuapage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDahuaPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_dahuapage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[3.0, '大华通道模块/访客导出', '大华访客导出', 'post', '/buswash/channel/dahua/visitor/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"actualArriveTime\": \"2023-11-07\",\\n  \"current\": 0,\\n  \"deptIds\": \"1\",\\n  \"isvDeptName\": \"1\",\\n  \"isvName\": \"测试\",\\n  \"perSize\": 0,\\n  \"planArriveTime\": \"2023-11-07\",\\n  \"signInCentryBox\": \"1\",\\n  \"signOutCentryBox\": \"1\",\\n  \"siteName\": \"1\",\\n  \"status\": \"1\",\\n  \"visitorDW\": \"1\",\\n  \"visitorName\": \"1\",\\n  \"visitorPhone\": \"1\"\\n}', 200.0, '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdb9ecef4b1ddaa5.json",
+  "parameterValues" : [ "[3.0, '大华通道模块/访客导出', '大华访客导出', 'post', '/buswash/channel/dahua/visitor/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"actualArriveTime\": \"2023-11-07\",\\n  \"current\": 0,\\n  \"deptIds\": \"1\",\\n  \"isvDeptName\": \"1\",\\n  \"isvName\": \"测试\",\\n  \"perSize\": 0,\\n  \"planArriveTime\": \"2023-11-07\",\\n  \"signInCentryBox\": \"1\",\\n  \"signOutCentryBox\": \"1\",\\n  \"siteName\": \"1\",\\n  \"status\": \"1\",\\n  \"visitorDW\": \"1\",\\n  \"visitorName\": \"1\",\\n  \"visitorPhone\": \"1\"\\n}', 200.0, '', '']" ]
+}

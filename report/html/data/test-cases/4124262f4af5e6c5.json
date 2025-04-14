@@ -1,0 +1,69 @@
+{
+  "uid" : "4124262f4af5e6c5",
+  "name" : "泊位模块",
+  "fullName" : "testcase.test_berthpage.TestBerthPage#test_berth",
+  "historyId" : "2bd0d9b1955628b5373c070f6c7481cc",
+  "time" : {
+    "start" : 1730182765500,
+    "stop" : 1730182765687,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "feature",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_berthpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBerthPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_berthpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[20.0, '泊位模块/场内车辆配置', '查询-修改自动移除场内车辆配置', 'post', '/buswash/berth/config/clean/car/park', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"hour\": 1,\\n  \"siteId\": 0,\\n  \"state\": null\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"hour\": \"1\",\\n    \"state\": \"null\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4124262f4af5e6c5.json",
+  "parameterValues" : [ "[20.0, '泊位模块/场内车辆配置', '查询-修改自动移除场内车辆配置', 'post', '/buswash/berth/config/clean/car/park', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"hour\": 1,\\n  \"siteId\": 0,\\n  \"state\": null\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": {\\n    \"hour\": \"1\",\\n    \"state\": \"null\"\\n  },\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"', '']" ]
+}

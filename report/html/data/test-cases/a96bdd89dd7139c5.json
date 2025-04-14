@@ -1,0 +1,93 @@
+{
+  "uid" : "a96bdd89dd7139c5",
+  "name" : "线路模块",
+  "fullName" : "testcase.test_routepage.TestRoutePage#test_route",
+  "historyId" : "4680a7722f1cb12d7bb3f6d44abad980",
+  "time" : {
+    "start" : 1730182822910,
+    "stop" : 1730182823011,
+    "duration" : 101
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.test_routepage.TestRoutePage object at 0x000001F7181BF5B0>\nexcelist = [4.0, '线路模块/线路修改', '线路配置修改', 'post', '/buswash/route/usable/config/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_routepage')\n    @allure.title('线路模块')\n    @allure.story('100%')\n    def test_route(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_routepage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_routepage.TestRoutePage object at 0x000001F7181BF5B0>\nexpect_msg = '\"retmsg\":\"操作成功\"'\nactual_msg = '{\"retcode\":\"40001\",\"retmsg\":\"id不正确\",\"data\":null,\"total\":null,\"success\":false}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.test_routepage.TestRoutePage object at 0x000001F7181BF5B0>\nexcelist = [4.0, '线路模块/线路修改', '线路配置修改', 'post', '/buswash/route/usable/config/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', ...]\n\n    @pytest.mark.parametrize('excelist', localexcel)\n    @allure.feature('test_routepage')\n    @allure.title('线路模块')\n    @allure.story('100%')\n    def test_route(self, excelist):\n        #设置url\n        setrq.set_url(excelist[4])\n        # 请求头 header\n        setrq.set_headers(excelist[5])\n        #加入入参\n    \n    \n        # 请求对应封装\n        if excelist[3] == 'post':\n            setrq.set_data(excelist[6])\n            reqs = setrq.postreq()\n        elif excelist[3] == 'get':\n            setrq.set_params(excelist[6])\n            reqs = setrq.getreq()\n        else:\n            pass\n    \n    \n        #断言\n        # assert getreq.status_code == 200\n        Assert.Assertions.assert_code(self, reqs.status_code,excelist[7])\n    \n        #预取‘name’：‘123’包含再返回字符串中 #assert excellist[8] in getreq.text\n>       Assert.Assertions.assert_expect(self, excelist[9], reqs.text)\n\ntestcase\\test_routepage.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.test_routepage.TestRoutePage object at 0x000001F7181BF5B0>\nexpect_msg = '\"retmsg\":\"操作成功\"'\nactual_msg = '{\"retcode\":\"40001\",\"retmsg\":\"id不正确\",\"data\":null,\"total\":null,\"success\":false}'\n\n    def assert_expect(self, expect_msg, actual_msg):\n        try:\n>           assert expect_msg in actual_msg\nE           AssertionError\n\ncommon\\Assert.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "599165665f7c2f20",
+      "name" : "log",
+      "source" : "599165665f7c2f20.txt",
+      "type" : "text/plain",
+      "size" : 100
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_routepage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_routepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoutePage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_routepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[4.0, '线路模块/线路修改', '线路配置修改', 'post', '/buswash/route/usable/config/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 30355,\\n  \"routeName\": \"187路\",\\n  \"operateStatus\": 1,\\n  \"operateTime\": \"03:50:01\",\\n  \"unoperateStatus\": 1,\\n  \"unoperateTime\": \"03:50:01\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a96bdd89dd7139c5.json",
+  "parameterValues" : [ "[4.0, '线路模块/线路修改', '线路配置修改', 'post', '/buswash/route/usable/config/update', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"id\": 30355,\\n  \"routeName\": \"187路\",\\n  \"operateStatus\": 1,\\n  \"operateTime\": \"03:50:01\",\\n  \"unoperateStatus\": 1,\\n  \"unoperateTime\": \"03:50:01\"\\n}', 200.0, '{\\n  \"retcode\": \"0\",\\n  \"retmsg\": \"操作成功\",\\n  \"data\": [],\\n  \"total\": null,\\n  \"success\": true\\n}', '\"retmsg\":\"操作成功\"']" ]
+}

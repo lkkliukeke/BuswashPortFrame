@@ -1,0 +1,69 @@
+{
+  "uid" : "aac6d6941900ede8",
+  "name" : "场站报表模块",
+  "fullName" : "testcase.test_sitereportpage.TestSitereportPage#test_sitereport",
+  "historyId" : "b30bfaa5231b20feaa30916ea08898e3",
+  "time" : {
+    "start" : 1730182827512,
+    "stop" : 1730182829213,
+    "duration" : 1701
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_sitereportpage"
+  }, {
+    "name" : "story",
+    "value" : "100%"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_sitereportpage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSitereportPage"
+  }, {
+    "name" : "host",
+    "value" : "liukeke"
+  }, {
+    "name" : "thread",
+    "value" : "22204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_sitereportpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "excelist",
+    "value" : "[3.0, '场站报表模块/报表导出', '异常汇总报表导出', 'post', '/buswash/sitereport/abnormal/report/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateRange\": [\\n    \"2023-11-07 00:00:00\",\"2023-11-07 23:59:59\"\\n  ],\\n  \"dateType\": \"DAY\",\\n  \"orgNum\": [1],\\n  \"siteNum\": [1]\\n}', 200.0, '', '']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aac6d6941900ede8.json",
+  "parameterValues" : [ "[3.0, '场站报表模块/报表导出', '异常汇总报表导出', 'post', '/buswash/sitereport/abnormal/report/export', '{\\n   \"Content-Type\":\"application/json\",\\n   \"token\":\"c5def5e2fab84b80ad412fd2ca6c2e41\"\\n}', '{\\n  \"dateRange\": [\\n    \"2023-11-07 00:00:00\",\"2023-11-07 23:59:59\"\\n  ],\\n  \"dateType\": \"DAY\",\\n  \"orgNum\": [1],\\n  \"siteNum\": [1]\\n}', 200.0, '', '']" ]
+}
