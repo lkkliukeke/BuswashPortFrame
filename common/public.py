@@ -32,7 +32,7 @@ def get_xls(xls_name, sheet_name):
     proDir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
     cls = []
-    #获取xls文件的路径（把目录和文件合成一个路径）
+    #获取xlsx文件的路径（把目录和文件合成一个路径）
     xlsPath = os.path.join(proDir, 'testFile', 'case', xls_name)
     #打开文件
     file = open_workbook(xlsPath)
